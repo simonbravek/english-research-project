@@ -3,362 +3,480 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cat Presentation</title>
-    <!-- Import Marpit (using bundled browser version logic or polyfills if needed, keeping it simple for now) -->
-    <!-- We will use a script module to handle the logic -->
+    <title>Presentation</title>
     <style>
-        /* Base Reset */
+        /* 
+           Apple-esque Minimalist Design 
+           Dark mode base, clean typography, subtle translucency.
+        */
+        :root {
+            --bg-color: #000000;
+            --overview-bg: #101010;
+            --slide-gap: 120px;
+            --slide-radius: 16px;
+            --ui-bg: rgba(40, 40, 40, 0.6);
+            --ui-border: rgba(255, 255, 255, 0.1);
+            --ui-hover: rgba(255, 255, 255, 0.15);
+            --ui-text: #f5f5f7;
+            --accent: #2997ff;
+            --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+            --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
+        }
+
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #222;
+            background-color: var(--bg-color);
+            color: var(--ui-text);
+            font-family: var(--font-stack);
+            transition: background-color 0.8s var(--ease-smooth);
         }
 
-        /* Container for the presentation */
-        #app {
+        body.overview-active {
+            background-color: var(--overview-bg);
+        }
+
+        /* The Infinite Canvas */
+        #camera {
+            position: absolute;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            transition: all 0.3s ease;
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            align-items: center !important;
+            /* Start with a generous padding to allow the first slide to be centered via transform easily */
+            padding-left: 50vw; 
+            padding-right: 50vw;
+            box-sizing: border-box;
+            
+            /* The magic moving logic */
+            transform-origin: 0 0;
+            will-change: transform;
+            transition: transform 0.6s var(--ease-smooth);
         }
 
-        /* Slide Container */
-        .marpit > svg {
-            width: 100vw; /* Default to viewport width */
-            height: 100vh; /* Default to viewport height */
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            display: none; /* Hidden by default */
-        }
-        
-        .marpit > svg.active {
-            display: block;
-        }
-
-        /* Overview Mode Styles */
-        body.overview-mode {
-            overflow-y: auto;
-            background: #333;
-        }
-
-        body.overview-mode #app {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 40px;
-            height: auto;
-            align-items: flex-start;
-        }
-
-        body.overview-mode .marpit > svg {
-            display: block;
-            width: 100%;
-            height: auto;
+        /* Slide Container Styles (Marpit generates SVGs or Sections) */
+        /* High specificity to override injected theme styles */
+        #camera > svg, #camera > section {
+            display: block !important;
+            flex-shrink: 0 !important;
+            width: 1280px !important; /* Standard 16:9 HD base width */
+            height: 720px !important;
+            margin-right: var(--slide-gap) !important;
+            margin-left: 0 !important;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            border-radius: var(--slide-radius);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            background-color: white; /* Fallback for slides without background */
+            
+            /* Inactive state */
+            transform: scale(0.85);
+            opacity: 0.4;
+            filter: grayscale(100%) blur(1px);
+            transition: all 0.5s var(--ease-smooth);
             cursor: pointer;
-            border: 2px solid transparent;
-            transition: transform 0.2s;
+            pointer-events: auto;
+            position: static !important; /* Prevent theme absolute positioning */
         }
 
-        body.overview-mode .marpit > svg:hover {
-            transform: scale(1.02);
-            border-color: #66afe9;
+        #camera > svg:last-child, #camera > section:last-child {
+            margin-right: 0 !important;
         }
 
-        /* Controls */
-        .controls {
+        /* Active Slide State */
+        #camera > svg.active, #camera > section.active {
+            transform: scale(1);
+            opacity: 1;
+            filter: grayscale(0%) blur(0px);
+            box-shadow: 0 30px 80px rgba(0,0,0,0.8);
+            z-index: 10;
+            cursor: default;
+        }
+
+        /* Hover Hint (Apple-like interaction) */
+        #camera > svg:not(.active):hover, #camera > section:not(.active):hover {
+            opacity: 0.7;
+            transform: scale(0.87);
+        }
+
+        /* UI Control Bar */
+        #controls {
             position: fixed;
-            bottom: 20px;
+            bottom: 30px;
             left: 50%;
             transform: translateX(-50%);
             display: flex;
-            gap: 15px;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 16px;
+            background: var(--ui-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--ui-border);
+            border-radius: 99px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
             z-index: 1000;
-            background: rgba(0, 0, 0, 0.6);
-            padding: 10px 20px;
-            border-radius: 30px;
-            backdrop-filter: blur(5px);
-            transition: opacity 0.3s;
+            transition: opacity 0.3s ease, transform 0.3s ease;
         }
 
-        body.overview-mode .controls {
-            opacity: 0;
-            pointer-events: none;
-        }
-
-        .btn {
-            background: transparent;
+        /* Hide controls in overview if desired, but we'll keep them for navigation */
+        
+        button.icon-btn {
+            background: none;
             border: none;
-            color: white;
-            cursor: pointer;
-            font-size: 24px;
-            padding: 5px 10px;
+            color: var(--ui-text);
+            padding: 8px;
             border-radius: 50%;
-            transition: background 0.2s;
+            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
+            transition: background 0.2s ease, transform 0.1s ease;
         }
 
-        .btn:hover {
-            background: rgba(255, 255, 255, 0.2);
+        button.icon-btn:hover {
+            background: var(--ui-hover);
         }
 
-        .btn:disabled {
+        button.icon-btn:active {
+            transform: scale(0.92);
+        }
+        
+        button.icon-btn:disabled {
             opacity: 0.3;
             cursor: default;
         }
 
-        /* Overview Toggle Button */
-        .overview-toggle {
+        button.icon-btn svg {
+            width: 20px;
+            height: 20px;
+            stroke-width: 2.5px;
+        }
+
+        #counter {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.7);
+            font-variant-numeric: tabular-nums;
+            min-width: 60px;
+            text-align: center;
+            user-select: none;
+        }
+
+        .divider {
+            width: 1px;
+            height: 18px;
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Loading State */
+        #loader {
             position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.6);
+            top: 0; left: 0; width: 100%; height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-color);
+            z-index: 2000;
             color: white;
-            border: none;
-            padding: 10px;
-            border-radius: 8px;
-            cursor: pointer;
-            backdrop-filter: blur(5px);
-        }
-        
-        .overview-toggle:hover {
-            background: rgba(0, 0, 0, 0.8);
+            font-weight: 300;
+            letter-spacing: 0.5px;
+            transition: opacity 0.5s ease;
         }
 
-        /* Loading state */
-        #loading {
-            color: white;
-            font-size: 1.5rem;
-        }
-
-        /* Add Gaia-like CSS for basic styling if CDN fails or just to be safe */
-        :root {
-            --color-foreground: #333;
-            --color-background: #fff;
-            --color-highlight: #0288d1;
+        /* Responsive overrides */
+        @media (max-width: 600px) {
+            #controls {
+                bottom: 20px;
+                padding: 6px 12px;
+                gap: 8px;
+            }
+            .marpit > svg, .marpit > section {
+                /* On mobile, standard width might need adjusting logic in JS, 
+                   but styling remains scalable via transform */
+            }
         }
     </style>
 </head>
 <body>
 
-    <button id="overviewBtn" class="overview-toggle" title="Toggle Overview">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="3" width="7" height="7"></rect>
-            <rect x="14" y="3" width="7" height="7"></rect>
-            <rect x="14" y="14" width="7" height="7"></rect>
-            <rect x="3" y="14" width="7" height="7"></rect>
-        </svg>
-    </button>
+    <div id="loader">Loading Presentation...</div>
 
-    <div id="app">
-        <div id="loading">Loading Presentation...</div>
+    <div id="camera" class="marpit">
+        <!-- Slides will be injected here -->
     </div>
 
-    <div class="controls" id="controls">
-        <button class="btn" id="prevBtn" title="Previous Slide">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M15 18l-6-6 6-6"/>
+    <div id="controls">
+        <button class="icon-btn" id="btnPrev" title="Previous Slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
         </button>
-        <span id="slideCounter" style="color:white; line-height: 40px; font-weight: bold; min-width: 50px; text-align: center;"></span>
-        <button class="btn" id="nextBtn" title="Next Slide">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 18l6-6-6-6"/>
+
+        <span id="counter">-- / --</span>
+
+        <button class="icon-btn" id="btnNext" title="Next Slide">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </button>
+
+        <div class="divider"></div>
+
+        <button class="icon-btn" id="btnOverview" title="Toggle Overview (Up/Down Arrow)">
+            <svg id="icon-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+            </svg>
+            <svg id="icon-single" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
             </svg>
         </button>
     </div>
 
+    <!-- Marpit for rendering Markdown to HTML/SVG -->
     <script type="module">
         import { Marpit } from 'https://esm.sh/@marp-team/marpit@2.5.0';
 
-        const app = document.getElementById('app');
-        const prevBtn = document.getElementById('prevBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const overviewBtn = document.getElementById('overviewBtn');
-        const slideCounter = document.getElementById('slideCounter');
-        const controls = document.getElementById('controls');
+        const dom = {
+            camera: document.getElementById('camera'),
+            loader: document.getElementById('loader'),
+            btnPrev: document.getElementById('btnPrev'),
+            btnNext: document.getElementById('btnNext'),
+            btnOverview: document.getElementById('btnOverview'),
+            counter: document.getElementById('counter'),
+            iconGrid: document.getElementById('icon-grid'),
+            iconSingle: document.getElementById('icon-single'),
+        };
 
-        let slides = [];
-        let currentSlideIndex = 0;
-        let isOverview = false;
+        const state = {
+            slides: [],
+            currentIndex: 0,
+            isOverview: false,
+        };
+
+        const CONFIG = {
+            slideWidth: 1280,
+            slideHeight: 720,
+            baseScale: 0.85, // How big the active slide is relative to screen
+            overviewScale: 0.25, // How small the slides get in overview
+            themeUrl: 'https://unpkg.com/@marp-team/marp-core/themes/gaia.css'
+        };
 
         async function init() {
             try {
                 // 1. Fetch Markdown
-                const response = await fetch('slides.md');
-                if (!response.ok) throw new Error('Failed to load slides.md');
-                const markdown = await response.text();
+                const res = await fetch('slides.md');
+                if (!res.ok) throw new Error('Could not load slides.md');
+                const md = await res.text();
 
-                // 2. Initialize Marpit
+                // 2. Setup Marpit
                 const marpit = new Marpit({
-                    inlineSVG: true, // Use inline SVG for better scaling
+                    inlineSVG: true, // Uses SVG for slides which scales perfectly
                 });
 
-                // 3. Define Theme
-                // Try to load the official Gaia theme CSS
+                // 3. Load & Apply Theme
                 try {
-                    const themeRes = await fetch('https://cdn.jsdelivr.net/npm/@marp-team/marp-core@3.4.0/themes/gaia.css');
+                    const themeRes = await fetch(CONFIG.themeUrl);
                     if (themeRes.ok) {
-                        const gaiaCss = await themeRes.text();
-                        marpit.themeSet.add(gaiaCss);
-                    } else {
-                        throw new Error('Gaia theme not found');
+                        let css = await themeRes.text();
+                        // Hack to ensure Marpit accepts it as a theme
+                        if (!css.includes('/* @theme')) css = '/* @theme gaia */\n' + css;
+                        marpit.themeSet.add(css);
                     }
                 } catch (e) {
-                    console.warn('Could not load Gaia theme, using fallback basic theme.');
-                    const themeCSS = `
-                        section {
-                            width: 1280px;
-                            height: 720px;
-                            font-size: 35px;
-                            padding: 40px;
-                            box-sizing: border-box;
-                            background-color: white;
-                            color: #333;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: center;
-                        }
-                        h1, h2, h3 { color: #0288d1; margin: 0.2em 0; }
-                        h1 { font-size: 2em; }
-                        ul, ol { text-align: left; }
-                        img { max-width: 100%; }
-                        section.lead { text-align: center; align-items: center; }
-                    `;
-                    marpit.themeSet.default = marpit.themeSet.add(themeCSS);
+                    console.warn('Using fallback styles', e);
                 }
-
 
                 // 4. Render
-                const { html, css } = marpit.render(markdown);
-
-                // 5. Inject CSS
-                const styleNode = document.createElement('style');
-                styleNode.innerHTML = css;
-                document.body.appendChild(styleNode);
-
-                // 6. Inject HTML into Container
-                // Marpit renders all slides in one HTML string
-                app.innerHTML = html;
+                const { html, css } = marpit.render(md);
                 
-                // Get all SVG slide elements (Marpit with inlineSVG wraps sections in SVG)
-                slides = Array.from(app.querySelectorAll('svg'));
-                
-                // If inlineSVG is false, it might be sections. Let's handle that.
-                if (slides.length === 0) {
-                    slides = Array.from(app.querySelectorAll('section'));
-                }
+                // Inject CSS
+                const style = document.createElement('style');
+                style.textContent = css;
+                document.body.appendChild(style);
 
-                if (slides.length > 0) {
-                    showSlide(0);
-                    updateCounter();
-                }
+                // Inject Slides
+                dom.camera.innerHTML = html;
 
-                // Add click events for overview mode
-                slides.forEach((slide, index) => {
+                // 5. Initialize State
+                state.slides = Array.from(dom.camera.querySelectorAll('svg'));
+                // Fallback if inlineSVG is false or Marpit behavior changes
+                if (state.slides.length === 0) state.slides = Array.from(dom.camera.querySelectorAll('section'));
+
+                // Click to navigate/select
+                state.slides.forEach((slide, idx) => {
                     slide.addEventListener('click', () => {
-                        if (isOverview) {
-                            toggleOverview();
-                            showSlide(index);
+                        if (state.isOverview) {
+                            goToSlide(idx);
+                            toggleOverview(false);
+                        } else if (idx !== state.currentIndex) {
+                            goToSlide(idx);
                         }
                     });
                 });
 
-                setupKeyboard();
+                // 6. Start
+                dom.loader.style.opacity = '0';
+                setTimeout(() => dom.loader.style.display = 'none', 500);
+                
+                goToSlide(0);
+                setupInputs();
+                window.addEventListener('resize', updateCamera);
 
             } catch (err) {
-                app.innerHTML = `<div style="color:red">Error: ${err.message}</div>`;
-                console.error(err);
+                dom.loader.textContent = 'Error: ' + err.message;
+                dom.loader.style.color = '#ff453a';
             }
         }
 
-        function showSlide(index) {
+        function goToSlide(index) {
             // Bounds check
             if (index < 0) index = 0;
-            if (index >= slides.length) index = slides.length - 1;
+            if (index >= state.slides.length) index = state.slides.length - 1;
 
-            currentSlideIndex = index;
+            state.currentIndex = index;
 
-            // Toggle visibility
-            slides.forEach((slide, i) => {
-                if (i === currentSlideIndex) {
+            // Update UI
+            dom.btnPrev.disabled = index === 0;
+            dom.btnNext.disabled = index === state.slides.length - 1;
+            dom.counter.textContent = `${index + 1} / ${state.slides.length}`;
+
+            // Update Slide Visuals
+            state.slides.forEach((slide, i) => {
+                if (i === index) {
                     slide.classList.add('active');
-                    // For non-SVG fallback
-                    slide.style.display = isOverview ? 'block' : 'block'; 
                 } else {
                     slide.classList.remove('active');
-                    slide.style.display = isOverview ? 'block' : 'none';
                 }
             });
 
-            // Update buttons state
-            prevBtn.disabled = currentSlideIndex === 0;
-            nextBtn.disabled = currentSlideIndex === slides.length - 1;
-
-            updateCounter();
+            updateCamera();
         }
 
-        function updateCounter() {
-            slideCounter.textContent = `${currentSlideIndex + 1} / ${slides.length}`;
-        }
-
-        function toggleOverview() {
-            isOverview = !isOverview;
-            document.body.classList.toggle('overview-mode', isOverview);
-            
-            if (isOverview) {
-                // Show all slides
-                slides.forEach(s => s.style.display = 'block');
-                overviewBtn.innerHTML = `
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M19 12H5"></path>
-                        <path d="M12 19l-7-7 7-7"></path>
-                    </svg> Back
-                `;
+        function toggleOverview(force) {
+            if (typeof force === 'boolean') {
+                state.isOverview = force;
             } else {
-                // Restore current slide view
-                showSlide(currentSlideIndex);
-                overviewBtn.innerHTML = `
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="3" width="7" height="7"></rect>
-                        <rect x="14" y="3" width="7" height="7"></rect>
-                        <rect x="14" y="14" width="7" height="7"></rect>
-                        <rect x="3" y="14" width="7" height="7"></rect>
-                    </svg>
-                `;
+                state.isOverview = !state.isOverview;
             }
+
+            document.body.classList.toggle('overview-active', state.isOverview);
+
+            // Toggle Icons
+            if (state.isOverview) {
+                dom.iconGrid.style.display = 'none';
+                dom.iconSingle.style.display = 'block';
+            } else {
+                dom.iconGrid.style.display = 'block';
+                dom.iconSingle.style.display = 'none';
+            }
+
+            updateCamera();
         }
 
-        function setupKeyboard() {
-            document.addEventListener('keydown', (e) => {
-                if (isOverview) return; // Disable nav in overview for now, or implement grid nav
+        /* 
+           The Camera Logic 
+           Keeps the active slide centered in the viewport.
+        */
+        function updateCamera() {
+            if (state.slides.length === 0) return;
 
-                if (e.key === 'ArrowRight' || e.key === ' ') {
-                    if (currentSlideIndex < slides.length - 1) showSlide(currentSlideIndex + 1);
-                } else if (e.key === 'ArrowLeft') {
-                    if (currentSlideIndex > 0) showSlide(currentSlideIndex - 1);
-                } else if (e.key === 'Escape') {
-                    if (isOverview) toggleOverview(); // Allow escape to exit overview?
+            const activeSlide = state.slides[state.currentIndex];
+            const winW = window.innerWidth;
+            const winH = window.innerHeight;
+            
+            // Calculate Scale
+            // Standard fit
+            const fitScale = Math.min(
+                winW / CONFIG.slideWidth, 
+                winH / CONFIG.slideHeight
+            ) * CONFIG.baseScale;
+
+            const targetScale = state.isOverview ? (fitScale * CONFIG.overviewScale) : fitScale;
+
+            // Calculate Position to Center
+            // The camera div starts at 0,0.
+            // We need to translate it so the CENTER of the active slide 
+            // is at the CENTER of the screen.
+
+            // Get center of slide relative to the camera container
+            // Since we used flex row, offsetLeft works well.
+            const slideLeft = activeSlide.offsetLeft;
+            const slideW = activeSlide.offsetWidth || CONFIG.slideWidth;
+            const slideCenterX = slideLeft + (slideW / 2);
+
+            // For Y, slides are centered in flex container (height 100%)
+            // So logical center Y is winH / 2 (assuming container is full height)
+            
+            // We want (slideCenterX * targetScale) + translateX = winW / 2
+            // So: translateX = (winW / 2) - (slideCenterX * targetScale)
+
+            const tx = (winW / 2) - (slideCenterX * targetScale);
+            
+            // For Y translation
+            // The transform origin is 0 0.
+            // The strip is vertically centered by CSS (align-items: center).
+            // However, scaling from 0 0 will push the content up/left.
+            // The CSS vertical centering happens *before* transform or *inside* the flex layout?
+            // Actually, the #camera is `top:0`, `height:100%`, `align-items:center`.
+            // So the slides are visually at Y = 50% of the container.
+            // When we scale the whole container by `s` from `0 0`:
+            // The visual Y becomes (50% * s).
+            // We want it to be at (50% of screen).
+            // So ty = (winH / 2) - ((winH / 2) * targetScale)
+            //       = (winH / 2) * (1 - targetScale)
+
+            const ty = (winH / 2) * (1 - targetScale);
+
+            dom.camera.style.transform = `translate(${tx}px, ${ty}px) scale(${targetScale})`;
+        }
+
+        function setupInputs() {
+            // Keyboard
+            document.addEventListener('keydown', (e) => {
+                switch(e.key) {
+                    case 'ArrowRight':
+                    case ' ':
+                        if (!state.isOverview) goToSlide(state.currentIndex + 1);
+                        else {
+                            // In overview, maybe just move focus?
+                            goToSlide(state.currentIndex + 1);
+                        }
+                        break;
+                    case 'ArrowLeft':
+                        goToSlide(state.currentIndex - 1);
+                        break;
+                    case 'ArrowUp':
+                        e.preventDefault();
+                        toggleOverview(true);
+                        break;
+                    case 'ArrowDown':
+                        e.preventDefault();
+                        toggleOverview(false);
+                        break;
+                    case 'Escape':
+                        toggleOverview(false);
+                        break;
                 }
             });
+
+            // Buttons
+            dom.btnPrev.addEventListener('click', () => goToSlide(state.currentIndex - 1));
+            dom.btnNext.addEventListener('click', () => goToSlide(state.currentIndex + 1));
+            dom.btnOverview.addEventListener('click', () => toggleOverview());
         }
 
-        // Event Listeners
-        prevBtn.addEventListener('click', () => showSlide(currentSlideIndex - 1));
-        nextBtn.addEventListener('click', () => showSlide(currentSlideIndex + 1));
-        overviewBtn.addEventListener('click', toggleOverview);
-
-        // Start
+        // Run
         init();
 
     </script>

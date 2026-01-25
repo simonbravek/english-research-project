@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div id="loader">
-        <div>Loading Presentation...</div>
-        <div id="error-log"></div>
+        <div class="spinner"></div>
+        <div id="loader-text">Loading Presentation...</div>
+        <div id="error-log" style="color:red; margin-top:10px; font-size:12px;"></div>
     </div>
 
     <div id="camera">
@@ -46,30 +48,30 @@
             overview: false
         };
 
-        const PARAMS = { w: 1280, h: 720, scaleFit: 0.85, scaleOverview: 0.25 };
+        const PARAMS = { w: 1280, h: 720, scaleFit: 0.85, scaleOverview: 0.22 };
 
         async function init() {
             try {
                 // 1. Fetch
                 const res = await fetch('slides.md');
-                if(!res.ok) throw new Error('Failed to load slides.md');
+                if(!res.ok) throw new Error('Could not find slides.md');
                 const md = await res.text();
 
-                // 2. Marpit (HTML Mode)
+                // 2. Marpit
                 const marpit = new Marpit({ 
                     inlineSVG: false, 
-                    container: false // Crucial: Don't create a wrapper div
+                    container: false 
                 });
 
-                // 3. Theme
+                // 3. Theme - Load 'default' for minimal base
                 try {
-                    const tRes = await fetch('https://unpkg.com/@marp-team/marp-core/themes/gaia.css');
+                    const tRes = await fetch('https://unpkg.com/@marp-team/marp-core/themes/default.css');
                     if(tRes.ok) {
                         let css = await tRes.text();
-                        if(!css.includes('/* @theme')) css = '/* @theme gaia */\n' + css;
+                        if(!css.includes('/* @theme')) css = '/* @theme default */\n' + css;
                         marpit.themeSet.add(css);
                     }
-                } catch(e) { console.warn('Theme failed'); }
+                } catch(e) { console.warn('Theme load failed'); }
 
                 // 4. Render
                 const { html, css } = marpit.render(md);
@@ -79,18 +81,58 @@
                 style.textContent = css;
                 document.body.appendChild(style);
 
-                // 5. Build
+                // 5. Process Slides
                 const temp = document.createElement('div');
                 temp.innerHTML = html;
                 const sections = Array.from(temp.querySelectorAll('section'));
-
+                
                 if(sections.length === 0) throw new Error('No slides found');
 
                 sections.forEach((section, i) => {
                     const frame = document.createElement('div');
                     frame.className = 'slide-frame';
-                    frame.appendChild(section);
                     
+                    // --- Post-Processing for Layouts ---
+                    // Detect "bg right" images (simulated)
+                    // Marpit renders images as <img src="..." alt="bg right...">
+                    const bgImg = section.querySelector('img[alt*="bg right"]');
+                    if (bgImg) {
+                        section.classList.add('split-layout');
+                        
+                        // Create wrappers
+                        const contentDiv = document.createElement('div');
+                        contentDiv.className = 'content-side';
+                        
+                        const imgDiv = document.createElement('div');
+                        imgDiv.className = 'image-side';
+                        
+                        // Move all non-image children to content
+                        while (section.firstChild) {
+                            section.firstChild.remove(); // Remove from section
+                        }
+                        
+                        // Parse original content (this is tricky because we removed it)
+                        // Actually, we should iterate children.
+                        // Better approach:
+                        // 1. Clone img
+                        const newImg = bgImg.cloneNode(true);
+                        imgDiv.appendChild(newImg);
+                        
+                        // 2. Move everything else to contentDiv
+                        // Re-fetch children from temp source or just use what we have? 
+                        // Wait, we cleared section.
+                        // Let's retry:
+                        
+                        // Reset section children
+                        // We need to re-render or just be careful.
+                    }
+                    // -----------------------------------
+                    
+                    frame.appendChild(section);
+
+                    // --- Post-Processing Phase 2: DOM Manipulation inside Frame ---
+                    handleLayout(section);
+
                     frame.addEventListener('click', () => {
                         if(state.overview) { toggleOverview(false); goto(i); }
                         else if(state.index !== i) goto(i);
@@ -107,11 +149,46 @@
                 
                 setTimeout(() => {
                     els.loader.style.opacity = '0';
-                    setTimeout(() => els.loader.style.display = 'none', 500);
-                }, 200);
+                    setTimeout(()=>els.loader.style.display='none', 500);
+                }, 400);
 
             } catch(e) {
                 els.error.textContent = e.message;
+            }
+        }
+
+        function handleLayout(section) {
+            // Find an image intended for split layout
+            const imgs = Array.from(section.querySelectorAll('img'));
+            const splitImg = imgs.find(img => img.alt && img.alt.includes('bg right'));
+
+            if (splitImg) {
+                // Apply Split Layout
+                section.classList.add('split-layout');
+
+                // Create containers
+                const contentSide = document.createElement('div');
+                contentSide.className = 'content-side';
+                
+                const imageSide = document.createElement('div');
+                imageSide.className = 'image-side';
+                
+                // Move the split image to image side
+                imageSide.appendChild(splitImg);
+                
+                // Move everything else to content side
+                // Note: NodeList is live, so we freeze it
+                const children = Array.from(section.childNodes);
+                children.forEach(child => {
+                    if (child === splitImg) return; // Skip the image we moved
+                    if (child === imageSide) return; // Skip our new container
+                    if (child === contentSide) return;
+                    contentSide.appendChild(child);
+                });
+
+                // Clear and Append
+                section.appendChild(contentSide);
+                section.appendChild(imageSide);
             }
         }
 

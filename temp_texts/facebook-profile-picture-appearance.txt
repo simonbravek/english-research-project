@@ -1,0 +1,1115 @@
+687294
+research-article2017
+
+NMS0010.1177/1461444816687294new media & societyBaert
+
+Article
+
+Facebook profile picture
+appearance affects recruiters’
+first hiring decisions
+
+new media & society
+﻿1­–20
+© The Author(s) 2017
+Reprints and permissions:
+sagepub.co.uk/journalsPermissions.nav
+https://doi.org/10.1177/1461444816687294
+DOI:
+10.1177/1461444816687294
+journals.sagepub.com/home/nms
+
+Stijn Baert
+
+Ghent University, Belgium; Research Foundation - Flanders (FWO), Belgium; University of Antwerp,
+Belgium; Université catholique de Louvain; Institute of Labor Economics (IZA), Germany
+
+Abstract
+We investigate whether the publicly available information on Facebook about job
+applicants affects employers’ hiring decisions. To this end, we conduct a field experiment
+in which fictitious job applications are sent to real job openings in Belgium. The only
+characteristic in which these candidates differ is the unique Facebook profile that can
+be found online with their name. Candidates with the most beneficial Facebook picture
+obtain approximately 38% more job interview invitations compared to candidates with
+the least beneficial picture. In addition, we find suggestive evidence for a higher effect
+of Facebook profile picture appearance on hiring chances when candidates are highly
+educated and when recruiters are female.
+Keywords
+Attractiveness, Facebook, hiring, Internet, personality, screening
+
+Introduction
+A recent theme in popular media has been that employers increasingly use the personal
+information available on social networking websites (SNS) to make hiring decisions
+(see, for example, CareerBuilder, 2012). Furthermore, contributions to the academic literature have provided arguments why this supposed use of SNS by employers may be
+rational. First, Kluemper and Rosen (2009) have found that recruiters can accurately
+determine productivity-related traits solely on the basis of the personal information about
+a candidate available on SNS. Moreover, this information can be gained with little time
+Corresponding author:
+Stijn Baert, Department of Social Economics, Ghent University, Sint-Pietersplein 6, B-9000 Ghent, Belgium.
+Email: stijn.baert@ugent.be
+
+2
+
+new media & society ﻿
+
+and effort and covertly (Berkelaar, 2014; Brown and Vaughn, 2011; Ramirez et al., 2002;
+Westerman et al., 2008). Second, according to Back et al. (2010) and Gosling et al.
+(2008), people’s appearance on SNS reflects their actual personality traits and not their
+self-idealisations. However, this rationality of online screening is not absolute (e.g. when
+recruiters use SNS to confirm a hiring decision that they have in fact already made;
+Elzweig and Peeples, 2009), and ethical concerns can be raised (e.g. the fact that information on employees is publicly available does not mean that these employees want to
+share this information with employers; Brown and Vaughn, 2011).
+Given popular and scholarly evidence that suggests that employers consult SNS for
+hiring decisions, in this article, we measure by means of scientific tools to what extent
+the information publicly available on SNS affects hiring decisions. In this study, we
+focus on the impact of the only social media item employers are able to use, in practice,
+to screen many job candidates: their Facebook profile picture. Our main research question is the following:
+R1. Does job candidates’ Facebook profile picture appearance affect recruiters’ first
+hiring decisions?
+To answer this question, we conducted a randomised field experiment in Belgium.
+We constructed two template résumés and cover letters, equal in all job-relevant characteristics, for male graduates holding either the same secondary or tertiary education
+degree. These pairs of applications were sent to 1056 genuine job openings in various
+sectors. To each of the applications, we randomly assigned one of the four facial pictures with diverging scores on perceived attractiveness and the Big Five Personality
+Dimensions (agreeableness, conscientiousness, emotional stability, extraversion and
+openness). In half of the application pairs we sent out, these pictures were attached to
+the résumés, while for the other half of the pairs, they were used as Facebook profile
+pictures. By monitoring the subsequent reactions from the employer side, the (absolute and relative) unequal treatment based on the pictures revealed by the Facebook
+profile (and résumé) pictures was directly identified and could be given a causal
+interpretation.
+This experimental setting allowed us to answer two secondary research questions:
+R2. How does the effect of particular Facebook profile pictures on recruiters’ decisions compare with their effect when attached to the candidates’ résumés?
+R3. To which extent does the effect of Facebook profile picture appearance on hiring
+outcomes vary by candidate characteristics (such as education level) and job characteristics (such as level of customer contact and gender of the recruiter)?
+
+Literature review and hypotheses
+From a broad perspective, this study contributes to the broad literature on SNS in the
+social and behavioural sciences. This literature was reviewed by, for instance, Caers
+et al. (2013), Rains and Brunner (2015), Roth et al. (2013), Wilson et al. (2012) and
+Zhang and Leung (2015). Many of these reviews highlight that SNS have disrupted
+
+Baert
+
+3
+
+hiring practices. In this study, we measure the extent to which the availability of a particular SNS affects first selection outcomes.
+In addition, our study contributes to the broad literature on (profile) picture selection
+and evaluation via social media. This literature shows that due to their use on social
+media, personal photographs have become more effective as objects of communication
+than of memory. For individuals who share them, they have become a tool for self-representation and self-expression (Van Dijck, 2008; Van House, 2011). For those who see
+them, these pictures lead to social comparison and impression formation (Haferkamp
+and Krämer, 2011; Lebel and Danylchuk, 2014; Wang et al., 2010). Whether this impression formation not only affects one’s digital brand and popularity but also one’s employment chances is central to this study.
+From a narrower perspective, our study is most closely related to six studies on the
+self-reported use of SNS by recruiters.1 These six studies are summarised in Table A.1
+(available online). Depending on the time, country and sector where the survey is
+conducted, the proportion of examined recruiters indicating that they employ SNS
+when screening job candidates varies between 8.1% (use of Facebook in Greece in
+2009–2010) and 50.0% (use of any SNS in the United States in 2010; Caers and
+Castelyns, 2011; Chang and Madera, 2012; Gibbs et al., 2015; Nikolaou, 2014; Roulin
+and Bangerter, 2013; Tufts et al., 2015). In addition, while Gibbs et al. (2015) found
+that employers perceive SNS as being more useful in recruiting lower level employees than higher level employees, Chang and Madera (2012) found the opposite to be
+true.
+The aforementioned six studies based on self-reported information from employers
+suffer, in our opinion, from two methodological problems. First, employers’ reported
+attitudes and behaviour might not represent their actual hiring behaviour (Pager and
+Quillian, 2005). They might adapt their answers to their perception of whether the use
+of SNS in the recruitment process is socially desirable.2 Second, even if the measures of
+SNS use by employers based on self-reported information square with their actual
+behaviour, these measures would still not reveal the extent to which the information on
+SNS affects hiring decisions. Moreover, as mentioned earlier, recruiters may just use
+SNS to confirm a hiring decision that they have, in fact, already made (Elzweig and
+Peeples, 2009).3
+Finally, the present research builds on the multidisciplinary literature dealing with the
+beauty premium (Hamermesh and Biddle, 1994; Mobius and Rosenblat, 2006) and personality premium (Barrick and Mount, 1991; Uysal and Pohlmeier, 2011) in the labour
+market. The theoretical mechanisms underlying better labour market outcomes for more
+attractive people are, for instance, productivity drivers related to beauty, such as selfconfidence (Mobius and Rosenblat, 2006) and employer discrimination (Mauzer-Fazio
+and Lei, 2015). Concerning the personality premium, the psychological literature provides evidence for personality traits having an effect on job proficiency (Barrick and
+Mount, 1991). In particular, conscientiousness has been found to be a driver of productivity and, consequently, of labour market success (Baert and Decuypere, 2014; Mueller
+and Plug, 2006). In addition, emotional stability and openness to experience are positively related to beneficial labour market outcomes (Baert and Decuypere, 2014; Uysal
+and Pohlmeier, 2011).
+
+4
+
+new media & society ﻿
+
+Drawing on the suggestive evidence on the use of SNS by recruiters and the academic
+literatures on impression formation via social media pictures and the premium for beauty
+and personality in the labour market, we propose the following hypothesis:
+H1. Job candidates with more physically and psychologically attractive Facebook
+profile pictures will receive more positive callbacks in response to their job
+applications.
+Concerning the relative effect of variation in Facebook profile pictures compared to
+the effect of these pictures when employed as résumé pictures, we are in two minds. On
+one hand, the probability that a candidate’s facial picture is seen is higher when it is
+attached to her or his résumé than when it is made available as a Facebook profile picture. Consequently, the chance of affecting hiring outcomes is higher for résumé pictures
+than for Facebook profile pictures, ceteris paribus. On the other hand, the magnitude of
+the impact of a facial picture might be higher when it is seen as a Facebook profile picture than when it is seen as a résumé picture. This assumption is supported by the evidence mentioned in the introduction regarding people’s appearances on SNS reflecting
+their actual personality traits and not their self-idealisations. In addition, Roulin and
+Bangerter (2013) and Berkelaar and Buzzanell (2015) describe the information on the
+SNS profiles of job candidates as ‘more honest signals of their ability and commitment’
+(because job candidates might not be aware that employers screen their personal
+Facebook profiles) and as ‘less subject to extreme impression management’, at least in
+the perception of recruiters, compared to information in their résumés. As a consequence,
+the fact that only some recruiters screen Facebook may be compensated for by their perception of Facebook profile pictures as more honest signals of applicants’ ability and
+commitment. A caveat in this respect is that the aforementioned studies focused on perceptions based on extensive Facebook profiles (not only showing a profile picture).
+Consequently, their findings cannot just be generalised to our setting. Nevertheless, supported by this literature, we propose the following hypothesis:
+H2. Facial pictures equally affect positive callback when these pictures are used as
+Facebook profile pictures and when they are used as résumé pictures.
+Finally, we propose hypotheses with respect to the heterogeneity of the effect of a
+person’s Facebook profile picture appearance on hiring outcomes by candidate characteristics and job characteristics. First, one could expect that highly educated candidates
+would be screened more on Facebook, as they seem to be more engaged in social media
+(Correa et al., 2010).4 Second, based on the fact that women employ social media in
+general, and Facebook in particular, more than men (Vasalou et al., 2010), a beneficial
+Facebook profile picture might be expected to yield a higher surplus when recruiters are
+female, ceteris paribus.5 Third, in line with Mauzer-Fazio and Lei (2015), we expect the
+returns on perceived attractiveness and beneficial personality traits to be higher in jobs
+where customer contact is more important. Fourth, when an employer must fill a vacancy
+in an occupation where labour market tightness6 is high, recruiters are expected to have
+a lower number of job candidates, so discriminating on (Facebook profile or résumé)
+
+Baert
+
+5
+
+picture appearance is going to be costlier (Baert et al., 2015). For this reason, we expect
+that the surplus of a highly rated Facebook profile picture is going to be higher in occupations where labour market tightness is low. These lines of reasoning yield the following
+hypotheses:
+H3a. Facebook profile picture appearance affects hiring chances more for highly educated candidates.
+H3b. Facebook profile picture appearance affects hiring chances more when recruiters are female.
+H3c. Facebook profile picture appearance affects hiring chances more for jobs where
+customer contact is more important.
+H3d. Facebook profile picture appearance affects hiring chances more for vacancies
+that are easy to fill.
+
+Methods
+Correspondence experiment
+Over the past few decades, social and behavioural scientists have conducted various correspondence experiments to measure unequal treatment in the labour market (Bertrand
+and Mullainathan, 2004; Correll et al., 2007). Within this type of experiment, pairs of
+fictitious job applications are sent to real job openings. These applications differ only in
+the characteristic that is to be tested. This characteristic is randomly assigned within each
+pair of applicants. By monitoring the subsequent callbacks, unequal treatment in first
+hiring decisions based on this characteristic can be identified. This measure of unequal
+treatment can be given a causal interpretation. Selection based on individual unobservable characteristics is eliminated as the researcher fully controls the information available to the employer. This allows her or him to disentangle unequal treatment from
+alternative explanations of heterogeneous hiring outcomes, such as differences in preferences and behaviour at the employee side or differences in human capital.7
+We conducted our field experiment between November 2013 and May 2014 in the
+labour market of Flanders, the northern part of Belgium.8 During the period of the experiment, we tested 1056 vacancies in the database of the Public Employment Agency of
+Flanders, that is, the region’s most important job search channel. More concretely, we
+randomly selected 528 vacancies for jobs targeting labour market entrants with a secondary education degree in commerce and 528 vacancies for jobs targeting labour market
+entrants with a master’s degree in commercial sciences. A total of two job applications of
+graduates, identical in terms of productivity-relevant characteristics, were sent to the
+selected vacancies. To each candidate within our pairs of applicants, we randomly
+assigned one of the four facial pictures differing in attractiveness and personality traits.
+For half of the pairs, these pictures were employed as the pair members’ Facebook profile picture.9 By monitoring the subsequent callbacks for these pairs by profile picture,
+unequal treatment based on the candidates’ Facebook profile picture could be identified
+(and H1 could be tested). For the other half of the pairs, the same pictures were used as
+
+6
+
+new media & society ﻿
+
+the pair members’ résumé picture. As a result, we were able to test H2.10,11 Figure A.1
+(Figure A.2, available online) summarises the data gathering process for the sub-experiment in which the pictures were used as a Facebook profile picture (résumé picture). This
+data gathering is described in more detail below.
+
+Construction of job application template pairs
+For each of the aforementioned two academic degrees held by our fictitious applicants, we
+created two template applications comprising a résumé and a cover letter. We will refer to
+them as Type A and Type B application types. These types were equal in all productivityrelevant characteristics but differed in layout and details, such as the particular cultural
+activity mentioned. To ensure that our application templates were realistic and representative, example applications from the Public Employment Agency of Flanders were used
+and calibrated for our purposes.
+Type A and Type B applicants shared the following characteristics. They were single
+male graduates born, studying and living in comparable suburbs of the cities of Antwerp
+and Leuven. We appended a fictitious postal address (a real street but a non-existing
+street number) and a date of birth to all application templates. In addition, all applicants
+had the Belgian nationality, work experience from two student jobs, adequate (and comparable) information and communications technology (ICT) and language skills, a driver’s licence and sports and cultural activities. Our candidates graduated in June 2013,
+from a school with a comparable reputation, without any grade retention experience. In
+line with the particular vacancy to which the pair of applications was sent, a specialisation was chosen. For the secondary education degree in commerce, the specialisations
+used were (a) commerce (no specific specialisation), (b) accountancy, (c) ICT, (d) secretariat and languages and (e) tourism. For the master’s in commercial sciences, the specialisations used were (a) accountancy and taxes, (b) financial management, (c) human
+resource management, (d) international affairs and (e) marketing management. These
+different specialisations allowed us to apply for various occupations.12
+The minimal differences between Type A and Type B application templates could not
+bias our results. This is the case as the treatment of interest – that is, the candidate’s facial
+picture – was, for each vacancy, randomly assigned to these types (as a résumé or
+Facebook profile picture). This random assignment is the subject of the next subsection.
+Moreover, the regression analysis presented below shows that these minimal differences
+did not yield different callback outcomes for our two application types.
+
+Randomised assignment of Facebook profile and résumé pictures
+The pictures used for our experiment were selected from those employed in the laboratory experiment of Baert and Decuypere (2014). In that study, which was to some extent
+a preparatory study for the present one, 195 raters scored 22 pictures of young graduates,
+selected from picture databases, on the Big Five Personality Dimensions and on attractiveness. Personality traits were rated using the Ten-Item Personality Inventory (Gosling
+et al., 2003) for each photograph. This yielded a single index for each personality trait
+between 1 and 7 for each picture. Attractiveness was measured by the participants’
+
+Baert
+
+7
+
+assessment of the statement ‘I see this person as attractive’ on a 7-point Likert scale,
+yielding a final index between 1 and 7.
+Based on the testers’ rating, we identified four facial pictures with diverging scores on
+attractiveness and personality. These pictures are included in Figures A.3 to A.6 (available online). Pictures 1 and 2 are facial pictures that received beneficial scores. Picture 1
+was chosen for its high score both on attractiveness, extraversion, agreeableness, emotional stability and openness. This picture, however, had only a moderate score with
+respect to the personality trait that is generally found to drive productivity the most:
+conscientiousness (see earlier). Picture 2 was chosen for its high score on conscientiousness (and moderate scores with respect to attractiveness and the other personality dimensions). Picture 3 got relatively moderate scores for all characteristics. Picture 4 was a
+picture yielding poor scores, both on attractiveness and personality traits.13
+The random assignment of one of the four pictures to each of the two job application
+template types was realised by a procedure in which we alternated between the 12 possible pairs of applications sent to employers. For each vacancy, one of the four pictures
+was assigned to Type A template, and one of the (remaining) three pictures was assigned
+to Type B template.
+In addition, we alternated pairs who revealed their facial pictures by pasting them
+directly into their résumé and pairs who made their pictures publicly available as their
+Facebook profile picture. For the latter pairs, no picture was added to their résumés. For
+these pairs, the first name and surname of the candidates led, by searching for it on
+Google or by typing it into the Facebook search bar, to a single Facebook profile (and no
+other Google hits). These fictitious profiles were under our control and only publicly
+displayed the (current) profile picture of the candidate (resulting in similar profile settings for the pair members). For the former pairs (pasting their facial pictures directly
+into their résumé), the common first name and surname combinations of the candidates’
+led to tens of Facebook profile pictures, preventing the employer from screening the
+candidate through Facebook. It is important to mention that we made sure that the names
+we chose did not represent a different social background, following Bloothooft and
+Onland (2011) who linked the suffix of the first name Dutch-speaking parents choose for
+their children to these children’s later wages.
+The combinations of application template types and experimental identities by facial
+picture were sent to the employers between 24 November 2013 and 20 April 2014, in an
+alternating order, each time with approximately 24 hours between the pair members.
+
+Classifications of callbacks
+In the next section, we will analyse the employers’ response to our fictitious applications. Callbacks were received by telephone voicemail or email. We follow the literature in distinguishing between two definitions of positive callback. Positive callback in
+strict sense means the applicant was invited for an interview concerning the posted job.
+Positive callback in broad sense also includes a request to contact the recruiter by telephone or to provide more information by email or the proposal of an alternative job.
+All callbacks received later than 30 days after sending out the application were
+neglected.
+
+8
+
+new media & society ﻿
+
+Before presenting our results, we restate our first two hypotheses in terms of the
+experimental design. In line with H1, we expect that candidates who have Picture 1 or
+Picture 2 as their Facebook profile picture have, given the beneficial scores of these pictures on perceived attractiveness and personality, better chances of being hired than candidates who have Picture 3, and they, in turn, have better chances of being hired than
+those who have Picture 4 as their Facebook profile picture. We have no a priori expectations concerning the relative treatment of candidates who have Picture 1 versus candidates who have Picture 2 as their Facebook profile picture.
+
+Results
+Positive callback ratios
+In total, the candidates who had Picture 1, Picture 2, Picture 3 or Picture 4 as a Facebook
+profile picture obtained a positive callback in strict sense (broad sense) in 9.8% (22.7%),
+7.6% (19.3%), 7.6% (22.7%) and 5.3% (17.0%) of their applications, respectively. The
+mentioned callback rates perfectly follow the ordering as expected based on H1, as
+restated at the end of the previous section. There is one exception: the positive callback
+rate in broad sense is higher for those who had Picture 3 as a Facebook profile picture
+(22.7%) than for those who had Picture 2 (19.3%).
+The corresponding positive callback rates are 6.8% (18.9%), 9.5% (20.4%), 5.7%
+(18.6%) and 5.3% (14.8%) for the candidates who attached Picture 1, Picture 2, Picture
+3 and Picture 4 directly to their résumé. These numbers follow the aforementioned ordering without any exception.
+To compare the mentioned positive callback rates in a structured manner, we calculate a statistic frequently employed in correspondence studies: the positive callback ratio (PCR). This statistic is calculated by dividing the positive callback rate
+when using a particular picture (as a Facebook profile or résumé picture) by the
+corresponding positive callback rate when employing another particular picture.
+Table 1 presents the PCRs, following the strict sense definition of positive callback,
+at the level of the total data set and for various subsamples.14 As we use the positive
+callback rates of the pictures with a lower index (picture number) as the numerator
+of these ratios and the corresponding callback rates of the pictures with a higher
+index as the denominator, PCRs above 1 are expected given H1. A single exception
+in this respect is the PCR comparing candidates with Picture 1 to candidates with
+Picture 2: as indicated earlier, we have no a priori expectations concerning their relative hiring chances.
+At the level of the total data set, Panel A.1 of Table 1 shows a PCR in strict sense that
+is significantly higher than 1 when comparing candidates using Picture 1 as a Facebook
+profile picture to candidates using Picture 4 for the same purpose (p = .020). More concretely, the PCR is 1.857, indicating that the former candidates obtained 85.7% more job
+interview invitations. This finding supports H1.
+The significant PCRs for the pairs of candidates pasting the facial pictures directly
+into their résumés (presented in Panel B.1) are also consistent with our expectations.
+More concretely, when the pictures are employed as résumé pictures, we find a
+
+1.340 (1.065) 2.396** (2.546)
+1.183 (0.773)
+1.113 (0.266)
+1.200 (0.577)
+
+1.282 (0.909)
+1.394 (0.684)
+0.720 (1.202)
+
+1.045 (0.169)
+0.848 (0.336)
+
+1.058 (0.181)
+0.937 (0.221)
+
+1.345 (0.869)
+0.800 (0.581)
+
+1.200 (0.444)
+0.933 (0.254)
+
+1.000 (0.000)
+
+1.869* (1.691) 1.788 (1.544)
+0.798 (0.366) 0.940 (0.131)
+
+1.455 (0.958) 1.375 (0.901)
+1.389 (0.631) 1.482 (0.756)
+
+1.143 (0.345) 0.850 (0.370)
+1.427 (0.601) 1.783 (1.400)
+
+2.000 (1.015) 1.667 (0.828)
+1.273 (0.693) 1.364 (0.942)
+
+1.429 (1.138) 1.429 (1.218)
+
+1.286 (0.950) 1.667** (2.194) 1.785** (1.984) 1.071 (0.198)
+
+1.452 (1.328) 1.995** (2.184)
+1.008 (0.016)
+1.495 (0.848)
+
+1.767* (1.759)
+1.176 (0.739)
+
+1.371 (1.232)
+1.076 (0.141)
+
+2.079** (2.123)
+0.659 (0.825)
+
+1.000 (0.000)
+1.667 (0.825)
+1.400 (1.217) 1.909** (2.246)
+
+0.833 (0.339)
+1.500 (1.539)
+1.545 (1.474)
+0.824 (0.364)
+
+1.300 (1.047) 1.857** (2.343)
+
+1.300 (1.099)
+
+PCR Picture
+3 versus
+Picture 4
+
+PCR Picture
+2 versus
+Picture 4
+
+PCR Picture
+2 versus
+Picture 3
+
+PCR Picture
+1 versus
+Picture 4
+
+PCR Picture
+1 versus
+Picture 3
+
+PCR Picture
+1 versus
+Picture 2
+
+The PCR is calculated by dividing the positive callback rate when using a particular picture by the corresponding positive callback rate when using another particular picture. T-statistics,
+indicating whether the ratios are significantly different from 1 and based on standard errors corrected for clustering at the vacancy level, are in parentheses. The number of jobs with a
+female or a male recruiter does not equal the total number of vacancies, as for some vacancies, we could not identify the gender of the recruiter.
+*p < .1; **p < .05; ***p < .01.
+
+A. Pictures used as Facebook profile picture
+A.1. All vacancies (N = 528)
+A.2. Classified by education level of candidates
+   Middle educated (N = 264)
+   Highly educated (N = 264)
+A.3. Classified by gender of recruiter
+  Female (N = 272)
+  Male (N = 192)
+A.4. Classified by level of customer contact in the posted job
+   No intensive contact (N = 283)
+   Intensive contact (N = 245)
+A.5. Classified by bottleneck status of occupation
+   No bottleneck (N = 385)
+  Bottleneck (N = 143)
+B. Pictures used as résumé picture
+B.1. All vacancies (N = 528)
+
+(6)
+
+(5)
+
+(4)
+
+(3)
+
+(2)
+
+(1)
+
+Table 1. The probability of positive callback in strict sense by Facebook profile and résumé pictures: positive callback ratios (PCRs).
+
+Baert
+9
+
+10
+
+new media & society ﻿
+
+statistically significant preference in respect of employers for Picture 2 above Picture 3
+(p = .029) and Picture 4 (p = .048).
+Next, to explore the support for H3a, H3b, H3c and H3d, we present PCRs for subsamples of our data by candidate and job characteristics. More concretely, we breakdown
+our data by proxies of (a) the education level of the candidates (Panel A.2 of Table 1), (b)
+the gender of the contact person in the vacancy (Panel A.3) as a proxy for the gender of
+the person (people) deciding whether or not to invite the candidate to a job interview, (c)
+the level of customer contact in the posted job (Panel A.4) and (d) the bottleneck status
+of the occupation (Panel A.5). The level of customer contact in the posted job is considered to be intensive in cases where being customer oriented is mentioned explicitly as a
+required skill in the job vacancy advertisement. Concerning (d), following Baert et al.
+(2015), we first matched each vacancy one to one with an occupation in the classification
+list of the Public Employment Agency of Flanders. For each of these occupations, we
+were able to look up their ‘bottleneck’ status. Each year, the Public Employment Agency
+of Flanders combines three statistical criteria concerning labour market tightness in the
+occupation in order to indicate which occupations have this status.15
+The statistics presented in Panels A.2, A.3, A.4 and A.5 of Table 1 show that our finding of more favourable hiring chances for candidates using Picture 1 (and Picture 3) as
+their Facebook profile picture compared to Picture 4 is driven by the applications (a)
+with highly educated candidates, (b) with female recruiters, (c) for posted jobs with low
+levels of customer contact and (d) for non-bottleneck occupations. So, the presented
+statistics are in line with our hypotheses except for the breakdown of the PCRs by level
+of customer contact in the posted job. We come back to the significance of these dimensions of heterogeneity in unequal treatment based on Facebook profile picture appearance in the next subsection.
+
+Regression analysis
+As we randomly assigned the four facial pictures to the two applications we sent to the
+tested vacancies, regressing positive callback at the individual application level on these
+pictures and other candidate and vacancy characteristics should lead to exactly the same
+statistical results for a sample size approaching infinity (both for the subsample of candidates who used these pictures as their Facebook profile picture and the subsample of
+candidates who used them as their résumé picture). However, our sample size is finite.
+Consequently, observable and unobservable determinants of hiring outcomes that vary
+across vacancies may happen to correlate with the facial pictures used. To control for this
+potential correlation, we perform a regression analysis controlling for random effects at
+the vacancy level.16 In addition, this regression analysis allows us to measure the independent effect of the aforementioned variables (a), (b), (c) and (d) interacted with the
+Facebook profile (or résumé) picture of the candidate.
+Table 2 presents our regression results for the subsample of candidates who have their
+facial picture as their Facebook profile picture. We regress the outcome of positive callback in strict sense (Models (1), (2) and (3) in Table 2) and positive callback in broad
+sense (Models (4), (5) and (6)) on various sets of variables by means of a linear probability model with random effects at the vacancy level.17
+
+.657
+
+.656
+
+1056
+
+1056
+
+.681
+
+.107
+
+.075
+
+Yes
+No
+Yes
+
+1056
+
+.160
+
+.909
+
+.205
+
+No
+Yes
+Yes
+
+1056
+
+.160
+
+.909
+
+.206
+
+No
+Yes
+Yes
+
+1056
+
+.158
+
+.906
+
+.201
+
+No
+Yes
+Yes
+
+−.018 (0.037)
+−.038 (0.040)
+.046 (0.044)
+.171*** (0.020)
+
+−.015 (0.035)
+
+.039** (0.020)
+.012 (0.018)
+.041** (0.021)
+.019 (0.012)
+.003 (0.012)
+.082** (0.036)
+.062* (0.035)
+.125*** (0.038)
+−.046 (0.033)
+.009 (0.033)
+−.016 (0.037)
+.037 (0.037)
+
+(6)
+
+−.028 (0.023)
+−.026 (0.021)
+.004 (0.019)
+.067*** (0.014)
+
+.180*** (0.019)
+
+.038** (0.019)
+.011 (0.018)
+.041** (0.021)
+.019 (0.012)
+.000 (0.012)
+
+(5)
+
+.010 (0.038)
+
+.182*** (0.019)
+
+.038** (0.019)
+.011 (0.017)
+.041** (0.021)
+
+(4)
+
+−.010 (0.018)
+
+−.030 (0.020)
+
+.027* (0.014)
+.003 (0.011)
+.008 (0.010)
+.004 (0.007)
+−.006 (0.007)
+.053** (0.027)
+.014 (0.020)
+.054*** (0.019)
+−.042* (0.023)
+.016 (0.020)
+−.029 (0.020)
+−.002 (0.028)
+
+(3)
+
+The presented results are linear probability model estimates with standard errors in parentheses. Summary statistics for all variables can be found in Table A.2 (available online). Except for
+the picture indicators, all variables are normalised by subtracting their mean value among the candidates with Picture 1, Picture 2 or Picture 3 as their Facebook profile picture.
+* p < .1; **p < .05; ***p < .01.
+
+1056
+
+.100
+
+.101
+
+Observations
+
+.068
+
+.068
+
+F-test for equality of coefficients for ‘Picture 1’ and ‘Picture
+2’ (p-value)
+F-test for equality of coefficients for ‘Picture 1’ and ‘Picture
+3’ (p-value)
+F-test for equality of coefficients for ‘Picture 2’ and ‘Picture
+3’ (p-value)
+
+.068*** (0.012)
+Yes
+No
+Yes
+
+.068*** (0.012)
+Yes
+No
+Yes
+
+.026* (0.014)
+.001 (0.011)
+.006 (0.010)
+.004 (0.007)
+−.008 (0.007)
+
+Dependent variable: positive callback in strict sense
+Dependent variable: positive callback in broad sense
+Random effects at vacancy level
+
+.026* (0.014)
+.000 (0.011)
+.006 (0.010)
+
+(2)
+
+Picture 3 × vacancy with intensive customer contact
+(normalised)
+Picture 1 × bottleneck occupation (normalised)
+Picture 2 × bottleneck occupation (normalised)
+Picture 3 × bottleneck occupation (normalised)
+Constant
+
+Picture 1
+Picture 2
+Picture 3
+Application template Type A (normalised)
+First application sent (normalised)
+Picture 1 × highly educated (normalised)
+Picture 2 × highly educated (normalised)
+Picture 3 × highly educated (normalised)
+Picture 1 × male recruiter (normalised)
+Picture 2 × male recruiter (normalised)
+Picture 3 × male recruiter (normalised)
+Picture 1 × vacancy with intensive customer contact
+(normalised)
+Picture 2 × vacancy with intensive customer contact
+(normalised)
+
+(1)
+
+Table 2. The probability of positive callback by Facebook profile picture: regression analysis.
+
+Baert
+11
+
+12
+
+new media & society ﻿
+
+In Model (1) and Model (4), we include only indicators of using Picture 1, Picture 2
+and Picture 3 as Facebook profile picture (thus implicitly choosing Picture 4 as the reference picture) as explanatory variables. The regression results in Table 2 show that having
+Picture 1 as a Facebook profile picture increases the probability of a job interview invitation with 2.6 percentage points (or 38.2%, that is, 0.026/0.068; p = .055) and the probability of obtaining any positive reaction with 3.8 percentage points (or 20.9%; p = .048) in
+comparison with having Picture 4. In addition, having Picture 3 increases the probability
+of a positive callback in broad sense with 4.1 percentage points (or 22.5%; p = 0.049).18
+These effects controlling for random effects at the vacancy level are somewhat lower
+than the ones derived from the corresponding PCRs mentioned above.
+Next, in Model (2) and Model (4), we include indicators of the template type employed
+and the submission order. As the picture assignment is, by construction, not correlated
+with them, the inclusion of these additional variables does not change the Facebook picture effects. Moreover, positive callback outcomes vary neither by template type (as
+announced before) nor by place in the sending order.
+Finally, in Model (3) and Model (6), we add interactions between the facial pictures
+used as Facebook profile picture and indicator variables by which we want to investigate
+the heterogeneous effects of these pictures. These variables are (a) an indicator for highly
+educated candidates, (b) an indicator for male recruiters, (c) an indicator for jobs with
+intensive customer contact and (d) an indicator for bottleneck occupations. The results
+for these models confirm our findings based on the descriptive analysis with respect to
+the higher surplus of highly scored Facebook profile pictures for highly educated candidates and – to a lesser extent – when recruiters are female. However, we do not find
+significant interactions with the indicator for jobs with intensive customer contact or the
+indicator for bottleneck occupations after controlling for random effects at the vacancy
+level. In conclusion, while the analysis of our data supports H3a and H3b, we do not find
+convincing evidence for H3c and H3d.
+The corresponding regression results when employing the subsample of candidates
+pasting the facial pictures directly into their résumés follow the same pattern.19 In line
+with the results presented in Panel B of Table 1, we find the highest positive callback
+rates when using Picture 2 as a résumé picture.
+H2 predicted that facial pictures equally affect positive callbacks when they are used
+as Facebook profile pictures and when they are used as résumé pictures. By comparing
+the effects of using Picture 1, Picture 2 and Picture 3 (in comparison with Picture 4) as
+Facebook profile picture in Table 2 to the corresponding effects of attaching these pictures to one’s résumé, we observe (a) quite comparable effects with respect to Picture 1
+and Picture 3 (thus supporting H2) and (b) a substantially higher effect of Picture 2 when
+used as a résumé picture.20
+
+Discussion
+In this study, we investigated whether the publicly available information on Facebook
+about job applicants affects employers’ hiring decisions. Thereby, we directly contributed to the literature measuring the use of social media in screening job candidates. We
+argued that this literature, based on self-reported data, suffers from two methodological
+
+Baert
+
+13
+
+problems: (a) reported attitudes and behaviour may deviate from actual behaviour and
+(b) using SNS does not mean letting SNS affect decisions. To overcome these issues, we
+conducted a field experiment in the Belgian labour market. Pairs of fictitious job applications were sent to genuine job openings. To each application within a pair, we randomly
+assigned one of the four facial pictures varying in attractiveness and personality. For half
+of the vacancies, these pictures were directly pasted into the résumés, while for the other
+half, we assigned a candidate name to the résumés, which, by searching for it on Google
+or by typing it into the Facebook search bar, led to a single Facebook profile. These fictitious profiles were under our control and only publicly displayed the profile picture.21
+We found that candidates with the most beneficial Facebook picture got approximately 38% more job interview invitations and 21% more positive reactions in a broad
+sense compared to candidates with the least beneficial picture. This surplus of a favourable Facebook picture was higher for the highly educated and when recruiters were
+female. Moreover, except for one picture used, we could not reject that variation in
+Facebook profile pictures affects positive callbacks with the same magnitude as (the
+same) variation in résumé pictures.
+From a broader perspective, two important take-away messages from our study are
+the following. First, our results support the idea that SNS have disrupted hiring practices, as mentioned in several reviews on SNS in the social and behavioural sciences.
+This digital disruption cannot be neglected by scholars in related academic fields such
+as labour economics, human resource management, sociology of work and occupational psychology. Theories on matching employees and employers which were built
+before the breakthrough of social media should be adapted to the existence of social
+media as a search and matching channel (or at least, their robustness against the use of
+these new media should be proved).22 Second, our results corroborate the observation
+in the literature on (profile) picture selection and evaluation via social media that pictures on these media have a particularly strong effect on impression formation when
+other information is limited, as is the case in a résumé (Wang et al., 2010). Whether
+this implies that Facebook profile picture appearance affects recruiters’ first hiring
+decisions to a lesser extent when résumés and cover letters are more extensive23 could
+not be investigated based on our experimental design but is an appealing direction for
+further research.
+In addition, from a practical point of view, job seekers should see the publicly available
+online information about them as an extension of their résumé. For this reason, they should
+take proper care with respect to what they share on the Internet. By extension, agencies
+guiding these job seekers should consider, in addition to the classical résumé writing tips,
+coaching job candidates with respect to their digital impression management.
+We end by acknowledging four research limitations inherent to our research focus
+and our experimental design. A first important limitation of this study is that we measured only the impact of a very specific social media item, that is, individuals’ Facebook
+profile picture, on hiring chances.24 However, for many job candidates, this profile
+picture is the only substantial element that they make publicly available on Facebook,
+and by extension – given that Facebook is by far the most popular SNS – on social
+media. As a consequence, this profile picture is often the only social media item
+employers are able to screen in practice. Nevertheless, we are in favour of future
+
+14
+
+new media & society ﻿
+
+studies exploring whether other components of publicly available information (e.g.
+number and characteristics of Facebook friends; Tong et al., 2008; Walther et al., 2008)
+also affect the employment opportunities of users of social networking sites.25 Second,
+our experiment focused on a very particular outcome: callback rates for first interviews. As a result, our findings do not allow us to say anything about unequal treatment based on Facebook profile picture appearance in the later stages of the screening
+process. However, Bertrand and Mullainathan (2004) have argued that lower numbers
+of interview invitations are likely to be reflected in a reduced number of job offers.26
+Third, our experimental design did not allow us to measure the proportion of employers that screened our fictitious Facebook profile pages, let alone to disentangle the
+subsets that found this page via Google versus via the Facebook search bar or to inspect
+the extent of the group of employers who searched for online information about our
+candidates but did not reach our profile pages.27 Measuring these proportions was not
+a goal of our study. As mentioned earlier, in our opinion, it is not the extent of the
+screening of SNS (or the online pathway employers follow) that is of societal importance but the effect of this screening (in our case on hiring outcomes). Having this said,
+we welcome future studies that are able to decompose the effect of Facebook profile
+picture appearance on hiring outcomes into the product of (a) the proportion of employers using SNS as a screening tool and (b) the effect the information on SNS has on
+hiring decisions conditional on screening it. Finally, our experimental design only
+allowed us to measure the relative effect of the variation in (personality traits and
+attractiveness of) four particular pictures on first hiring decisions. As a consequence,
+we were not able to measure the effect of having a Facebook profile compared to the
+control situation of not having such a profile. This is a limitation, as recent research
+suggests that absence of online information might be punished by employers (Berkelaar,
+2014). In addition, based on our data, it is not possible to tell whether personality or
+attractiveness (or a combination of both) drove the relative callbacks our fictitious
+candidates received. Moreover, it is a limitation that we did not let our pictures be
+scored on (relative) appropriateness for use as a Facebook profile picture and as a
+résumé picture.28 These scores might have helped to explain the (limited) differences
+in how our pictures affected callbacks when used for both purposes.
+Acknowledgements
+The author is grateful to the five anonymous reviewers at New Media & Society for their helpful
+comments that helped to improve this study substantially; to Bart Cockx for his advice at several
+stages of the research; to Lynn Decuypere, Lisa Glorieux, Stefanie Notebaert, Anke Penninck and
+Willem Van Melkebeke for their research assistance; and to the participants of the annual conference of the European Society for Population Economics in 2013 and the World Conference of the
+Society of Labor Economists and the European Association of Labour Economists in 2015 for
+their constructive suggestions. The present research was approved by the Ethical Committee of the
+Faculty of Economics and Business Administration of Ghent University.
+
+Declaration of Conflicting Interests
+The author declared no potential conflicts of interest with respect to the research, authorship and/
+or publication of this article.
+
+Baert
+
+15
+
+Funding
+The author received no financial support for the research, authorship and/or publication of this
+article.
+
+Notes
+1. Besides this literature, the effect of social networking appearance on hiring chances has also
+been tested by means of laboratory experiments (Roulin and Bangerter, 2013). However,
+these experiments do not allow one to measure the extent to which social networking websites (SNS) are used in practice when evaluating job candidates. In addition, Berkelaar and
+Buzzanell (2014, 2015) and Berkelaar et al. (2015) have conducted (qualitative) research
+on the general use of online information in personnel selection. Finally, Acquisti and Fong
+(2015) have studied how employers use online information in a broad sense to discriminate
+based on race and sexual orientation.
+2. Madera (2012) has shown that perceived fairness and job pursuit intentions by job applicants
+are lower for organisations using SNS as a selection tool.
+3. In addition to these two problems, the analysis of self-reported information on the use of
+SNS in screening job candidates is hampered by the variability in available information on
+candidates’ profile pages due to variation in the extent to which these candidates are active on
+SNS and in their (customisable) privacy settings (Brown and Vaughn, 2011). This variability,
+which cannot be controlled based on employers’ self-reports, might be correlated with other
+determinants of employment opportunities (e.g. the gender, education level, region, sector
+and personality of the candidate). Not taking into account this variability in available information might, as a consequence, bias measures of how appearance on SNS does affect hiring
+chances for different subpopulations.
+4. However, theoretical and empirical studies show that, in general, unequal treatment based on
+subjective factors is lower for the highly educated as higher education degrees reduce uncertainty about job candidates (Baert et al., 2015). As a consequence, the need to make inferences about these candidates’ ability based on informally gathered information about them is
+also lower.
+5. Two implicit assumptions are made here: (a) the higher share of Facebook users among
+women translates into a higher share of recruiters using Facebook within the professional
+context and (b) Facebook profile pictures, when seen by recruiters, affect the hiring decisions
+of females at least as much as those of males.
+6. The labour market tightness in an occupation is defined as the ratio of the number of vacancies in the occupation to the number of unemployed with the required qualifications (Baert
+et al., 2015).
+7. For an in-depth discussion of the ethical aspects of the correspondence experimentation
+framework, we refer to Riach and Rich (2004).
+8. The hiring landscape in Belgium is constrained by two characteristics of its labour market.
+First, overall, the competition for human capital is, compared to other European countries,
+relatively high (Gerard and Valsamis, 2015). An indicator for a country’s labour market tightness is its job vacancy rate. This is the number of vacancies as a percentage of the sum of
+this number of vacancies and the number of occupied jobs. In the first quarter of 2014, the
+job vacancy rate was 2.2% in Belgium, while it was 1.5% in the EU-27. Only in Germany
+and Norway was this statistic higher (source: Eurostat, job vacancy rate). Second, related to
+the country’s historically high employment protection and union coverage, labour market
+contracts are heavily regulated (Baert and Omey, 2015). With respect to social media use,
+following Global Webindex (http://www.globalwebindex.net/), in the first quarter of 2016,
+
+16
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+new media & society ﻿
+about 59% of Belgian citizens aged 12 years or older used Facebook at least once each day.
+According to this statistic, it is the most popular social media tool in Belgium, followed at a
+distance by YouTube and Instagram. In contrast to most other social media tools, Facebook is
+used in Belgium by a substantial proportion of all age groups (source: Global Webindex, Q1
+2016).
+Our choice of a person’s Facebook profile picture appearance as a social media item that is
+potentially screened by employers was motivated by the following considerations. First, with
+>1.49 billion monthly active users (as of 30 June 2015), Facebook is the world’s most popular
+SNS (Facebook, 2015). Second, a substantial fraction of Facebook users allow other users
+to whom they are not connected as friends to see essentially only their name and Facebook
+profile picture. For this reason, being only able to judge job candidates’ Facebook profile
+picture is a situation in which many employers find themselves in reality. Third, allowing
+only (randomised) variation in our fictitious candidates’ facial pictures keeps the controlled
+experimental setting feasible. Fourth, facial pictures, nevertheless, allow employers to screen
+candidates’ attractiveness and personality traits. This is potentially relevant information, as,
+following a survey of the popular job search website CareerBuilder (2012), the most important aspect that recruiters mention with respect to screening job candidates’ Facebook profiles
+is making inferences about these candidates’ personality that might not be as easily obtained
+through traditional screening.
+By also sending out pairs disclosing their facial picture as a résumé picture, we anticipated
+a zero effect of the Facebook profile pictures on hiring outcomes. This zero effect could
+have been explained by two important reasons: (a) recruiters did not screen job candidates’
+Facebook profile pictures and/or (b) the pictures we used did not yield diverging hiring
+chances if they were screened. A non-zero effect of these pictures, when pasted directly
+to one’s résumé, could have ruled out explanation (b), if we were willing to assume that
+Facebook profile pictures and résumé pictures, if they are screened, affect employers’ hiring
+decisions roughly to an equal extent.
+In Belgium, adding a picture to one’s résumé is not uncommon. At the website of the Public
+Employment Agency of Flanders, it is written (in Dutch) that ‘if you add a picture [to your
+résumé], your résumé gets a face’ (https://www.vdab.be/werkinzicht/vragencv#foto), and
+résumés with pictures are used as example résumés (https://www.vdab.be/werkinzicht/
+cvvoorbeelden.shtml).
+Testing multiple occupations (rather than just one) was important because it enabled us to
+avoid the danger inherent in many former correspondence experiments in which researchers
+simply selected an occupation with, potentially, a particularly high (or low) surplus of the
+tested characteristics. In addition, the variety in occupations enabled us to measure heterogeneous treatment effects by the customer contact level at the posted job level and labour market
+tightness at the occupational level (and thus allowed us to test H3c and H3d).
+More concretely, Picture 1, Picture 2, Picture 3 and Picture 4 scored, on average, 4.34 (third highest out of 22 pictures), 3.53 (11/22), 4.22 (5/22) and 2.75 (22/22) on attractiveness; 4.66 (2/22),
+4.32 (6/22), 4.11 (16/22) and 3.98 (18/22) on agreeableness; 4.43 (7/22), 4.86 (1/22), 4.23 (12/22)
+and 3.90 (15/22) on conscientiousness; 5.13 (1/22), 4.30 (11/22), 4.49 (7/22) and 3.66 (22/22)
+on emotional stability; 5.07 (3/22), 5.04 (4/22), 4.10 (13/22) and 2.88 (22/22) on extraversion;
+and 5.09 (2/22), 4.60 (10/22), 4.29 (13/22) and 3.55 (22/22) on openness. The consensus in the
+peer-reviewed literature is that all these factors have a non-negative effect on productivity, except
+for agreeableness, for which, besides zero effects, both (slightly) positive and (slightly) negative
+effects have been found (Baert and Decuypere, 2014; Barrick and Mount, 1991).
+Analyses following the broad sense definition of positive callback, which are available on
+request, yield the same conclusions.
+
+Baert
+
+17
+
+15. These criteria are the following: (a) there must be at least 10 vacancies registered in the
+database of the Public Employment Agency of Flanders for this occupation, (b) the vacancy
+filling rate in this occupation must be lower than the median filling rate for all occupations
+together and (c) the median duration until a vacancy in this occupation is filled must be
+greater than the median for all occupations together.
+16. See, for example, Verbeek (2004) for an introduction to random effects models. Basically, this
+approach allows one to control for random factors, independently and identically distributed
+over, in our case, vacancies. As a result, the error term of the regression model consists of
+two components: a vacancy-specific component and a remainder component. Random effect
+models can be estimated by means of the command ‘xtreg’ in Stata. As an alternative, we
+estimated fixed effects models, that is, linear regressions in which the intercept terms vary
+over the vacancies (Verbeek, 2004). This, however, yielded the same conclusions.
+17. For reasons of comparability of the results for our different regression models, except for the
+picture indicators, all the variables are normalised by subtracting their mean value among the
+candidates with Picture 1, Picture 2 or Picture 3 as their Facebook profile or résumé picture.
+18. The standard errors of the effects of Picture 1, Picture 2 and Picture 3 vary from 0.010 to
+0.014 (0.017–0.021) in Model 1 (Model (4)). This means that in Model (1), effects of 2–3 percentage points (i.e. between 0.010 × 1.96 × 100 and 0.014 × 1.96 × 100) and higher could be
+rejected at the 5% significance level, and in Model (4), effects of 3.5 percentage points and
+higher could be rejected. Broadly speaking, the power of the study, with 1056 fictitious applications for each sub-experiment is comparable to other, well-published studies conducting the
+same kind of experiments (e.g. Correll et al., 2007).
+19. These regression results are available on request.
+20. This was tested formally in an analysis of a data set pooling the information for both subexperiments. This exercise, which is available on request, yielded the same conclusions.
+21. At the time of the experiment, making (besides their name) only their current profile picture
+publicly available (and not, for example, their cover picture), was a ‘privacy setting’ chosen
+by a substantial number of people.
+22. For instance, recently Lutgen and Van der Linden (2015) adapted the matching theory for
+which Peter Diamond, Dale Mortensen and Christopher Pissarides won the Nobel Prize in
+economics in 2010 to include the fact that social media helps both employers and employees
+to more easily find potential partners, even faraway.
+23. This finding would be consistent with Arrow’s (1973) theory of statistical discrimination.
+24. In addition, this effect is measured for young, male candidates within the tested occupations only.
+As a consequence, our results cannot be generalised to the surplus of beneficial Facebook profile
+pictures in other occupations than those covered in this study and for other types of candidates.
+25. The relative importance of these components could, for instance, be studied by means of eye
+tracking experiments in which recruiters are asked to make fictitious hiring decisions based
+on job candidates’ (fully public) social networking profiles, with their eye movements being
+observed (and analysed) when screening these profiles.
+26. Furthermore, because job interviews are costly, employers invite job candidates to an interview only if these applicants have a reasonable chance of getting the job (Baert et al., 2016).
+27. We believe that the latter group should have been very small given the popularity of Google
+as a starting point to explore the Internet and the aforementioned popularity of Facebook in
+the SNS market.
+28. We informally asked human resource managers to screen our pictures on appropriateness for
+both purposes. As a consequence, a candidate picture with a person wearing a headphone was
+excluded as these human resource managers judged this picture to be inappropriate for use as
+a résumé picture.
+
+18
+
+new media & society ﻿
+
+References
+Acquisti A and Fong CM (2015) An Experiment in Hiring Discrimination via Online Social
+Networks. New York: Mimeo.
+Arrow KJ (1973) The theory of discrimination. In: Ashenfelter and Rees A (eds) Discrimination
+in Labor Markets. Princeton, NJ: Princeton University Press, pp. 3–33.
+Back M, Stopfer J, Vazire S, et al. (2010) Facebook profiles reflect actual personality, not selfidealization. Psychological Science 20: 1–3.
+Baert S, Cockx B, Gheyle N, et al. (2015) Is There Less Discrimination in Occupations Where
+Recruitment Is Difficult? ILR Review 68: 467–500.
+Baert S and Decuypere L (2014) Better sexy than flexy? A lab experiment assessing the impact of
+perceived attractiveness and personality traits on hiring decisions. Applied Economics Letters
+21: 597–601.
+Baert S and Omey E (2015) Hiring Discrimination against Pro-Union Applicants: The Role of
+Union Density and Firm Size. De Economist 163: 263–280.
+Baert S, Rotsaert O, Verhaest D, et al. (2016) Student Employment and Later Labour Market
+Success: No Evidence for Higher Employment Chances. Kyklos 69: 401–425.
+Barrick MR and Mount MK (1991) The big five personality dimensions and job performance: a
+meta-analysis. Personnel Psychology 44: 1–26.
+Berkelaar BL (2014) Cybervetting, online information, and personnel selection: new transparency
+expectations and the emergence of a digital social contract. Management Communication
+Quarterly 28: 479–506.
+Berkelaar BL and Buzzanell PM (2014) Cybervetting, person–environment fit, and personnel
+selection: employers’ surveillance and sensemaking of job applicants’ online information.
+Journal of Applied Communication Research 42: 456–476.
+Berkelaar BL and Buzzanell PM (2015) Online employment screening and digital career capital: exploring employers’ use of online information for personnel selection. Management
+Communication Quarterly 29: 84–113.
+Berkelaar BL, Scacco JM and Birdsell JL (2015) The worker as politician: how online information and electoral heuristics shape personnel selection and careers. New Media & Society 17:
+1377–1396.
+Bertrand M and Mullainathan S (2004) Are Emily and Greg more employable than Lakisha and
+Jamal? A field experiment on labor market discrimination. American Economic Review 94:
+991–1013.
+Bloothooft G and Onland D (2011) Socioeconomic determinants of first names. Names 59:
+25–41.
+Brown VR and Vaughn E (2011) The writing on the (Facebook) wall: the use of social networking
+sites in hiring decisions. Journal of Business and Psychology 26: 219–225.
+Caers R and Castelyns V (2011) LinkedIn and Facebook in Belgium: the influences and biases of
+social network sites in recruitment and selection procedures. Social Science Computer Review
+29: 437–448.
+Caers R, De Freyter T, De Couck M, et al. (2013) Facebook: a literature review. New Media &
+Society 15: 984–1002.
+CareerBuilder (2012) Thirty-seven percent of companies use social networks to research potential job candidates, according to new CareerBuilder Survey. Available at: http://www.careerbuilder.com/share/aboutus/pressreleasesdetail.aspx?id=pr691&sd=4%2F18%2F2012&ed=4
+%2F18%2F2099 (accessed 28 August 2015).
+Chang W and Madera JM (2012) Using social network sites for selection purposes: an investigation of hospitality recruiters. Journal of Human Resources in Hospitality & Tourism 20:
+183–196.
+
+Baert
+
+19
+
+Correa T, Hinsley AW and Gil de Zúñiga H (2010) Who interacts on the Web?: the intersection of
+users’ personality and social media use. Computers in Human Behavior 26: 247–253.
+Correll SJ, Benard S and Paik I (2007) Getting a job: is there a motherhood penalty? American
+Journal of Sociology 112: 1297–1338.
+Elzweig B and Peeples DK (2009) Using social networking web sites in hiring and retention decisions. SAM Advanced Management Journal 74: 27–35.
+Facebook (2015) Our mission. Available at: http://newsroom.fb.com/company-info (accessed 28
+August 2015).
+Gerard M and Valsamis D (2015) Arbeidstekorten op de Europese arbeidsmarkt. Over.Werk 25:
+8–14.
+Gibbs C, MacDonald F and MacKay K (2015) Social media usage in hotel human resources:
+recruitment, hiring and communication. International Journal of Contemporary Hospitality
+Management 27: 170–184.
+Gosling SD, Gaddis S and Vazire S (2008) First impressions from the environments that we create
+and inhabit. In: Skowronski J and Ambady N (eds) First Impressions. New York: Guilford
+Press, pp. 334–356.
+Gosling SD, Rentfrow PJ and Swann WB (2003) A very brief measure of the big-five personality
+domains. Journal of Research in Personality 37: 504–528.
+Haferkamp N and Krämer NC (2011) Social comparison 2.0: examining the effects of online
+profiles on social-networking sites. Cyberpsychology, Behavior and Social Networking 14:
+309–314.
+Hamermesh D and Biddle J (1994) Beauty and the labor market. American Economic Review 84:
+1174–1194.
+Kluemper DH and Rosen PA (2009) Future employment selection methods: evaluating social
+networking web sites. Journal of Managerial Psychology 24: 567–580.
+Lebel K and Danylchuk K (2014) Facing off on Twitter: a generation y interpretation of professional athlete profile pictures. International Journal of Sport Communication 7: 317–326.
+Lutgen V and Van der Linden B (2015) Regional equilibrium unemployment theory at the age of
+the internet. Regional Science and Urban Economics 53: 50–67.
+Madera JM (2012) Using social networking websites as a selection tool: the role of selection
+process fairness and job pursuit intentions. International Journal of Hospitality Management
+31: 1276–1282.
+Mauzer-Fazio M and Lei L (2015) ‘As rare as a panda’: how facial attractiveness, gender, and
+occupation affect interview callbacks at Chinese firms. International Journal of Manpower
+36: 68–85.
+Mobius MM and Rosenblat TS (2006) Why beauty matters. American Economic Review 96: 222–
+235.
+Mueller G and Plug E (2006) Estimating the effect of personality on male and female earnings.
+ILR Review 60: 3–22.
+Nikolaou I (2014) Social networking web sites in job search and employee recruitment.
+International Journal of Selection and Assessment 22: 179–189.
+Pager D and Quillian L (2005) Walking the talk? What employers say versus what they do.
+American Sociological Review 70: 355–380.
+Rains SA and Brunner SR (2015) What can we learn about social network sites by studying
+Facebook? A call and recommendations for research on social network sites. New Media &
+Society 17: 114–131.
+Ramirez A Jr., Walther JB, Burgoon JK, et al. (2002) Information seeking strategies, uncertainty,
+and computer-mediated communication: towards a conceptual model. Human Communication
+Research 28: 213–228.
+
+20
+
+new media & society ﻿
+
+Riach PA and Rich J (2004) Deceptive field experiments of discrimination: are they ethical?
+Kyklos 57: 457–470.
+Roth P, Bobko P, Van Iddekinge C, et al. (2013) Social media in employee-selection-related decisions: a research agenda for uncharted territory. Journal of Management 20: 1–30.
+Roulin N and Bangerter A (2013) Social networking websites in personnel selection: a signaling
+perspective on recruiters’ and applicants’ perceptions. Journal of Personnel Psychology 12:
+143–151.
+Tong ST, Van Der Heide B, Langwell L, et al. (2008) Too much of a good thing? The relationship
+between number of friends and interpersonal impressions on Facebook. Journal of ComputerMediated Communication 13: 531–549.
+Tufts SH, Jacobson WS and Stevens MS (2015) Status update: social media and local government
+human resource practices. Review of Public Personnel Administration 35: 193–207.
+Uysal SD and Pohlmeier W (2011) Unemployment duration and personality. Journal of Economic
+Psychology 32: 980–992.
+Van Dijck J (2008) Digital photography: communication, identity, memory. Visual Communication
+7: 57–76.
+Van House NA (2011) Personal photography, digital technologies, and the uses of the visual.
+Visual Studies 25: 125–134.
+Vasalou A, Joinson AN and Courvoisier D (2010) Cultural differences, experience with social
+networks and the nature of ‘true commitment’ in Facebook. International Journal of HumanComputer Studies 68: 719–728.
+Verbeek M (2004) A Guide to Modern Econometrics. Chichester: John Wiley & Sons.
+Walther JB, Van Der Heide B, Kim SY, et al. (2008) The role of friends’ appearance and behavior
+on evaluations of individuals on Facebook: are we known by the company we keep? Human
+Communication Research 34: 28–49.
+Wang SS, Moon SI, Kwon KH, et al. (2010) Face off: implications of visual cues on initiating
+friendship on Facebook. Computers in Human Behavior 26: 225–234.
+Westerman D, Van Der Heide B, Klein KA, et al. (2008) How do people really seek information
+about others? Information seeking across internet and traditional communication channels.
+Journal of Computer-Mediated Communication 13: 751–767.
+Wilson RE, Gosling SD and Graham LT (2012) A review of Facebook research in the social sciences. Perspectives on Psychological Science 7: 203–220.
+Zhang Y and Leung L (2015) A review of social networking service (SNS) research in communication journals from 2006 to 2011. New Media & Society 17: 1007–1024.
+
+Author biography
+Stijn Baert (MSc and PhD in Economics and MSc in Computer Science Engineering, Ghent
+University) is as a tenure track professor at Ghent University. His research is situated in the broad
+field of labour economics with a focus on the transition from school to work and on labour market
+discrimination. Homepage: http://users.UGent.be/~sbaert.
+
+

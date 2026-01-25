@@ -18,3 +18,86 @@ nohup: pyhton: No such file or directory
 ::1 - - [25/Jan/2026 22:35:30] "GET /index.html HTTP/1.1" 200 -
 ::1 - - [25/Jan/2026 22:35:30] "GET /style.css HTTP/1.1" 200 -
 ::1 - - [25/Jan/2026 22:35:30] "GET /slides.md HTTP/1.1" 304 -
+::1 - - [25/Jan/2026 23:46:46] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:46] "GET /index.html HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:46:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:47] "GET /index.html HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:46:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:47] "GET /index.html HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:46:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:47] "GET /index.html HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:46:48] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:48] "GET /index.html HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:46:54] code 404, message File not found
+::1 - - [25/Jan/2026 23:46:54] "GET / HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 1432, in <module>
+    test(
+    ~~~~^
+        HandlerClass=handler_class,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        tls_password=tls_key_password,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 1348, in test
+    server = ServerClass(addr, HandlerClass)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 457, in __init__
+    self.server_bind()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 1419, in server_bind
+    return super().server_bind()
+           ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/http/server.py", line 148, in server_bind
+    socketserver.TCPServer.server_bind(self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.2_1/Frameworks/Python.framework/Versions/3.14/lib/python3.14/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 48] Address already in use
+::1 - - [25/Jan/2026 23:47:21] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:21] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:22] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:22] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:22] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:22] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:22] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:22] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:22] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:22] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:46] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:46] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:47] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:47] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:47:47] code 404, message File not found
+::1 - - [25/Jan/2026 23:47:47] "GET / HTTP/1.1" 404 -
+::1 - - [25/Jan/2026 23:48:42] "GET / HTTP/1.1" 200 -
+::1 - - [25/Jan/2026 23:49:12] "GET / HTTP/1.1" 304 -
+::1 - - [25/Jan/2026 23:50:09] "GET / HTTP/1.1" 200 -
+::1 - - [25/Jan/2026 23:50:10] "GET / HTTP/1.1" 304 -
+::1 - - [25/Jan/2026 23:51:07] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:06:24] "GET / HTTP/1.1" 200 -
+::1 - - [26/Jan/2026 00:06:26] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:21] "GET / HTTP/1.1" 200 -
+::1 - - [26/Jan/2026 00:07:22] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:22] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:22] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:22] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:23] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:23] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:24] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:24] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:07:24] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:12:41] "GET / HTTP/1.1" 200 -
+::1 - - [26/Jan/2026 00:12:42] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:12:43] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:12:44] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:12:44] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:12:44] "GET / HTTP/1.1" 304 -
+::1 - - [26/Jan/2026 00:14:05] "GET / HTTP/1.1" 200 -
+::1 - - [26/Jan/2026 00:15:43] "GET / HTTP/1.1" 200 -

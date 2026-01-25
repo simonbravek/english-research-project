@@ -1,0 +1,981 @@
+M PRA
+Munich Personal RePEc Archive
+
+Searching for a job is a beauty contest
+Giovanni Busetta and Fabio Fiorillo and Emanuela Visalli
+University of Messina, University Politecnica delle Marche
+
+30. August 2013
+
+Online at http://mpra.ub.uni-muenchen.de/49825/
+MPRA Paper No. 49825, posted 15. September 2013 17:32 UTC
+
+Electronic copy
+copy available
+available at:
+Electronic
+at:https://ssrn.com/abstract=2331921
+http://ssrn.com/abstract=2331921
+
+Searching for a job is a beauty contest
+Giovanni Busetta∗, Fabio Fiorillo∗ and Emanuela Visalli∗
+
+ABSTRACT
+The paper deals with the impact of beauty on employability of people, stressing the first stage of the
+hiring process. In particular, we studied if there exists a preference for attractive candidates and if it
+does whether it depends on sex, physical features and racial characteristics.
+We monitored all relevant agencies offering jobs in Italy from August 2011 to September 2012
+sending 11008 CVs to 1542 advertised job openings. To do so, we construct fake CVs and we sent
+the same CV 8 times, changing only name and surname, address, and the photo included. In
+particular, we sent 4 CVs with photo of an attractive and unattractive man and women, and 4 CVs
+without photo of an Italian and a foreign men and women to each job opening.
+Callbacks rates are statistically significant higher for attractive women and men than unattractive
+ones. Racial discrimination appears to be statistically relevant, but less than discrimination based on
+the physical features, especially for women.
+
+Keywords: beauty premium, racial discrimination, experimental economics.
+
+JEL classiﬁcation nos.: C93, J71, J78.
+
+Corresponding Author:
+Giovanni Busetta
+gbusetta@unime.it
+
+1. Introduction
+Aristotele said: “Personal beauty is a greater recommendation than any letter of reference” After
+thousands of years this concept continues to hold.
+In nowadays’ society people are often discriminated for their physical attractiveness. Discrimination
+based on the various components of physical appearance results in “premia” for those individuals
+characterized by certain attributes, and in penalties for persons failing to match the given standard.
+Department of Economics, Buseiness, Enviromental Sciences and Quantitative Methods, Università degli Studi di
+Messina, Via T. Cannizzaro 278, 98122 Messina, Italy
+Department of Economics, Università Politecnica delle Marche, Piazzale Martelli 8, 60121 Ancona, Italy
+Università degli Studi di Messina.
+
+1
+
+Electronic copy
+copy available
+Electronic
+availableat:
+at:https://ssrn.com/abstract=2331921
+http://ssrn.com/abstract=2331921
+
+In France, the country of the Enlightenment and human rights, people refer to the aesthetic
+discrimination in terms of “beautism”. This kind of discrimination is so widespread that several
+candidates to work positions use to include into their CVs, not only their skills and titles (such as
+education, languages spoken, experiences, etc), but also a “video resume” in which they present and
+enhances themselves.
+“Pole D’Eploi” is a French firm at which it is possible to attend a course called “action looking” to
+learn tricks and how to dress-up in order to encourage recruitment in job interviews. In this way, the
+selection of candidates for a job becomes similar to a casting.
+In Italy this kind of discrimination appears to be particularly relevant. In “casting’s society”, an
+article published in 2011 on “la Repubblica”, one of the main Italian newspapers, Anais Ginori
+describes a survey published by Sofres Institute. The results of the survey show that clothing and
+manner of presentation improve the probability of being employed by 82% for candidates with
+same degree and experience. The economic crisis has made recruitment techniques even more
+ruthless. First impressions are crucial and, as the author wrote in the same article, this rule also
+applies to the work of back office.
+Is such discrimination a novelty in Italian labor market? Actually, Italy is a dualistic country.
+Dualism is a common issue in Italy and it is based on several explanations 1. It is the result of past
+determinants: sociological (differences in social capital, Putnam 1993), economical (differences in
+workforce coming out from agriculture, Bagnasco 1977) and institutional (formal norms vs
+informal rules, Tabellini 2008). Because of dualism, also the access to the job differs regarding
+regions: job opportunities, which reflect firms’ labor demand, were concentrated in the North and
+the Center of the Country and they are definitely much more for man than women (Table 1).
+Table 1 – Italian employment and unemployment rate by macro areas and gender
+Employment rate
+NORD CENTER SOUTH ITALY
+Male
+73,00% 69,80%
+56,20% 66,50%
+Female
+57,00% 52,30%
+31,60% 47,10%
+Total
+65,30% 61,00%
+43,80% 56,80%
+Unemployment rate
+NORD CENTER SOUTH ITALY
+Male
+6,60%
+8,40%
+15,90%
+9,90%
+Female
+8,60%
+11,00%
+19,30% 11,90%
+Total
+7,40%
+9,50%
+17,20% 10,70%
+Source: Istat
+Therefore, data reported in Table 1 depend on the number of firms and the industrial structure of the
+area which behaved differently in different regions. Different firms behaviors not necessarily persist
+in the present as it was in the past. In particular, we wonder if, also in Italy, the considerations
+underlined by the theory of beautism on the relevance of attractiveness premia in the hiring process
+could be more important than explanation based on dualism in influencing the probability of
+receiving a job offer.
+Furthermore, Italy is a growing immigration country. For this reason it is relevant to investigate
+whether Italian labor market is affected by racial discrimination. As showed, among others, by a
+recent analysis performed by Italy's National Office against Racial Discrimination (UNAR), an
+institution which collaborate with United Nations, discrimination based on race has increased by
+61% between 2011 and 2012.
+The main objective of this paper is to investigate whether the dualisms, traditionally characterizing
+Italian labor market (e.g. discriminations based on region), are still the ones mainly influencing
+1 Fratianni (2012).
+
+2
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+firms hiring decisions or whether, instead, there are new determinants to investigate on. If this is the
+case, what is, among education, nationality, job characteristics, gender and attractiveness, the most
+relevant variable affecting candidates’ probability to get a jog?
+Since we want to analyse the influence of race and attractiveness in the hiring process, we have to
+face two problems common in literature. Firstly, authors (Biddle and Hamermesh 1998, Mobius and
+Rosenblat 2006, Parrett 2007, Eckel and Ragan 2011, Etcoff, Stock, Haley, Vickery and House
+2011) commonly consider small samples of students answering hypothetical questions on hiring
+decisions, and, secondly, it is often impossible for researchers to control for employees'
+qualifications and abilities.
+On the contrary, in the analysis that we are going to present, we used an empirical strategy that, to
+our knowledge, has never been applied to Italian labor market. This methodology consists in
+building up an ad hoc created database sending fake CVs to real job openings solving, in this way,
+both the two problems previously mentioned. Indeed, we analyzed a huge sample based on 11008
+CVs sent to real job offers posted by actual employers, obtaining 3278 callbacks (approximately
+30% of the CVs sent).
+Moreover, the design of our experiment (as already done for Argentina by Bóo, Rossi, and Urzua
+2013) gives us the complete control and observability over candidates' backgrounds, solving in this
+way the second problem previously mentioned. In effect, our applicants are identical in every
+respect (including their education, work experience, language and computer skills) for each kind of
+job offer: name, nationality, sex, race and pictures (or lack thereof) are the only informations which
+change in between different CVs sent to the same job offer. Moreover, the applications completely
+fulfill employer requirements regarding education, experience and so on.
+This methodology is similar to the one applied by Ruffle and Sthudiner (2010) to explore the effect
+of attractiveness (or lack thereof) on the likelihood of being invited for a job interview in Israel. We
+added a racial component, as in Bertrand and Mullainathan (2004), to explore also the impact of
+racial discrimination. To control either for racial discrimination and for discrimination based on
+beauty, we sent 8 identical resumes to firms, 4 resumes with photo of attractive and unattractive
+men and women, and 4 resumes without photo (two CVs for Italian people, a woman and a man,
+and two for foreigners, a woman and a man). In this last case, African name and nationality are
+indicated in order to control for racial discrimination.
+Our design strategy allows us to examine whether there exists a preference for attractive candidates,
+and whether this preference interacts with the applicant's sex and nationality. In our knowledge it is
+the first paper exploring simultaneously beauty, gender and racial discrimination in the hiring
+process in Italy.
+Main results obtained by this paper show that attractive women and men get much more callbacks
+(54% for attractive woman and 47% for attractive man) than unattractive ones, and that unattractive
+women get less callbacks than unattractive men (7% for woman and 26% for man). Moreover,
+foreign women get less callbacks than the average callback rate, but much more than unattractive
+women (12% for foreign woman and 13% for foreign man). These results continue to hold even
+considering jobs not involving any face-to-face contact and/or highly qualified jobs.
+The rest of the paper is organized as follows. In Section 2, we present the main literature on the
+topic. The experimental design is described in Section 3. In Section 4 we present the main empirical
+results. Section 5 provides the conclusions to the paper.
+
+2. Related literature
+Several jobs analyzed correlation between beauty and labor market, focalizing, in particular, on the
+relation between beauty and wages.
+Feingold (1992) analyzes the association between physical beauty, personality features, health,
+cleverness and mental skills. In this respect. Harper (2000) finds that the penalty for being
+3
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+unattractive is about 15% for men and 11% for women, because beauty is considered to be linked
+with social skills, health and intelligence.
+Etcoff, Haley, Vickery and House (2011) included make-up as an additional element influencing
+common perception of individual’s features. In particular, they described the relationship between
+beauty, make-up and perceived reliability. A jury had to assign a score from 1 to 7 to the same face,
+before and after having changed make-up style from natural to professional, to glamorous. Jury
+assigns a score for beauty, competence, pleasantness and reliability, assessing that make-up
+produces a significant effect in terms of the level of competence perceived.
+Mobius and Rosenblat (2006) provided evidence that the most beautiful workers are considered to
+be more confident, and their self-confidence determine a pay rise.
+Biddle and Hamermesh (1994) reached the similar conclusions studying data from the US and
+Canada. Their main findings were as follows: attractiveness plays an important role in deciding
+employees' earnings; the penalty for not being attractive is greater for women than men, and it is
+robust across occupations.
+In a different study on graduates from a prestigious law school (Biddle and Hamermesh, 1998), the
+same authors found that a weakly positive and insignificant relationship between attractiveness and
+earnings for lawyers becomes higher and significant as working years accrue.
+More recently Boo et al. (2012) studied, the impact of beauty premium in the labor market sending
+resumes to real job openings in Buenos Aires. In particular, they sent 6 resumes to each firm: 2
+resumes with photos of attractive men or women, 2 with photos of unattractive men or women and
+2 resumes without photo. They manipulated electronically real photos and made them unattractive
+using Photoshop. While resumes containing photos manipulated in order to appear as unattractive
+received 5% of callbacks, attractive photos received a callback rate of 36%.
+The two papers most similar to ours in methodology are Ruffle and Sthudiner (2010) and Bertrand
+and Mullainathan (2004). Both the papers studied real job opening posted by actual employers in
+order to evaluate various kind of discriminations during the hiring process. While Ruffle and
+Sthudiner (2010) studied discrimination based on beauty, Bertrand and Mullainathan (2004) studied
+racial discrimination.
+Ruffle and Sthudiner sent 5312 resumes answering to 2656 job postings in Israel. They sent to each
+offer 6 different resumes, identical in every respect but the photo. They sent CVs including pictures
+of attractive men, women, unattractive men and women and with no photo included. They could
+study the photo effect because in Israel is not that common to include photos into resumes.
+Attractive men got relevant higher callback rates than men resumes with no photo and double than
+unattractive ones. On the contrary, for Israelian women the two authors found relevant evidence of
+discrimination against attractiveness. Thus, beautiful women including a photo on their resumes
+appear to be punished for their attractiveness and, consequently, to be more often discard by
+recruiters.
+Bertrand and Mullainathan (2004) sent 2435 fictitious resumes in the area of Boston and Chicago,
+considering all the job offers in the Boston Globe and Chicago Tribute Sunday edition during the
+period between July 2001 and May 2002 in order to study the impact of racial discrimination. They
+sent 2 low profile CVs with African American names and White names and 2 high profile CVs with
+African American names and White names. Using this method, the two authors found large racial
+differences in callback rates. Applicants with White names needed to send about 10 CVs to get one
+callback, whereas those with African American names had to send around 15 resumes to get one
+callback. This 50 percent gap in callback rates is statistically significant. Based on their estimates, a
+White name yields as many more callbacks as an additional eight years of experience and, since
+applicants’ names are randomly assigned, this gap can only be attributed to name manipulation.
+4
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+As in the papers previously mentioned, our study is based on real job opening posted by actual
+employers. Moreover, it includes both the aspects considered by Ruffle and Sthudiner (2010) and
+Bertrand and Mullainathan (2004), integrating the discrimination connected to attractiveness with
+the one connected to racial discrimination.
+In this respect, our research complements these studies. In effect, they found results on singular
+reasons underlying discrimination occurring at the earliest stages of the hiring process. On the
+contrary, we produced combined results in order to compare beauty, gender and nationality. .
+
+3. Experimental design and procedures
+Our empirical experiment focuses on the impact of attractiveness in the hiring process. Our study
+analyzed all job postings displayed in the period between august 2011 and September 2012. In
+particular, we submitted 11008 resumes in response to 1542 employments ads published in the most
+important Italian job search website, that does not require registration (e.g. lavoratorio.it,
+Lavoro&Stage, Miojob, Lavorare.net, Page Personnel, Trovalavoro, Kijiji, Inique Agenzia,
+Archimede agenzia per il lavoro, Manpower divisione Horeca, Combinazioni s.r.l, Quanta agenzia
+per il lavoro, Humangest, Alma, Orienta agenzia per il lavoro, Varese centro per l’impiego, Adecco,
+Obiettivo lavoro, Temporary agenzia per il lavoro, Free work, Maw, Euro Interim, Mr
+Comunication, Open Job).
+We produced resumes based on the European format and structure and we use fictitious names and
+addresses. To avoid matching problems, we modified them in order to fulfill the skills required by
+the firms offering jobs. We sent same resumes with same skills several times to all the companies,
+changing the photo attached or including no photo.
+For choosing the pictures to be included in the resumes, we selected photographs from Internet and
+we modified them in order to make them unrecognizable. We then asked 100 students at the
+University of Messina to choose which of the people in the photos they considered to be attractive,
+and unattractive. As almost all of them (92%) agreed on the classification, we are confident that
+subjectivity can be excluded from the choice. We created a Gmail account for each of the candidate
+categories, including this email address on the CV as contact information.
+The same2 resume has been sent to firms 8 times: four resumes with different photos of applicants
+and 4 without photos. In particular, a resume with photo have been sent including each time the
+photo of attractive and unattractive Italian women, and attractive and unattractive Italian man. A
+resume containing no photo of Italian and of African (African origin can be inferred by name and
+nationality) person has been sent to each firm for both gender. In all, 9680 resumes for both male
+and female vacancies were sent to 1210 firms. Applications from female (male) workers only were
+invited by 127 (205) firms, and 508 (820) resumes were sent to them, in this last case each firm
+received only four resumes per vacancy.
+In terms of distribution by genders, we sent more resumes of men (almost 51%) than women
+(almost 49%), because we got more job offers requesting exclusively men than exclusively women.
+Moreover, we classified the CVs sent in terms of level of education required by the firm. According
+to it, our dataset is composed by 25% of jobs requiring university degree, 43% requiring high
+school diploma, and 32% of jobs not requiring any qualification.
+
+2 Actually, following the same procedure adopted by Ruffle and Shtudiner (2010), in order not to let employers realize
+that they were receiving identical resumes with different photos and names, we staggered over a few days the dispatch
+of the CVs to the same firms. For the same reason, we used different names and addresses. Finally, all the residential
+addresses belong to the city of Rome in order not to make the scrutinizers perceive differences in the candidates for
+residential reasons.
+
+5
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+An other distinction in our dataset is between functions offered in job postings. In this respect,
+according to ISCO (International Standard Classification of Occupation) definition, executive posts
+accounted for 4.94% of job offers, specialized posts for 8.07%, technical jobs 37.39%, office jobs
+13.59%, commercial posts 20.53%, artisans 7.99%, drivers 1.31% and unskilled work 6.18%.
+Dividing work categories into jobs involving and not involving face-to-face contact and implying
+and not implying physical strength we classified the CVs sent into front and back office, hard and
+soft work jobs. We defined front office and hard work either labors for which firms explicitly ask
+for, or the ones for which by no doubt it can be derived from ISCO classification. Approximately
+59% are back office and 41% are front-office jobs, 16% are hard work jobs and 84% are the ones
+which do not imply physical labor (soft work).
+Table 2 summarizes the characteristics of job openings in our dataset.
+We also considered regional distribution of job offers (see Table 2). As it might be reasonably
+expected Lombardy (16.86%), Veneto (9.92%), Tuscany (9.52%) and Lazio (18.02%) are the
+regions with most of the job offers, while the other regions are characterized by far fewer vacancies.
+
+4. Results
+Table 2 and 3, already mentioned in Section 3, present also the results of the call back rates
+classified according to our database. Analyzing callback rates in respect to attractiveness, we can
+show that attractive Italian people have much higher call back rates (50%) than unattractive ones
+(17%) and than Italians with no photo (39%). Also racial discrimination appears to be relevant.
+Table 1 shows widely lower callback rates for foreigners candidates (13%). According to gender
+classification, men get 32% of callbacks, while women get 28%.
+Considering together beauty, nationality and gender, we obtained an interesting result in terms of
+differences in callback rates.
+
+Graf.1 – Distribution of callback rates by attractiveness and gender
+
+IAW= Italian Attractive Woman, NPIW= Italian Woman (No Photo), IUW= Italian Unattractive Woman, NPFW= Foreign Woman (No Photo), IAM=
+Italian Attractive Man, NPIM= Italian Man (No Photo), IUM= Italian Unattractive Man, NPFM= Foreign Man (No Photo)
+
+6
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+Italian attractive women (from now on IAW) and Italian attractive man (from now on IAM) are
+called back on average respectively 54% and 47% of the times. Gender is quite relevant for
+unattractive candidates, indeed Italian unattractive men (from now on IUM) obtain 26% of
+callbacks, while Italian unattractive women (IUW) obtain a widely lower callback rate (7%).
+Attractiveness appears to be then widely relevant in the hiring process especially for women and, in
+particular, for unattractive ones (Graf. 1).
+In respect to racial discrimination, foreign people are relevantly lower called back than Italian
+candidates, without relevant discrimination based on gender. Foreign women and men (from now
+on NPFW and NPFM) are actually called back with almost the same percentage. (12% for NPFW,
+and 13% for NPFM), but widely lower than the callback rate obtained by the correspondent Italians
+resumes with no photo (37% for women and 41% for men).
+According to the qualification required, we obtained the highest callback rates for jobs which do not
+require any qualification (38%), while jobs for graduate candidates obtain 28% and jobs for which it
+is required high school diplomas obtain 23% (Table 1).
+In terms of ISCO classification of jobs, we have 43% for unskilled occupations, 41% for service
+workers, 35% for workmen artisan and drivers, and 32% for executives and for clerical jobs.
+Definitely lower callback rates characterize technical (27%) and specialized job (26%), and sales
+workers (16%).
+Regarding the categories hard and “soft” works and front and back office, we obtained 42% of
+callback rates for jobs implying hard work, 27% for the ones not implying hard works, 31% for the
+ones implying back office work and 28% for the ones implying front office works.
+
+Table 2 – Summary Statistics
+Candidate
+characteristics
+
+Job characteristics
+
+Picture
+
+Attractive Italian
+Italian with no photo
+
+Unattractive Italian
+Foreigner with no photo
+Gender
+Men
+Women
+Public / Office Front office
+Back office
+Strength
+Hard work
+Soft work
+Qualification No qualification
+required
+High school
+Graduated
+Function
+Executives
+offered
+Specialized labor
+
+CVs sent Call back rate
+25%
+50%
+25%
+39%
+25%
+25%
+51%
+49%
+41%
+59%
+16%
+84%
+32%
+43%
+25%
+5%
+8%
+
+7
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+17%
+13%
+32%
+28%
+28%
+31%
+42%
+27%
+38%
+28%
+23%
+32%
+26%
+
+Technical jobs
+Clerical jobs
+Sales workers
+Service workers
+Workmen, artisans and drivers
+Unskilled workers
+
+37%
+14%
+15%
+5%
+9%
+6%
+
+27%
+32%
+16%
+41%
+35%
+43%
+
+As displayed in Table 3, the jobs offered (i.e. the number of CVs sent to each region) differ among
+regions according to the performance of the labor market in the area (as showed in Table 1). We
+also expect some differences in call back rate, since in the South vacancies are fewer than in the
+Center and in the North. For this reason, competition among applicants should be higher and thus
+we may expect lower callback rate. On the contrary, differences in call back rates exist, but
+companies placed in Umbria, Abruzzo, Trentino Alto Adige, Sicily, Campania and Calabria are
+characterized by higher callback rates (respectively 39%, 36%, 35%, 34%, and 34%). Definitely
+lower call back rates characterize, instead, regions like Molise, Valle D’Aosta, Lombardy, Marche,
+Piedmont, and Tuscany (respectively 23% the first one, 25% the second and the third, 27% the
+forth, the sixth and the seventh).
+
+Table 3 – Distribution of CVs sent and callback rates by regions of the offering firm
+Regions
+Piedmont
+Valle D'Aosta
+Lombardy
+Trentino Alto Adige
+Veneto
+Friuli Venezia Giulia
+Liguria
+Emilia Romagna
+Tuscany
+Umbria
+Marche
+Lazio
+Abruzzo
+Molise
+Campania
+Puglia
+Basilicata
+Calabria
+Sicily
+Sardinia
+Total
+
+CVs sent Call back rate
+7%
+27%
+2%
+25%
+17%
+25%
+3%
+35%
+10%
+31%
+2%
+30%
+2%
+32%
+4%
+33%
+10%
+27%
+2%
+2%
+2%
+27%
+18%
+30%
+1%
+36%
+1%
+23%
+4%
+34%
+3%
+30%
+1%
+31%
+6%
+34%
+5%
+35%
+1%
+28%
+100%
+30%
+
+8
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+Our objective is to investigate whether regional differences, traditionally characterizing Italian labor
+market are still the ones mainly influencing hiring decisions, or whether, instead, there are new
+determinants to investigate and, if this is the case, which are the most relevant. In order to
+investigate this issue, we performed an analysis of the variance classifying possible reasons of
+discriminations into the ones associated to Gender, Nationality, Attractiveness, Jobs Classification
+and/or Characteristics, Regions.
+These variables, from Table 2 and 3, seems to determine differences in terms of job offers rates and
+of call back rates. Secondly, we test some classification created by the “interaction” among these
+single variables. The intuition is that the best classification to be chosen is the one which display the
+highest variance between groups and the lowest within them.
+Table 4 shows the results of the total variance analysis referred to the 11008 CVs sent and its
+decomposition into particular subsamples. Analyzing all the single categories results on variance
+decomposition, we note that the variance between groups is very low for regional (1% of total
+variability) and ISCO job classification (1%). Also education (variance between amount to 2%) and
+ISCO classification of jobs does not appear to be a good classifier. Good classifications can be
+obtained only if we consider attractiveness and its interactions with gender and nationality.
+Table 4 - Variance Analysis
+Categories
+Attractiveness only for
+Italian
+Attractiv. only for Ital.
+men
+Attractiv. only for Ital.
+women
+Attractiveness and
+Nationality
+Gender
+Gender only for Italian
+Gender only for
+foreigner
+Gender only for
+attractive Italian
+Gender only for
+unattractive Italian
+Nationality
+Attractiveness, gender
+and nationality
+Attractiveness and
+gender only for Italians
+ISCO classification of
+jobs
+
+Between
+
+Total
+
+Percentage
+
+F
+
+Significance
+
+159,97
+
+1890,74
+
+8%
+
+381,4
+
+0
+
+33,05
+
+1000,58
+
+3%
+
+72,46
+
+0
+
+150,41
+
+884,57
+
+17%
+
+410,58
+
+0
+
+268,59
+4,29
+5,60
+
+2301,87
+2301,87
+1890,74
+
+6%
+0%
+0%
+
+484,55
+20,53
+24,511
+
+0
+0
+0
+
+0,02
+
+302,5
+
+0%
+
+0,016
+
+0,9
+
+3,88
+
+687,96
+
+1%
+
+15,6
+
+0
+
+23,8
+108,63
+
+386,43
+2301,87
+
+6%
+5%
+
+180,49
+545,1
+
+0
+0
+
+297,69
+
+2301,87
+
+13%
+
+233,41
+
+0
+
+189,06
+
+1890,74
+
+10%
+
+183,32
+
+0
+
+33,94
+
+2301,87
+
+1%
+
+23,51
+
+0
+
+Education
+
+38,33
+
+2301,87
+
+2%
+
+93,18
+
+0
+
+9
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+Region of the firm
+Jobs implying face to
+face contact
+Hard work jobs
+
+13,37
+
+2301,87
+
+1%
+
+3,38
+
+0
+
+3,2
+32,32
+
+2301,87
+2301,87
+
+0%
+1%
+
+15,31
+156,74
+
+0
+0
+
+Gender seems to be a bad classificatory variable (between variance amount to 0%). Only for
+unattractive people this classification seem to work (between variance 17%). Attractiveness appears
+to be relevant by itself (between 8%), even if it does not increase its relevance when considering its
+interaction with gender. Even nationality appears to be relevant considered by itself (between
+variance 5%), while its interaction with gender doesn’t seem to have any effect. We obtain the best
+classification when we interact3 gender, nationality and attractiveness (variance between 13%).
+Furthermore, other interesting results come out when we apply ANOVA on subsamples. In
+particular, the impact of attractiveness seems to be gender bias, while no gender bias emerges for
+foreign people. In any case, the results coming out from the analysis show new tendencies in hiring
+process discrimination, which take into account determinants connected more to attractiveness than
+any other kind of difference between candidates. More information can be extracted if we apply the
+most relevant classification defined by ANOVA on the distribution of the CVs receiving
+respectively positive and no answers. When we compare the conditioned distributions with the
+theoretical one coming out from our experimental design, we immediately see that this distribution
+is not independent from call back rates distribution. We test null hypothesis of independence
+between classification and call backs in Table 5 and, rejecting the null, we have an additional check
+to confirm the result of ANOVA.
+Table 5 – Test of independence
+H0 = independence (marginal means = conditioned mean)
+H1 = dependence (marginal mean ≠ conditioned mean)
+X2 di Pearson = 1432,62; Df = 7; P-value = 0
+The discrepancies are significant; H0 = refuses
+As shown in Table 6 conditioned distributions are different from marginal one, except for
+unattractive men. Moreover, it is interesting to note that attractiveness appears to be much more
+polarized for women than for men and that, in particular, the beauty penalization for unattractive
+women is higher than the beauty premium for attractive ones.
+Table 6 - Discrimination tests
+Frequencies
+for positive
+answers
+(N=3278)
+Freq.
+
+Categories marginal
+
+Frequencies for no answers (N=7730)
+
+Stand. dev.
+
+distrib.
+
+Italian
+
+0,12
+
+0,22
+
+0,4151
+
+Z values for
+pos. answers
+13,9544
+
+Stand. dev.
+
+Freq.
+
+0,08
+
+0,2700
+
+3Interaction with gender, attractiveness and nationality with other variables do not have significant results.
+
+10
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+Z values for no
+answers
+-13,2936
+
+attractive
+women
+Italian women
+(No photo)
+Italian
+unattractive
+women
+Foreign
+women (No
+photo)
+Italian
+attractive men
+Italian men
+(no photo)
+Italian
+unattractive
+men
+Foreign men
+(no photo)
+
+0,12
+
+0,15
+
+0,3578
+
+4,9126
+
+0,11
+
+0,3117
+
+-3,0868
+
+0,12
+
+0,03
+
+0,1703
+
+-30,2875
+
+0,16
+
+0,3669
+
+9,6536
+
+0,12
+
+0,05
+
+0,2199
+
+-17,9775
+
+0,15
+
+0,3584
+
+7,6922
+
+0,13
+
+0,20
+
+0,4013
+
+10,2222
+
+0,10
+
+0,2967
+
+-9,6177
+
+0,13
+
+0,18
+
+0,3835
+
+7,3267
+
+0,11
+
+0,3093
+
+-6,5056
+
+0,13
+
+0,11
+
+0,3154
+
+-3,2754
+
+0,14
+
+0,3424
+
+1,4319
+
+0,13
+
+0,05
+
+0,2272
+
+-18,9952
+
+0,16
+
+0,3665
+
+7,1713
+
+5. Conclusion
+From the performed analysis we observed the existence of a significant social problem of
+discrimination in hiring process in Italy. Unlike what one could expect, discrimination in callback
+rates is neither based on regional differences, nor on lower employability of women, but on other
+aspects. In other word, the dualism in the labor market seems not to affect an applicant’s probability
+to receive a positive callback from a firm 4. The new tendencies of employability are based on
+attractiveness much more than traditional regional differences, or the ones based on education and
+job characteristics. Moreover, in Italy we measured a relevant discrimination based on Nationality.
+Gender’s impact on discrimination become trickier than the one which traditionally concerned
+Italian labor market. In effect, gender seems to have little discriminatory effect considered by itself,
+but it takes relevance when it is interacted with attractiveness, especially for women.
+To summarize our main results, we could say that if you want a job in Italy and you are not Italian,
+it will be difficult to find it, but it is always better to be foreigner than to be an unattractive Italian
+woman. Thus, searching for a job seems to be just like a beauty contest: it is better for unattractive
+women to invest on aesthetic surgery than in education.
+
+References
+Bagnasco A. (1977), “Tre Italie: la problematica territoriale dello sviluppo italiano”. Bologna: Il
+Mulino.
+Bertrand M. and Mullainathan S. (2004), “Are Emily and Greg more employable than Lakisha and
+Jamal? A field experiment on labor market discrimination”. American Economic Review, 94 (4):
+991-1013.
+Biddle J.E., and Hamermesh D.S (1998), “Beauty, Productivity, and Discrimination: Lawyers’ Look
+and Lucre”. Journal of Labor Ecsonomics, 16: 1, 172-201.
+
+4Obviously, the probability to find a job in the South of Italy remains lower than in the Center-North because the
+number of vacancies is lower.
+
+11
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+Biddle J.E, and Hamermesh D.S (1994), “Beauty and the Labor Market”, American Economic
+Review, 84:5, 1174-1194.
+Bóo, López F., Martín A. Rossi, and Urzua S. (2013), “The Labor Market Return to an Attractive
+Face: Evidence from a Field Experiment”, Economic Letters, 118 (1), 170–172.
+Eckel C. and Ragan P, (2011) “Face Value”. American Economic Review (Volume 101, number 4,
+June 2011, pp. 1497-1513 (17).
+Etcoff N.L, Stock S., Haley L.E, Vickery S.A, and House D.M, (2011), “Cosmetics as a feature of
+the Extended Human Phenotype: Modulation of the perception of biologically important facial
+signal”. Plos ONE 6 (10).
+Feingold A. (1992), “Good-Looking People Are Not What We Think”, Psychological Bulletin,
+111:2, 304-341.
+Fratianni M. (2012), “150 years of Italian political unity and economic dualism: an introduction”,
+MoFiR working paper, n° 73.
+Ginori (2011), “La società del casting”, La Repubblica, 22-03-2011, 1:3, 37-39.
+Harper B. (2000), “Beauty, Stature, and the labor market: a British cohort study”, “Oxford bulletin
+of Economics and Statistics, 62, Special Issue.
+Mobius M.M and Rosenblat T.S (2006) “Why Beauty Matters”. American Economic Review, 96:1,
+222-235.
+Parrett M. (2007) “Beauty and the Labor Market: Evidence from Restaurant Servers”, unpublished
+manuscript.
+Putnam R. (1993). “Making democracy work: Civic tradition in modern Italy”, Princeton, N.J.:
+Princeton University Press.
+Ruffle, B. and Shtudiner Z. (2010), “Are good- looking people more employable?” Monaster center
+for economic research and ben- gurion University on the Negev. Discussion paper no 10-06.
+Tabellini, G. (2008), “The scope of cooperation: Values and incentives”, Quarterly Journal of
+Economics, 123:905–50.
+
+12
+
+Electronic copy available at: https://ssrn.com/abstract=2331921
+
+

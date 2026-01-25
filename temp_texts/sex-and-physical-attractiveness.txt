@@ -1,0 +1,970 @@
+Journal of Applied Psychology
+1977, Vol. 62, No. 3, 288-294
+
+Sex and Physical Attractiveness of Raters and Applicants as
+Determinants of Resume Evaluations
+Robert L, Dipboye, Richard D. Arvey, and David E. Terpstra
+College of Business Administration
+University of Tennessee
+Male and female student "interviewers," classified as either high, moderate, or
+low on physical attractiveness, evaluated 12 bogus job applicants for whom sex,
+physical attractiveness, and qualifications had been varied. A 2 X 3 X 2 X 3 X 2
+analysis of variance was computed, with the first two variables (interviewer
+sex and attractiveness) constituting between-group factors, and the last three
+variables (applicant sex, attractiveness, and qualifications) constituting repeated
+measures factors. Regardless of interviewer sex and attractiveness, highly
+qualified applicants were preferred over poorly qualified applicants, male applicants were preferred over female applicants, and attractive candidates were
+preferred over unattractive candidates. Discrimination in employment decisions
+was attributed to sex-role and physical attractiveness stereotypes.
+
+Research on the interview has brought attention to biases that can limit the interview's
+validity and reliability as a technique of personnel selection. Recently, Dipboye, Fromkin,
+and Wiback (197S) added discrimination
+against physically unattractive candidates to
+the compendium of interviewer biases when
+they found that male college recruiters and
+business students were more willing to hire a
+physically attractive candidate for a supervisory position than an equally qualified unattractive candidate. Also, male candidates
+were preferred to female candidates, but contrary to the prediction that female attractiveness would be a more important determinant
+of interviewer ratings than male attractiveness, attractive candidates were preferred over
+unattractive candidates regardless of their sex,
+The present study was intended to partially
+replicate the Dipboye et al. study with student "interviewers" and to investigate the
+possible interactions of applicant sex and
+physical attractiveness with interviewer sex
+and attractiveness in determining employment
+evaluations.
+We predicted that men and women both
+
+would be biased against unattractive and female candidates and that no differences would
+be found in the rating of the candidates as a
+function of the rater's sex. This prediction
+was suggested by previous findings that male
+and female raters show a preference for physically attractive others that is unmitigated by
+the sex of the rater (Byrne, London, &
+Reeves, 1968; Cash, Begley, McCown, &
+Weise, 1975; Dion, Berscheicl, & Walster,
+1972; Miller, 1970). Also, males and females
+have been shown to discriminate similarly
+against females in salary decisions (Terborg &
+Ilgen, 1974), evaluations of supervisory behavior (Rosen & Jerdee, 1973), evaluations
+of intelligence (Lao, Upchurch, Corwin, &
+Grossnickle, Note 1), and performance evaluation (Goldberg, 1968; Pheterson, Kiesler, &
+Goldberg, 1971). A second prediction was
+that an applicant similar to a rater in physical attractiveness would receive more favorable evaluations than an applicant who is
+either more or less attractive than the rater.
+Thus, a highly attractive rater would give
+highest ratings to a highly attractive applicant, a moderately attractive rater would
+rate a moderately attractive applicant most
+favorably, and an unattractive rater would
+Requests for reprints and for correspondence con- rate an unattractive applicant most favorably.
+cerning this article should be sent to Robert L.
+Dipboye, College of Business Administration, Univer- The prediction that student raters would
+"match" in their evaluation of an applicant
+sity of Tennessee, Knoxville, Tennessee 37916.
+288
+
+SEX AND ATTRACTIVENESS
+
+was suggested by findings of matching in
+dating behavior (Berscheid, Dion, Walster, &
+Walster, 1971; Murstein, 1972; Silverman,
+1971) and by findings that interviewers are
+more favorably disposed toward applicants
+who are similar to themselves (Rand & Wexley, 197S; Wexley & Nemeroff, 197S).
+In summary, we predicted that male applicants would receive higher evaluations than
+females and that physically attractive applicants would receive higher evaluations than
+unattractive applicants. Although no differences were predicted between male and female
+student raters in their evaluations of the
+applicants, a Rater Attractiveness X Applicant
+Attractiveness interaction was predicted in
+which candidates matching the rater's level
+of attractiveness would receive the highest
+ratings. In order to test these predictions, a
+laboratory experiment was conducted in
+which male and female subjects, classified as
+highly attractive, moderately attractive, or
+unattractive, evaluated male and female applicants who were also high, moderate, or low
+on attractiveness and either highly qualified
+or poorly qualified for the position.
+Method
+Subjects and Design
+One hundred and ten Caucasian college students
+participated in the study in order to fulfill their introductory psychology research requirement. The design was 2 X 3 X 2 X 2 X 3 factorial, the independent
+variables being rater sex (male, female), rater physical attractiveness (high, moderate, and low), applicant qualifications (high and low), applicant sex
+(male and female), and applicant physical attractiveness (high, moderate, and low). Rater sex and attractiveness were between-group factors, and there
+were repeated measures on the applicant qualifications, sex, and attractivenesss factors. After discarding the data of 14 subjects to equalize cell sizes, final
+analyses were performed on the data of 96 subjects.
+
+Procedure
+Subjects participated in 23 experimental sessions
+with 5-8 subjects in each session. At the beginning
+of a session, an experimenter read instructions describing the study as an investigation of information
+processing in the selection interview. Subjects were
+told that -their task would be first to review a job
+description and then to evaluate the qualifications of
+12 applicants for that job on the basis of their
+resumes.
+
+289
+
+Measurement of rater physical attractiveness. The
+room in which the study was conducted contained a
+one-way mirror allowing unobtrusive measurement
+of the rater's physical attractiveness. Two graduate
+student experimenters, one male and the other female, independently rated each subject on facial features, body proportion, general appearance, posture,
+weight, and overall physical attractiveness. An attractiveness score consisted of summed ratings on
+these six dimensions for a subject. A Pearson product-moment correlation coefficient computed on the
+two scores obtained for each subject was .84 and
+indicated a high degree of interrater reliability. Subjects were classified as high, moderate, or low on
+attractiveness depending on whether they were in
+the top, middle, or lowest third on the sum of the
+two experimenters' attractiveness ratings.
+Job description. The job for which the applicants
+were evaluated was that of trainee in sales management. Subjects were given a job description that
+stated in sex-neutral terms the duties and requirements of the position:
+The requirements of a managerial job in this firm
+include the ability to motivate sales personnel, the
+ability to make prompt and explicit decisions,
+clarity of thought in stressful situations, the ability
+to foresee management problems and initiate plans
+and actions promptly to ward off these problems,
+and the ability to communicate effectively with
+and ensure cooperation with other parts of the
+company and the public.
+Manipulation of applicant sex and qualifications.
+Each subject evaluated 12 applicants. In order to add
+realism to the task, each applicant's qualifications
+were described on a standard resume form used by
+students interviewing at the Placement Office of the
+University of Tennessee. The resumes contained a
+variety of information, including extracurricular activities, a brief statement of career goals, hobbies,
+and percentage of college expenses earned. The qualifications of the candidates were manipulated by varying the grade point average and past work experience.
+In six of the resumes, the applicants were depicted as
+highly qualified for the job as revealed by a good
+grade point average (3.45-3.81) and past work experience in sales. The six low-qualifications resumes
+displayed low grade point averages (2.24-2.42) and
+no past work in sales. Sex of the candidates was
+manipulated by depicting half or 6 of the applicants
+as male and the other half as female. All other information on the resumes besides sex, grade point,
+and work experience depicted the 12 candidates as
+equally qualified for the job.
+Manipulation of applicant attractiveness. The
+physical attractiveness of the applicants was manipulated by attaching to the resumes glossy yearbook
+pictures of Caucasian students found in pilot research
+to be high, moderate, or low on attractiveness. A
+minimum of 12 pictures was needed, 2 for each of
+the 6 possible combinations of applicant sex and attractiveness. Using the same pictures for each subject
+
+290
+
+R. L. DIPBOYE, R. D. ARVEY, AND D. E. TERPSTRA
+
+Table 1
+
+Analysis oj Variance oj Hiring and
+Salary Ratings
+F
+Source
+Rater sex (A)
+Rater attractiveness (B)
+A X B
+Error
+Applicant qualifications (C)
+Error
+Applicant sex (D)
+Error
+Applicant attractiveness (E)
+Error
+A X C
+B X C
+A X B X C
+Error
+A X D
+B X D
+A X B X D
+Error
+AXE
+B X E
+A X B X E
+Error
+C X D
+A X C X D
+B X C X D
+A X B X C X D
+Error
+C X E
+A X C X E
+B X C X E
+A X B X C X E
+Error
+D X E
+A X D X E
+B X D X E
+A X B X D X E
+Error
+C X D X E
+A X C X D X E
+B X C X D X E
+
+AXBXCXDXE
+Error
+
+df
+1
+2
+2
+
+Hire
+
+Salary
+
+.01
+.31
+.96
+
+3.66
+.15
+1.28
+
+90
+1 563.93**
+90
+1 20.44**
+90
+
+163.80**
+
+24.80**
+
+10.60**
+
+.01
+
+.28
+
+.08
+
+.78
+
+1.14
+
+.50
+
+2
+
+.77
+.19
+
+.31
+2.03
+
+2
+
+.41
+
+.39
+
+90
+2
+4
+
+.12
+.17
+
+1.30
+
+2
+
+180
+1
+2
+2
+90
+1
+
+4
+180
+1
+1
+
+.35
+.51
+
+31.19**
+
+.95
+.90
+
+1.74
+
+1.71
+4.14*
+
+2
+2
+90
+
+.57
+.41
+
+.25
+.02
+
+2
+
+19.64*
+
+2
+4
+4
+
+.24
+.64
+.48
+
+7.04**
+1.15
+
+180
+2
+2
+4
+4
+180
+2
+2
+4
+4
+180
+
+5.02*
+
+.39
+.72
+.67
+.06
+.11
+.24
+
+.51
+
+.76
+1.44
+
+1.16
+1.47
+
+.19
+.42
+
+male pictures were selected at random for a given
+subject, and these two pictures were assigned at
+random to low- and high-qualifications resumes.
+The same procedure was followed for the 5 remaining sex-attractiveness combinations. The 12 resumes
+were presented to a subject in a randomly determined
+order.
+Dependent measures. After reviewing a resume,
+subjects evaluated the applicant on two dependent
+measures. First, they indicated their willingness to
+hire the applicant on a 7-point Likert scale, the end
+points being "definitely would not recommend hiring" (1) and "definitely would recommend hiring"
+( 7 ) . This item measured what Terborg and Ilgen
+(1975) would refer to as entry discrimination. A second item measured what the same authors would
+refer to as treatment discrimination. Subjects were
+asked to assume that they had hired the applicant
+and to state the starting salary they would provide.
+The alternatives ranged from $8,000-$8,999 (1) to
+$20,000-$21,999 (7). After subjects had rated all
+resumes on the main dependent measures, they were
+asked to choose the one applicant they would hire if
+they had to choose only one. Finally, they were
+asked to rate each of the 12 applicants for the job
+on a series of bipolar adjectives.
+
+Results
+Manipulation Checks
+Two of the bipolar adjectives were physically unattractive (1)-physically attractive
+(7) and unqualified (l)-qualified (7). These
+items allowed a check on the experimental
+manipulations of attractiveness and qualifications. The means for the applicants high,
+moderate, and low on attractiveness on the
+Table 2
+Hiring and Salary Ratings as a Function of
+Applicant Sex, Qualifications, and
+A ttractiveness
+
+.76
+1.65
+1.87
+1.48
+
+*p < .05.
+**p < .001.
+
+and each condition could have confounded the
+manipulations with specific characteristics of individual pictures. To provide stimulus sampling and to
+avoid this confound, 4 pictures were used for each
+of the 6 applicant sex-attractiveness conditions, with
+2 of the 4 pictures selected on a random basis for a
+given subject. For example, 2 of 4 highly attractive
+
+Qualifications
+11
+
+i
+
+Male
+
+r
+
+Female
+
+attractiveness
+
+Hire
+
+Salary
+
+Hire Salary
+
+Low qualifications
+Low
+Moderate
+High
+
+3.30
+
+1.61
+1.77
+1.98
+
+3.64
+3.76
+
+High qualifications
+Low
+Moderate
+High
+Note. N = 96.
+
+3.70
+4.13
+5.93
+5.80
+6.05
+
+2.75
+2.67
+2.79
+
+2.91
+
+5.55
+5.81
+5.79
+
+1.50
+1.70
+
+1.74
+2.50
+2.51
+2.58
+
+SEX AND ATTRACTIVENESS
+
+attractiveness adjective were, respectively,
+5.00, 3.39, and 2.22, F(2, 180) =388.99, p
+< .001. The means on the qualifications adjectives for the low- and high-qualifications
+groups, respectively, were 3.70 and 5.74, F(l,
+90) = 338.90, / > < .001. Thus, both the
+manipulations of qualifications and attractiveness were perceived correctly.
+
+291
+
+tively) than if the candidate had high qualifications (Ms - 5.74, 5.80, and 5.92 for the
+low-, moderate-, and high-attractiveness
+groups, respectively). A Newman-Keuls analysis performed on the means of the interaction indicated that the only nonsignificant
+differences were between the moderate- and
+low-attractiveness conditions of the low-qualifications candidates.
+
+Analysis of Hire Ratings
+A 2 X 3 X 2 X 2 X 3 analysis o f variance
+was performed on subject ratings of willingness to hire the candidates and is summarized
+in Table 1. Table 2 gives the relevant means
+based on this analysis. The findings of Dipboye et al. (1975) were replicated, with main
+effects found for applicant sex, physical attractiveness, and qualifications. Subjects were
+more willing to recommend hiring a candidate
+with high qualifications (M — S.82) than a
+candidate with low qualifications (M = 3.57),
+F(l, 90) - 563.93, p < .001, r,2 = .50; they
+were more willing to hire a male (M = 4.82)
+than a female (M = 4.58), F(l, 90) = 20.44,
+p < .001, -if = .006; and they were more willing to hire a highly attractive candidate (M
+= 4.93) and a moderately attractive candidate (M = 4.74) than an unattractive candidate (M = 4.42), F(2, 180) = 24,80, p<
+.001, tf = 0.18.
+Two interaction effects were significant, and
+Newman-Keuls analyses were performed to
+provide an interpretation. A significant Applicant Sex X Applicant Attractiveness interaction, F(2, 180) = 5.02, p < .001, if = .002,
+showed that the attractive male was rated
+significantly higher (M = 5.09) than the attractive female applicant (M = 4.78; p <
+.05) and that the unattractive male was rated
+higher (M = 4.61) than the unattractive female (M = 4.23; p < .05). However, the
+ratings given to moderately attractive male
+(M = 4.75) and female (M - 4.12) applicants did not significantly differ. An Applicant Qualifications X Applicant Attractiveness interaction, 77(2/180) = 19.64, p <
+.001, rf = .008, showed that the effects of
+physical attractiveness were more pronounced
+if the candidate had low qualifications (Ms =
+3.10, 3.60, and 3,94 for the low-, moderate-,
+and high-attractiveness candidates, respec-
+
+Analysis of Salary Rat-ings
+The same main effects were found for salary
+decisions as were found for hiring ratings (see
+Tables 1 and 2). Higher salaries were given
+to a highly qualified candidate (M — 2.63)
+than to a poorly qualified candidate (M =
+1.72), F(l, 90) = 163.80, p < .001, rf =
+.168; to a male (M — 2.26) than to a female
+(M = 2.09), F(l, 90) = 31.19, p < .001, rf
+= .006; and to a highly attractive candidate
+(M — 2.27) and moderately attractive candidate (M = 2.16) than to an unattractive
+candidate (M - 2.09), F ( 2 , 180) = 10.6, p
+< .001, -if — .004. Two interactions were
+found in the analysis of salary decisions and
+Newman-Keuls analyses were performed on
+each. An Applicant Qualifications X Applicant Attractiveness interaction, F(2, 180) =
+7.04, p < .001, if = .002, revealed significant
+differences among physical attractiveness levels for low qualification candidates (Ms =
+1.56, 1.73, and 1.86, for the low-, moderate-,
+and high-attractiveness candidates, respectively) but nonsignificant differences for the
+high qualification candidates (Ms = 2.63,
+2.59, and 2.69 for the low, moderate-, and
+high-attractiveness candidates, respectively).
+A significant Applicant Qualifications X Applicant Sex X Rater Sex interaction, F(l, 90)
+= 4.14, p < .05, if = .001, revealed that male
+candidates were given higher salaries than female candidates in every condition with the
+exception of one. When the candidate had low
+qualifications and the rater was male, the difference in salary given to the male and to the
+female was nonsignificant.
+Analysis of Hiring Choices
+Although significant main effects for sex
+and physical attractiveness were found in the
+
+R. L. DIPBOYE, R. D. ARVEY, AND D. E. TERPSTRA
+
+292
+Table 3
+
+Frequencies and Percentages of Raters
+Choosing Each of the 12 Applicants
+Male
+
+Female
+
+Total
+
+Applicant
+HMA
+HMN
+HMU
+HFA
+HFN
+HFU
+LMA
+LMN
+LMU
+LFA
+LFN
+LMU
+
+Total
+
+21
+7
+6
+4
+3
+5
+2
+0
+0
+0
+0
+0
+
+44 13
+IS
+7
+13 5
+8 3
+6 4
+10 12
+4 1
+0 3
+0 0
+0 0
+0 0
+0 0
+
+27
+IS
+10
+6
+8
+25
+2
+
+34
+
+6
+
+3
+0
+0
+0
+
+0
+
+35
+15
+11
+7
+7
+18
+3
+3
+0
+0
+0
+0
+
+48
+
+100 48
+
+100 96
+
+100
+
+0
+0
+0
+0
+
+14
+11
+
+7
+7
+17
+3
+
+Note. H = high qualifications and L = low qualifications; M = male and F = female; A = high
+attractiveness, N = moderate attractiveness, and
+U = low attractiveness.
+
+analysis of variance, the small eta-square values and the small differences between means
+raise doubts as to whether or not subjects
+would, in reality, discriminate against women
+and those perceived as unattractive to any
+serious extent. To provide another test of the
+predictions, subjects were asked to choose the
+one candidate they would hire if there was
+only one opening to be filled,
+In Table 3, the frequencies and percentages
+of subjects choosing each of the 12 candidates
+have been summarized. The most frequently
+chosen applicant was the highly qualified, attractive male, who was selected by 55% of
+the subjects. If one assumes that the grade
+point and job experience information constituted the only bona fide job qualifications
+and that subjects did not discriminate on the
+basis of applicant sex and attractiveness, then
+the six highly qualified applicants should have
+been chosen with equal frequency. However,
+the number of male and female raters choosing a highly qualified male candidate (/ =
+59) was significantly greater than the number
+choosing a highly qualified female candidate
+(/ = 3 1 ) , x 2 ( l ) = &.n,p < .OS. Also, the frequencies with which highly qualified, attractive (/ = 41), moderately attractive (/ = 21),
+and unattractive ( / = 28) candidates were
+
+chosen differed significantly from frequencies
+expected on the basis of chance ( / = 30),
+X 2 ( 2 ) - 6.86, p < .05. Thus, it appears that
+subjects discriminated in their choice of a
+candidate against women and those perceived
+as unattractive. Male raters did not differ
+from female raters in either the frequency
+with which they chose a highly qualified male
+over a highly qualified female, x 2 U ) = 2.20,
+ns, or in the frequency with which they chose
+a highly attractive over moderately attractive
+and unattractive candidates, x z ( 2 ) = 3.37, ns.
+Rater attractiveness had no effect on the
+selection of a candidate. The frequencies with
+which a highly attractive, moderately attractive, and unattractive candidate was chosen
+were 17, 7, and 8, respectively, for the unattractive raters; 15, 10, and 7, respectively,
+for the moderately attractive raters; and 13,
+7, and 12, respectively, for the highly attractive raters. Choice of a candidate on the basis
+of attractiveness did not differ as a function
+of rater attractiveness, x 2 ( 4 ) = 4 -09, ns.
+Thus, the matching hypothesis was confirmed
+in neither the analysis of variance of ratings
+nor the analysis of hiring choices.
+Analysis of Bipolar Adjective Ratings
+An analysis that tested differences between
+the ratings of male and female applicants on
+the bipolar adjectives revealed that subjects
+rated the candidates in a manner consistent
+Table 4
+Comparisons of Male and Female Applicants
+on the Bipolar Adjectives
+Bipolar adjective
+
+Male
+
+Female
+
+F
+
+Competent-incompetent
+Unintelligent-intelligent
+Unfriendly-friendly
+Experienced-inexperienced
+I ndecisi ve-decisi ve
+Uninformed-informed
+Competitive-noncompetitive
+M oti vated-u nmoti vated
+Logical-illogical
+Cold-warm
+Emotional-unemotional
+Assertive-unassertive
+
+2.95
+5.29
+4.87
+3.65
+4.84
+4.95
+3.15
+3.03
+3.23
+3. IS
+3.20
+4.59
+
+3.03
+5.27
+5.17
+3.95
+4.56
+4.71
+3.45
+3.20
+3.37
+3. 45
+3.03
+4.86
+
+3.62
+.57
+30.78**
+21.91**
+27.25**
+27.63**
+22.88**
+8.43**
+5.53*
+22.88**
+8.43**
+19.81**
+
+Note. The first adjective in each pair was rated 1 and
+the second, 7.
+*p < .05.
+**p < .01.
+
+SEX AND ATTRACTIVENESS
+
+with sex stereotypes. Female applicants, relative to the male applicants, were rated as less
+experienced, decisive, informed, competitive,
+motivated, logical, and assertive. On the other
+hand, females were rated as friendlier, warmer,
+and more emotional than the males. Males
+and females were rated as equally competent
+and intelligent. The mean ratings of male and
+female candidates are reported in Table 4.
+Similar to the differences found for applicant sex, subjects perceived differences among
+the attractiveness groups on the bipolar adjectives such that highly attractive candidates
+were perceived as possessing more favorable
+characteristics on all the adjectives listed in
+Table 3 with the exception of the intelligentunintelligent bipolar adjective. No differences
+were found on this item.1
+Discussion
+From the findings of the present study as
+well as the Dipboye et al. (1975) study, one
+may conclude that the candidate perceived as
+most qualified for a managerial position was
+not only highly qualified with respect to
+scholastic record and work experience but also
+was physically attractive and male. However,
+bias against female applicants on the willingness to hire ratings was limited to situations
+in which the applicants were highly attractive
+and unattractive and was less pronounced
+when the applicants were moderately attractive. Also, bias against those perceived as unattractive was more pronounced when the
+candidates had low qualifications than when
+candidates had high qualifications, a finding
+that is similar to results reported by Landy
+and Sigall (1974). Despite the evidence of
+bias, our study and past research (Carlson,
+1967; Dipboye et al., 197S; Hamner, Kim,
+Baird, & Bigoness, 1974) indicate that sex
+and physical appearance account for only
+trivial proportions of rating variance. However, discrimination against females and those
+perceived as unattractive in the present experiment seemed to have emerged more clearly
+than indicated in the ratings when subjects
+chose the one candidate they would hire. A
+plausible explanation for the treatment and
+entry discrimination was that subjects possessed sex and attractiveness stereotypes. In
+support of such a position and consistent with
+
+293
+
+sex-role research (Broverman, Broverman,
+Clarkson, Rosenkrantz, & Vogel, 1970;
+Schein, 1973) and physical attractiveness research (Cash et al., 1975; Dion, Berscheid, &
+Walster, 1972; Miller, 1970), subjects attributed more favorable traits to applicants who
+were highly attractive than to applicants who
+were unattractive, and they attributed more
+favorable traits to male applicants than to
+female applicants.
+Neither interviewer sex nor physical attractiveness were associated with the ratings or
+choice of candidates. Women in this study
+were as biased against women and those perceived as unattractive as were men, which suggests that placing more women in positions in
+which they conduct the interviews and make
+the employment decisions may not eliminate
+bias in the employment process. The elimination of bias may require the modification of
+the stereotypes that both men and women
+possess (Schein, 1973, 1975), Just as women
+were willing to discriminate against other
+women, people who were judged as unattractive on the basis of white American norms discriminated against other unattractive persons
+and preferred a physically attractive applicant. A situation in which the predicted
+matching effect might occur would be one in
+which the interviewer anticipated future interaction with the interviewee, a situation in
+which an attractive candidate might pose a
+potential threat to the interviewer's selfesteem (Huston, 1973).
+There are several cautions that should be
+observed in interpreting the data of the
+present study. First, undergraduate college
+students were used in order to compare the
+employment decisions of males and females,
+a comparison that is not easily made given
+the scarcity of professional female interviewers and recruiters. Although past research supports the use of college students as interviewers (Bernstein, Hakel, & Harlan, 1975; Dipboye et al., 1975), caution must still be used
+in generalizing to professional interviewers. A
+second limitation is that bias against female
+and unattractive applicants for managerial
+1
+Comparisons of attractiveness groups on the bipolar adjectives will be made available on request
+from the first author.
+
+294
+
+R. L. DIPBOYE, R. D. ARVEY, AND D. E. TERPSTRA
+
+positions may not generalize to other types of
+positions. Indeed, Cohen and Bunker (1975)
+found that interviewers were biased against
+male applicants for traditionally female roles
+just as they were biased against female applicants for traditionally male roles. Similar research is needed to determine whether bias
+against physically unattractive persons occurs
+across a variety of positions or whether it is
+specific to certain types of positions, such as
+those that are visible and require social interaction. A third caution is that these findings
+may be more relevant to the preinterview
+phase, in which the resume and other summarized applicant characteristics are evaluated, than to the interview itself. For instance,
+sex and attractiveness may account for even
+less rating variance in a realistic interview setting where the interviewer may observe a
+variety of interviewee characteristics in addition to the limited information contained on
+a resume. Despite these limitations, it seems
+reasonable to conclude that sex and physical
+attractiveness biases exist, influence simulated
+employment judgments, and are deserving of
+study by industrial and organizational psychologists.
+Reference Note
+1. Lao, R. C., Upchurch, W. E., Corwin, B. J., &
+Grossnickle, W. F. Biased altitudes toivard females as indicated by ratings of intelligence and
+likeability. Paper presented at the meeting of the
+Southeastern Psychological Association, Atlanta,
+March 1975.
+
+References
+Bernstein, V., Hake], M. D., & Harlan, A. The college student as interviewer: A threat to generalizability? Journal of Applied Psychology, 1975, 60,
+266-268.
+Berscheid, E., Dion, K. K., Walster, E., & Walster,
+G. W. Physical attractiveness and dating choice:
+A test of the matching hypothesis. Journal of Experimental Social Psychology, 1971, 7, 173-189.
+Broverman, I. K., Broverman, D. M., Clarkson, F. E.,
+Rosenkrantz, P., & Vogel, S. R. Sex role stereotypes
+and clinical judgments of mental health. Journal
+of Consulting Psychology, 1970, 34, 1-7.
+Byrne, D., London, 0., & Reeves, K. The effects of
+physical attractiveness, sex, and attitude similarity
+on interpersonal attraction. Journal of Personality,
+1968, 36, 259-271.
+Carlson, R. E. The relative influence of appearance
+and factual written information on an interviewer's
+final rating. Journal of Applied Psychology, 1967,
+51, 461-468.
+Cash, T. F., Begley, P. J., McCown, D. A., & Weise,
+B. C. When counselors are heard but not seen:
+
+Initial impact of physical attractiveness. Journal
+of Counseling Psychology, 1975, 22, 273-279.
+Cohen, S. L., & Bunker, K. A. Subtle effects on sex
+role stereotypes on recruiters' hiring decisions.
+Journal of Applied Psychology, 1975, 60, 566-572.
+Dion, K. K., Berscheid, E., & Walster, E. What is
+beautiful is good. Journal of Personality and Social Psychology, 1972, 24, 285-290.
+Dipboye, R. L., Fromkin, H. L., & Wiback, K. Relative importance of applicant sex, attractiveness and
+scholastic standing in evaluation of job applicant
+resumes. Journal of Applied Psychology, 1975, 60,
+39-43.
+Goldberg, P. H. Are women prejudiced against women? Transaction, 1968, S, 28-30.
+Hamner, W., Kim, J. S,, Baird, L., & Bigoness, W.
+Race and sex as determinants of ratings by potential emplo3'ers in a simulated work-sampling task.
+Journal of Applied Psychology, 1974, 59, 705-711.
+Huston, T. L. Ambiguity of acceptance, social desirability, and dating choice. Journal of Experimental
+Social Psychology, 1973, 9, 32-42.
+Landy, D., & Sigall, H. Beauty is talent: Task evaluation as a function of the performer's physical
+attractiveness. Journal of Personality and Social
+Psychology, 1974, 29, 299-304.
+Miller, A. G. Role of physical attractiveness in impression formation. Psychonomic Science, 1970, 19,
+241-243.
+Murstein, B. I. Physical attractiveness and marital
+choice. Journal of Personality and Social Psychology, 1972, 22, 8-12.
+Pheterson, G. L, Kiesler, S. B., & Goldberg, P. A.
+Evaluation of the performance of women as a
+function of their sex, achievement, and personal
+history. Journal of Personality and Social Psychology, 1971, 19, 114-118.
+Rand, T. M., & Wexley, K. N. A demonstration of
+the Byrne similarity hypothesis in a simulated employment interview. Psychological Reports, 1975,
+36, 535-544.
+Rosen, B., & Jerdee, T. H. The influence of sex role
+stereotypes on evaluations of male and female
+supervisory behavior. Journal of Applied Psychology, 1973, 57, 44-48.
+Schein, V. E. The relationship between sex role
+stereotypes and requisite management characteristics. Journal of Applied Psychology, 1973, 57, 95100.
+Schein, V. E. Relationships between sex role stereotypes and requisite management characteristics
+among female managers. Journal of Applied Psychology, 1975, 60, 340-344.
+Silverman, I. Physical attractiveness and courtship.
+Sexual Behavior, September 1971, 22-25.
+Terborg, H., & Ilgen, D. A theoretical approach to
+sex discrimination in traditionally masculine occupations. Organizational Behavior and Human Performance, 1975, 13, 352-376.
+Wexley, K. N., & Nemeroff, W. F. Effects of racial
+prejudice, race of applicant and biographical similarity on interviewer evaluations of job applicants.
+Journal of Social and Behavioral Sciences, 1974,
+20, 66-78.
+Received June 24, 1976 •
+
+

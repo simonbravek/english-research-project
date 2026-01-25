@@ -1,0 +1,1043 @@
+Are Good-Looking People More Employable?
+
+Bradley J. Ruffle
+Wilfrid Laurier University
+and
+Ben-Gurion University
+Ze’ev Shtudiner
+Ariel University
+
+forthcoming in Management Science
+
+Abstract: We investigate the role of physical attractiveness in the hiring process. We sent 5312
+CVs in pairs to 2656 advertised job openings. In each pair, one CV was without a picture while
+the second otherwise almost identical CV contained a picture of either an attractive male/female
+or a plain-looking male/female. Employer callbacks to attractive men are significantly higher than
+to men with no picture and to plain-looking men, nearly doubling the latter group. Strikingly,
+attractive women do not enjoy the same beauty premium. In fact, women with no picture have a
+significantly higher rate of callbacks than attractive or plain-looking women. We explore a number
+of explanations for this discrimination against attractive women and provide evidence that female
+jealousy and envy are likely reasons.
+Keywords: beauty, discrimination, job interview, jealousy, field experiment.
+
+Acknowledgements: We thank Dror Brenner, Danny Cohen-Zada, Naomi Feldman, David Genesove,
+Gilles Grolleau, Daniel Hamermesh, Ori Heffetz, Leah Borovoi, Miana Plesca, Tata Pyatigorsky-Ruffle,
+Justin Smith, the editor, Uri Gneezy, an associate editor, three anonymous reviewers and participants at
+numerous conferences and departmental seminars for helpful comments. Ayala Waichman, Meytal Sasson
+and Itai Carmon provided valuable research assistance.
+
+1
+
+Introduction
+
+We investigate the role of beauty in the earliest stage of the hiring process. We sent 5312 CVs in six
+different versions in response to 2656 advertised job postings in Israel. Half of these CVs contained
+a picture of an attractive or plain-looking male or female job candidate. Each of these picture CVs
+was paired with an otherwise identical control CV with no picture. In Israel, the choice to include
+a photograph on one’s job resume is left to the candidate’s discretion. Thus, Israel is an opportune
+location to explore not only the effect of the attractiveness of the picture but also whether the
+choice itself to include a picture predicts the likelihood of being invited for an interview.1
+We find that attractive males are significantly more likely to be invited for an interview than nopicture males and more than twice as likely as plain males. Surprisingly, among female candidates,
+no-picture females have the highest response rate, 22% higher than plain females and 30% higher
+than attractive females. These orderings are largely robust to a number of job characteristics such
+as whether the job requires previous work experience and even whether the job involves face-to-face
+dealings with the public. This discrimination against attractive women is puzzling when contrasted
+with the observed beauty premium in a number of empirical and laboratory labor-market studies.
+Our design strategy of sending paired CVs (i.e., one picture CV and one identical no-picture
+CV) allows us to eliminate job selection as a possible explanation for these differences. Who does
+the hiring furnishes a first clue as to the source of the lower callback rates to attractive women:
+when employment agencies are responsible, fair females fare no worse than plain females and are
+penalized only modestly compared to no-picture females. By contrast, when companies directly
+hire candidates, attractive females are singled out for penalization, with a response rate of nearly
+half that of plain and no-picture women. Numerous explanations are possible, some of which are
+discussed in section 6. Several more related to both statistical and taste-based discrimination are
+addressed in section 5 with the help of additional analyses and a post-experiment survey on over
+200 companies in our sample. Female jealousy and envy find support in the data and can explain
+why attractive females are penalized, especially by the companies that hire directly. Jealousy and
+envy, however, cannot explain why attractive male candidates benefit from a higher callback rate
+from employment agencies in particular. To account for this and other differences and similarities in
+1
+
+In Turkey, Scandinavia and the Baltic countries, whether to embed a picture in one’s CV is also optional. In
+most continental European and South American countries, Japan and Cambodia, picture CVs are the social norm.
+In China, picture CVs are required and regulated by law, whereas they are frowned upon in Anglo-Saxon countries
+such as the U.S., Canada, the U.K. and Australia with the exception of the arts and entertainment industries in
+which picture CVs are increasingly commonplace.
+
+callback rates, we introduce a “photo-sensitive” hypothesis which reasons that employment agencies
+are more likely than the companies themselves to be influenced by CV pictures.
+
+2
+
+Related Literature
+
+2.1
+
+Perceptions of Physically Attractive People
+
+Decades of beauty research in psychology reveal that individuals attribute a spate of positive and
+negative traits to physically attractive people. Beginning with Dion et al.’s (1972) pioneering study,
+attractive people are believed to possess socially desirable traits (such as sensitivity, kindness, poise,
+modesty and outgoingness), to be better spouses, have better career prospects and to lead happier
+lives. In fact, the paper’s title summarizes the results, “What is beautiful is good”. Feingold’s
+(1992) meta-analysis of this literature demonstrates a robust association for both men and women
+between physical attractiveness and numerous personality traits, social skills, mental health and
+intelligence. Hamermesh’s (2011) book “Beauty Pays” discusses the advantages of beautiful people
+in the labor, loans and marriage markets, in sales and in happiness. Regarding attractive females,
+however, a dissenting view has emerged in parallel beginning with Dermer and Thiel’s (1975) study
+“When beauty may fall”. These authors find that the more attractive the female being evaluated,
+the more likely female subjects perceived her to divorce, have an extramarital affair and to be vain,
+egotistical, materialistic, snobbish and unsympathetic.2
+Using several well-known laboratory games, researchers have found that physical beauty elicits
+altruistic, trusting and cooperative behavior. For instance, Solnick and Schweitzer (1999) show
+that although ultimatum-game offers of attractive and unattractive subjects do not differ from one
+another, attractive respondents receive significantly higher offers than unattractive ones. In the
+trust game, Wilson and Eckel (2006) demonstrate that attractive subjects are trusted more and are
+also expected to trust more. Also in the trust game, Eckel and Petrie (2011) find that trusters and
+trustees are both willing to pay to see a photograph of their partner. They then use this photo to
+discriminate between individuals in their choices. Andreoni and Petrie (2008) find that attractive
+players in public goods games earn more not because they contribute less to the public good but
+because the presence of an attractive group member induces others to contribute more.
+Berggren et al.’s (2010) study of political elections in Finland shows that a one-standard devia2
+
+Hatfield and Sprecher (1986, ch. 10) survey the early social psychology literature that demonstrates the downside
+of good looks. Agthe et al. (2010, 2011) summarize the more recent literature that demonstrates negative biases
+against highly attractive same-sex individuals.
+
+2
+
+tion in beauty increases the average non-incumbent candidate’s votes by 20%. It seems that voters
+make positive inferences based on attractiveness only when they are unfamiliar with the candidates
+as no significant beauty effect is found for incumbent candidates.
+
+2.2
+
+Beauty in the Labor Market
+
+A number of laboratory experiments concern the role of beauty in the labor market. In Heilman
+and Saruwatari’s (1979) early study, 45 undergraduates participated in a decision-making scenario
+in which they were asked to evaluate different job packets for potential managerial and clerical
+positions. The job packets contained relevant materials including a picture of an attractive or
+unattractive male or female candidate. The authors find that while attractiveness is advantageous
+for men in both types of jobs, attractive women are favored over unattractive women for clerical
+jobs and discriminated against for managerial positions.
+More recently, Luxen and van de Vijver (2006) conduct three decision-making scenarios in which
+participants read a job description and rate the likelihood that they would hire each of a series
+of mock applicants based on their photos. Attractive candidates are rated higher on average than
+unattractive candidates, but when females assess female applicants they rate unattractive women
+more highly. In their second study, the authors distinguish between jobs in which the degree of
+contact between the hired applicant and the assessor is high or low and find that the female bias
+against attractive women is restricted to the high-contact condition. The authors replicate their
+second study on 51 human resource professionals and find that female assessors in the high-contact
+condition give low scores to female applicants regardless of their attractiveness. The authors invoke
+sexual selection theory and intrasexual competition to explain their findings. Agthe et al. (2010)
+present subjects with one of two decision-making tasks: rating candidates for a scholarship or
+for a job. When the subject and the candidate are of the same sex, the attractive candidates
+are rated lower than the moderately attractive candidates by male assessors and lower than both
+the moderately attractive and unattractive candidates when rated by female assessors. Agthe et
+al. (2011) extend this negative response toward attractive same-sex applicants to two additional
+job-search tasks as well as to a university-admission scenario.
+Despite mounting evidence in social and organizational psychology that individuals tend to
+evaluate negatively attractive people of the same sex, not a trace of evidence can be found of such a
+result in the economics or management literature on the role of beauty in the labor market. Using
+broad household surveys in the U.S. and Canada on labor-market and demographic characteristics
+3
+
+in which the interviewer rated the respondent’s physical appearance, Hamermesh and Biddle (1994)
+show that plain-looking individuals earn less than average-looking ones who earn less than those
+who are good-looking. Moreover, the plainness penalty is slightly larger than the beauty premium,
+and both are higher for men than women. Our paper complements theirs by focusing on beauty
+discrimination with respect to job-search opportunities rather than differential salaries.
+Biddle and Hamermesh (1998) track the earnings of graduates from a prestigious law school.
+Based on photographs of matriculants in entering classes, they find a weakly positive, but insignificant, relationship between beauty and first-year lawyers’ earnings. This beauty premium becomes
+significant five years after graduation and increases over the 15 years graduates were surveyed.
+Mobius and Rosenblat (2006) design a laboratory labor market in which employers pay wages
+to workers who perform a maze-solving task. Physically attractive workers are no better at solving
+mazes than less attractive ones. Notwithstanding, attractive workers, both males and females alike,
+are offered higher wages. Parrett (2013) finds that attractive waitresses (but not waiters) receive
+higher tips, even after controlling for server productivity differences.
+Numerous studies have employed the method of sending written job applications or, more
+recently, CVs of fictitious candidates to examine discrimination based on race (e.g., Jowell and
+Prescott-Clarke 1970, Riach and Rich 1991, Bertrand and Mullainathan 2004), gender (e.g., Firth
+1982, Riach and Rich 1987) and sexual orientation (e.g., Weichselbaumer 2003).3 In the Israeli
+context, Ben Hador et al. (2005) explore discrimination based on age, gender, immigrant-status,
+marital-status and ethnicity by sending between 94 and 384 CVs for each discrimination category.
+Closer in topic to ours, Rooth (2009) sent fictitious CVs of average-weight applicants as well as CVs
+with the same photos digitally manipulated to make the applicant obese. Obese men and women
+receive callback rates six and eight percentage points lower, respectively, than their normal-weight
+counterparts. None of the candidates in our research are obese or even overweight and none could
+be mistaken as such from their headshots.
+In a contemporaneous paper closely related to ours, López Bóo et al. (2013) sent fictitious
+CVs with pictures in response to job openings in Buenos Aires, Argentina. They used digitally
+manipulated images constructed to match or deviate substantially from two golden ratios of facial proportions that had been previously verified as necessary conditions for attractiveness. The
+authors find that the faces that correspond to the golden ratio generate 36% more callbacks than
+those that deviate from it. In the Discussion section, we compare their results with ours.
+3
+
+See Riach and Rich (2002) for a history of this methodology.
+
+4
+
+3
+
+Experimental Design and Procedures
+
+3.1
+
+Selection of Job Candidates’ Photographs
+
+The first step in the experimental design was to collect photographs in order to choose pictures of
+attractive and plain-looking males and females to be included in CVs sent to employers. For this,
+we solicited headshots from the general student population at Ben-Gurion University. Students
+whose pictures were selected were paid 50 NIS (about $14 USD) and signed a standard photograph
+release form, which assured them that the pictures would be anonymous, include no identifying
+information and used for research purposes only.
+Hundreds of pictures were submitted. After eliminating blurry, group or otherwise inappropriate
+photos, there remained over 300 pictures.4 Both (male) authors along with two female assistants
+went over the remaining photos and, only in cases of unanimous agreement, further eliminated
+photos of students whose ethnicity could be readily identified (see below) or who clearly fit neither
+extreme of attractive or plain-looking. This left us with 161 photos (78 males and 83 females)
+from which to choose. We formed a panel of eight judges (four male and four female) ranging in
+age from 28 to 49 with various professional backgrounds that include sculptor, hair stylist, public
+relations specialist and economist. The judges were asked to rate on a 1-to-9 scale each of the
+161 pictures along all of the three following dimensions: physical attractiveness, intelligence and
+likely ethnicity (where 1 equals “definitely Sephardic”, 9 equals “definitely Ashkenazi” and 5 is
+“uncertain”).5 While attractiveness is our focus, the ethnicity rating is also important because
+considerable evidence exposes discrimination against Jews of North African and Middle Eastern
+origin (i.e., Sephardic Jews) compared to Jews of European origin (i.e., Ashkenazi Jews).6
+After excluding photographed subjects strongly identified as Ashkenazi or Sephardic (mean ethnic rating below 3 or above 7, respectively), we selected the four male and four female photographs
+with the highest mean attractiveness ratings as our attractive male and attractive female candidates, respectively. Similarly, the four male and four female photographs with the lowest mean
+4
+To minimize possible confounds and differences unrelated to beauty, we deemed as inappropriate and therefore
+excluded photos of individuals that failed to meet one or more of the following criteria: pleasant expression, presentable
+dress, brown or black hair color and not ostensibly overweight.
+5
+So as not to burden some of the judges with too many tedious rankings, we replaced two of them (one male and
+one female) midway through the rating process with two different judges (one male and one female). Thus, most
+photos were rated by six judges, with a few rated by all eight.
+6
+Fershtman and Gneezy (2001) provide laboratory evidence that Ashkenazi and Sephardic Jews alike are less
+trusting of Sephardic males than Ashkenazi males (identified by their family name). Rubinstein and Brenner (2014)
+examine the earnings of native Israelis born of interethnic marriage. They find that males born to Ashkenazi mothers
+and Sephardic fathers (and thus bear a Sephardic family name) earn significantly less than males born to Sephardic
+mothers and Ashkenazi fathers (and thus have an Ashkenazi family name).
+
+5
+
+attractiveness ratings constituted our plain-looking male and female candidates, respectively.7
+The first row of Table 1 displays the panel of judges’ mean attractiveness rating over all four
+photographs for each beauty category. With mean ratings of 6.48 and 8.00, our attractive males
+(AM) and attractive females (AF) are rated more than three points and almost five points higher
+on average than the respective plain-looking males (PM) and females (PF).8
+To confirm the attractive-plain distinction on a much larger sample, we recruited 443 student
+subjects. Each student rated the attractiveness, intelligence and ethnicity of 10 or 20 photographs
+from our sample. Consequently, all 16 of the photos we used in the experiment as well as numerous
+other “competitors” (i.e., photos in our sample with similarly high or low mean judge ratings)
+received over 100 student ratings.
+The second row of Table 1 displays the students’ mean attractiveness ratings. They are similar
+and not statistically different from those of the judges for three of the four beauty categories (pvalues range from .42 to .71). The mean student rating of 7.01 for AF is a full point below that of
+the judges (p < .01). Notwithstanding, the students rate the attractive females nearly four points
+higher than the plain females. At the individual-photo level, the means range from 6.04 to 6.89 for
+AM, from 2.31 to 4.55 for PM, from 7.63 to 8.83 for AF, and from 2.18 to 4.14 for PF.9 Hence, even
+the least beautiful attractive candidate is rated substantially higher than the most beautiful plain
+candidate, for both males and females. In short, our attractive candidates are all unmistakably
+better looking than our plain candidates.
+
+3.2
+
+Creating Candidates’ Identity
+
+Each job candidate was given a fictitious identity that included: first and last name, telephone
+number and email address. The first names were chosen from a list of popular Jewish Israeli
+names. To sidestep the issue of ethnic discrimination, we employed the two most common Israeli
+family names (Cohen and Levi) in all of our CVs. These family names date back to Biblical times,
+thereby predating the Ashkenazi-Sephardic distinction and are not associated with either ethnicity.
+7
+
+Our choice of four photographs per beauty category is robust to first standardizing each judge’s rating (i.e.,
+subtracting the judge’s mean rating and dividing by his standard deviation) and then computing each photograph’s
+mean of the standardized ratings.
+8
+T-tests of means and non-parametric, rank-order Mann-Whitney tests of the distributions of ratings both confirm
+that these differences are highly significant (p < .01 in all cases).
+9
+Our findings that AF are rated higher than AM and PF lower than PM are consistent with the beauty literature,
+which shows that women’s appearances evoke stronger reactions, both positive and negative, than men’s. The result
+is that more women than men are rated as exceptionally attractive and more women than men are rated as plain
+(see, e.g., Hamermesh 2011, pp. 28-30.)
+
+6
+
+We set up a telephone number with a voicemail box for each of the six beauty categories.
+To avoid any unwanted (e.g., voice) influences on employers, we used the default recorded voice
+message, which plays the same message for all candidates and avoids mention of the candidate’s
+name. This latter feature allowed us to employ the same voicemail box for all of the pictures
+within the same beauty category. For employers who prefer to respond by email, we created a
+Gmail account for each of the candidate categories and included this email address on the CV.
+
+3.3
+
+Preparing the Content of the CVs
+
+The next stage in the experimental design was to prepare the CVs’ content. We sent CVs in
+response to advertised jobs in 10 different fields of employment: banking, budgeting, chartered
+accountancy, finance, accounts management, industrial engineering, computer programming, senior
+sales, junior sales, and customer service. The first six fields were chosen because they are suitable
+for university graduates in economics and accounting, fields for which we felt confident crafting
+compelling resumes on our own. The last four fields were chosen because they advertise a relatively
+large number of job openings. For these, we hired an expert to help design the CVs. Notice that
+beauty might be relevant and contribute to worker productivity in some of these fields such as sales,
+customer service and some banking jobs like bank tellers, whereas beauty plays no obvious role in
+accounts management, budgeting, industrial engineering and computer programming.
+In an effort to elicit as many responses as possible from employers (our dependent measure),
+we took several measures to create appealing CVs in all candidate categories and job fields. For
+example, each candidate had two years work experience at a large company in the relevant field.
+Moreover, all candidates in the first eight fields had completed their B.A. “with excellence” (comparable to “magna cum laude” in the U.S.) in the relevant field at Ben-Gurion University or in
+human resources at a nearby affiliated college for the senior sales positions. For the two last fields
+(junior sales and customer service), the candidates held only a high school degree to avoid being
+perceived as over-qualified.
+All CVs contained additional positive attributes. For example, all candidates had graduated
+from well-known, nationally recognized high schools in the north Tel Aviv region. All possessed
+native and native-like language skills in Hebrew and English, respectively. Furthermore, all had
+completed their required military service and three years of volunteer experience. Finally, on the
+basis of the field of employment, the CVs in that field were tailored to include any additional skills
+expected of suitable candidates, such as computer skills and programming languages.
+7
+
+Overall, we created six versions of the same CV for each field. Four versions contain a picture:
+attractive male, plain male, attractive female, plain female. Two additional versions have no
+picture: no-picture male, no-picture female. Except for the picture, the CVs were otherwise almost
+identical within each field.10
+
+3.4
+
+Responding to Job Ads
+
+We adopted a “paired CV” strategy for responding to job ads. Specifically, exactly two CVs were
+sent to each job ad, one with a picture and, as a control, the other same gender CV without a
+picture. To the extent that we find differences in response rates between picture CVs, our paired
+CV strategy allows us to determine whether job selection can account for these differences. To
+illustrate, if the CVs of attractive and plain-looking males were sent to similar distributions of
+jobs, then we would expect the response rates of the corresponding paired no-picture male CVs
+not to differ significantly from one another. More basically, this paired CV methodology allows us
+to compare cleanly the response rate of any picture CV to the otherwise equivalent no-picture CV
+because the two CVs were always sent to the same jobs.
+In Israel, job-search websites are used to submit CVs in response to advertised positions. Accordingly, all of our CVs were sent between July 2008 and January 2010 using three large websites.
+During this period, we scrutinized regularly the job postings in our 10 fields of interest on these
+websites, noting all job postings in a given field and randomly assigning each one (without replacement) to one of the four picture CVs. We continued this random assignment until all of the new
+postings (up to a multiple of four) had been exhausted. This method ensured that at every point
+in time of the data collection process the number of CVs sent of each picture CV was exactly equal.
+Also, the sending of the paired CVs to a job ad was staggered by a number of hours or even by as
+much as a day to minimize the likelihood that the employer would notice that the two CVs were
+effectively identical.11
+
+Whether the picture or no-picture version was sent first was randomized
+
+across CV pairs.
+From the text of each job ad to which we responded, we recorded a number of job characteristics
+(field of employment, office job or job dealing with the public, any experience required) and company
+10
+
+The word “almost” refers to necessary negligible differences between versions – such as fonts, content order and
+the company at which the candidate had worked for two years – all of which were randomized across CV versions.
+11
+In fact, we settled on sending two CVs to each job ad rather than more or all six versions for fear that sending
+more would exponentially increase the risk of employer detection. It seems reasonable that any company spotting the
+two CVs’ likeness will simply ignore both of them. The extent to which this occurs reduces the chances of obtaining
+significant differences between CV types.
+
+8
+
+characteristics (location, whether the company itself or an employment agency does the hiring).
+None of the job ads requested or required a picture CV.
+In total, 5312 CVs were sent in response to 2656 job postings. The left panel of Table 2
+presents summary statistics about the job candidates, as well as the advertised job and company
+characteristics in our database. The table shows that an equal number (2656) of male and female
+CVs and an equal number (1328) of attractive and plain-looking CVs were sent, half as many as
+the no-picture CVs. The distribution of CVs sent according to field of employment reveals that no
+field received more than 18% of the total CVs sent, with five fields receiving 10% or more. Also,
+27% of the jobs involve dealing with the public, while the remaining 73% are defined as office jobs
+because they entail little or no interaction with the public. Finally, 41% of the jobs required no
+previous job experience and three-quarters of the job ads are placed by employment agencies with
+only one-quarter placed by the company itself.
+
+4
+
+Results
+
+4.1
+
+Main Results
+
+We begin by asking, “What is the effect of a picture on a CV?” Column (1) in Table 3 reports the
+estimates from a linear probability model where the dependent variable equals one if the employer
+called or emailed the candidate requesting an interview and 0 if not.12 The standard errors cluster
+on the job advertisement to which applicants responded.13 Regression (1) shows that the inclusion
+of a picture has a small, negative and only marginally significant effect. The callback rate to picture
+CVs was 1.4 percentage points (hereafter “p.p.”) lower than to no-picture CVs (p = .07).
+This finding masks considerable variation in the response rates across picture types. The last
+row in the right panel of Table 2 displays the average response rate by CV type and points to
+a sizeable beauty premium for males: CVs of attractive males elicit a 19.7% response rate on
+average, nearly 50% higher than the 13.7% response rate of no-picture males and more than twice
+the 9.2% response rate of plain-looking males. Put differently, an attractive male needs to send on
+average five CVs in order to obtain one response, whereas a plain-looking male requires 11 CVs for
+one response. This ordering among males is intuitive and could be reasonably anticipated from the
+12
+Overall, the response rate was 14.5%. Because in this and all subsequent regressions the linear probability and
+probit models yield qualitatively identical results, we report the former for ease of interpretation.
+13
+Since some employers posted multiple ads, employment agencies in particular, we also clustered on the employer.
+All of our qualitative results are robust to the choice of cluster cell.
+
+9
+
+beauty literature. Moreover, it is highly robust to occupation, as seen by the callback rates for each
+beauty category broken down by field of employment in Table 2. In seven of the 10 occupations,
+attractive males are rewarded relative to no-picture males, while plain males are penalized.
+The ordering among females is unexpected: no-picture CVs elicit the highest response rate at
+16.6% followed by plain females at 13.6% and attractive females at 12.8%. In fact, Table 2 reveals
+that no-picture females garnered the highest response rate in six of the 10 occupations. Attractive
+females simultaneously received the lowest callback rate in five of these six occupations as well as
+in customer service.
+The linear probability model in (2) of Table 3 includes a dummy variable for each of the beauty
+categories with no-picture females excluded. Thus, the highly significant coefficient of −.029 on the
+male dummy implies that a no-picture CV from a male is 2.9 p.p. less likely to generate a callback
+than the equivalent CV from a female (p = .035).14
+The remaining marginal effects compare the response rate of the indicated beauty category to
+that of the same-sex no-picture CV. For instance, attractive males enjoy a 6 p.p. beauty premium
+compared to no-picture males who are called back 4.5 p.p more often plain males (both p < .01).
+Callbacks to attractive and plain females, respectively, are 3.8 p.p. and 3.1 p.p. lower than to nopicture females. Both differences are highly significant. However, the response rates for attractive
+and plain females do not differ significantly from one another (t-test p = .69).
+Our paired CV methodology also allows us to analyze responses at the job-advertisement level.
+To each employment ad, a picture and otherwise equivalent no-picture CV were sent. Table 4
+displays the percentages of instances in which the employer called back only the picture CV (“Picture Favored”), only the no-picture CV (“No Picture Favored”) and in which the paired CVs were
+treated equally. This latter category is further broken down into cases in which neither candidate
+was called (“No Callback”) and those in which both were called back (“Callback to Both”).
+Focusing on outcomes in which the paired CVs received differential treatment, attractive males
+are preferred to no-picture males nearly twice as often as the other way around (11.3% versus 6.2%).
+However, this relationship reverses for plain-looking males: no-picture males are preferred to plain
+males 7.8% of the time compared to the opposite preference for only 3.8% of total outcomes. A
+chi-square test of proportions confirms the differential treatment of attractive and plain male CVs
+14
+
+Although not the focus of the paper, this result suggests significant discrimination against male candidates,
+which is also present to varying degrees of significance in subsequent regressions. In presenting the results, we will
+not discuss this effect since this research and the balance in the experimental design focus on beauty discrimination.
+Ben Hador et al. (2005) also find a preference for females over males in the Israeli labor market in their audit study.
+
+10
+
+when paired with no-picture male CVs (χ2 (2)=27.3, p < .001). Among females, a higher percentage
+of employers prefer the no-picture CVs both when paired with attractive and with plain-looking
+females. For both comparisons, the no-picture female CV is favored about 50% more often than
+the picture version. Yet, consistent with the regression results, a chi-square test shows that the
+distributions of outcomes (“Picture Favored”, “No Picture Favored” and “Equal Treatment”) are
+not significantly different from one another (χ2 (2)=1.7, p = .43).
+Any unobservable differences in the distributions of job ads to which we sent different versions
+of CVs ought to show up in differential response rates between the identical no-picture CVs as a
+function of the picture CV with which they were paired. Table 5 provides this data. The 14.6%
+response rate to no-picture male CVs paired with attractive male CVs is not significantly different
+from the 12.8% response rate to no-picture male CVs paired with plain males (χ2 (1)=0.9, p = .34).
+For no-picture female CVs, the response rates are identical (16.6%, χ2 (1)=0, p = 1) regardless
+of whether they were paired with attractive or plain females. Thus, job selection cannot account
+for the observed male beauty premium nor the attractive- and plain-female penalties compared to
+no-picture females.
+
+4.2
+
+The Role of Required Job Experience
+
+Fifty-nine percent of the job openings to which we applied required some previous job experience,
+while the remaining 41% did not. How might jobs requiring work experience relate to the beauty
+premium? One hypothesis is that such jobs are, on average, more senior positions in which the
+employee has more authority and responsibilities, and thus a greater impact on the company’s
+bottom line. Employers can thus ill afford to discriminate on the basis of factors not related to
+productivity for these more senior posts. On the other hand, we know from previous research on
+beauty that physical attractiveness is associated with a host of positive traits. For more competitive
+positions where multiple candidates appear equally able, employers might, consciously or not, invoke
+a candidate’s physical appearance and the associations that it engenders as a source of additional
+information. Put differently, beauty may serve as a tie-breaker when employers face a difficult
+decision involving similarly qualified candidates. To the extent that jobs demanding experience are
+also more competitive, this line of reasoning suggests that the observed male beauty premium will
+be augmented and the female beauty penalty lessened.
+Table 6 addresses the interaction between required job experience and the candidate’s looks.
+The highly significant coefficient of −.056 on the experience variable implies that identical no-picture
+11
+
+candidates are nearly 6 p.p. more likely to receive a callback from a job that requires no previous
+experience than one that does. Jobs requiring experience indeed appear to be more competitive. As
+such, and in line with the above reasoning, attractive males benefit primarily from jobs requiring
+experience: they are 9.2 p.p. more likely to be called back than no-picture males and 12.2 p.p. more
+likely than plain males (both p < .01), whereas for jobs requiring no experience, the marginal effect
+of attractive males is positive but not significant.
+Although attractive females receive 4.6 p.p. and 2.4 p.p. fewer responses than no-picture females for jobs requiring experience and no experience, respectively, only the former difference is
+significantly different from zero (p < .01). Similarly, plain females are significantly penalized for
+jobs requiring experience only.
+In summary, the ordering between beauty categories continues to hold for jobs requiring and
+not requiring experience alike. However, jobs with previous work experience as a requisite are more
+competitive and appear to accentuate the hitherto observed effects of beauty.
+
+4.3
+
+The Role of Office Jobs and Jobs Dealing with the Public
+
+If a beauty premium in hiring is to appear at all, it would be easiest to justify for jobs in which
+the employee deals face-to-face with the public. Attractive employees who interact in person with
+their customers may contribute to the company’s profitability through increased sales or to the
+customer’s utility through a more enjoyable interaction, which may ultimately increase sales. Both
+outcomes justify a preference for attractive employees.
+Based on the occupation and information included in the job advertisement, we classified all
+job openings according to whether the position involves face-to-face contact with the public. In our
+sample, 27% of the jobs require the employee to work with the customer in person (abbreviated
+henceforth as “public”), while the remaining 73% are office jobs or positions that otherwise involve
+no regular in-person contact with the customer.
+Regression (4) in Table 7 reveals that the response rates for public and office jobs do not differ
+significantly from one another. Moreover, the same preference ordering of attractive males over
+no-picture males over plain males persists and remains significant for both public and office jobs.
+By comparison, plain females are significantly penalized compared to no-picture females for public
+jobs only, whereas the female beauty penalty is operative and significant for both public jobs (5.7
+p.p. less than no-picture females, p = .01) and office jobs (3.1 p.p. less, p = .06).
+
+12
+
+4.4
+
+Who Does the Hiring?
+
+Employment agencies posted 75% of the jobs in our sample, while the companies at which the
+employee will work (henceforth abbreviated as “company”) posted the remaining 25%. Do these
+different hiring sources respond differently to beauty?15 Companies know better than employment
+agencies the set of qualifications they seek in their employees. Consequently, one hypothesis to be
+subsequently referred to as the “photo-sensitive” hypothesis is that companies will focus on these
+qualifications in screening candidates and be less susceptible to the influence of the CV photographs.
+Employment agencies, on the other hand, court the repeat business of their clients, namely, the
+companies that outsourced hiring to them. To the extent that the employment agencies are not fully
+informed about candidates’ potential fit with the company, they will aim to put forth candidates
+who will make a good impression on the company through their physical attractiveness, among
+other traits. In summary, the photo-sensitive hypothesis predicts that the companies themselves
+will ignore the CV pictures and treat all beauty categories equally, while the employment agencies
+will favor the attractive candidates over the no-picture candidates who are preferred to the plain
+candidates.
+The right panel in Table 2 reveals considerable support for the photo-sensitive-influence hypothesis. For the companies, callback rates to males are confined to the range of 12% (PM) to
+17% (AM), while the response rates to plain females (15.1%) and no-picture females (15.7%) differ
+by less than one p.p. Attractive females stand out as the outlier with a meager 9.2% response
+rate, about six p.p. lower than those of PF and no-picture females. At the same time, employment
+agencies appear to rely on beauty as a means to discriminate among males, with attractive males
+garnering a 20.7% callback rate, seven p.p. higher than no-picture males and 12 p.p. higher than
+PM. The hypothesis is also consistent with employment agencies’ clear preference for no-picture females (16.9% response rate) over plain females (13.1%), but cannot explain why attractive females
+garner a similarly low 13.9% response rate.
+Regression (5) in Table 9 interacts each of the beauty categories with both the companies and
+the employment agencies. The regression confirms the lack of discrimination among companies:
+15
+
+Table 8 establishes that this question is distinct from those addressed in the previous two subsections. Namely,
+the distribution of advertised jobs requiring experience between employment agencies and companies is similar to
+the overall sample distribution. The same holds for jobs dealing with the public. Moreover, in none of the 10 fields
+of employment are the job ads posted exclusively by employment agencies or companies. In fact, at the extremes,
+the fraction of jobs posted by employment agencies varies from 55% (programming) to 92% (banking) and these two
+fields account for only 14% of our overall dataset. The percentage of employment agencies in the other eight fields in
+our sample remain within 10 p.p. of the overall sample average, ranging more narrowly from 65% to 84%.
+
+13
+
+the coefficients on attractive-male company, plain-male company and plain-female company are all
+small and not significantly different from zero (p = .33 , p = .32 and p = .80, respectively). Nor are
+the companies’ response rates to attractive and plain males significantly different from one another
+(p = .18). Attractive females are the only category of applicant, male or female, that companies
+treat differently: the highly significant coefficient of −.066 on attractive-female company indicates
+that attractive females are 6.6 p.p. and 5.8 p.p. less likely to be invited for an interview than
+no-picture females (p = .01) and plain females (p = .10), respectively.
+Employment agencies, by contrast, treat almost all of the beauty categories differently from
+one another. Only the attractive and plain females are treated similarly (p = .70). The callback
+rate to attractive males is significantly higher than that to no-picture males, which is significantly
+higher than that to plain males (p < .01 in both cases). The higher response rate to no-picture
+females is highly significant when compared to plain females (p = .02) and weakly significant against
+attractive females (p = .06).
+In brief, employment agencies and companies differ sharply in their responsiveness to beauty.
+Employment agencies strongly prioritize male candidates according to their attractiveness and in
+accordance with the ranking of males observed throughout this paper: attractive males followed by
+no-picture males followed by plain males. At the same time, these same agencies favor no-picture
+females while discriminating modestly against plain and attractive females. In sharp contrast, the
+companies themselves treat all same-sex beauty categories equally, with the exception of attractive
+females who are penalized relative to plain and no-picture women.
+The photo-sensitive hypothesis is consistent with the above differences and similarities in callback rates for all but one of the six beauty categories in both employment agencies and companies.
+Only the lower response rate of attractive females, especially by the companies themselves, remains
+unexplained. The companies’ singling out of attractive women provides our first clue to the source
+of their unexpectedly low response rates. For whatever reason, those who would have to work in
+the same workplace as the hired candidate don’t want attractive females around. However, when
+hiring is outsourced to an employment agency, discrimination against attractive females is lessened
+and no different from that against plain-looking women.
+
+14
+
+5
+
+Discussion
+
+Our most unexpected result is the penalization of attractive women relative to women who do not
+embed a picture in their CV. In this section, we examine possible explanations for this finding and
+reconcile it with López Bóo et al. who find that attractive women benefit from a premium compared
+to unattractive women.
+
+5.1
+
+Possible Explanations
+
+Why do employers respond to beauty differently as a function of the job candidate’s sex? What
+explains the penalty to attractive women? Our randomized experiment rules out job selection.
+To address these questions, we make use of certain features of our experimental design, data
+collection process and the data itself. Furthermore, after completing the experiment, we conducted
+a telephone survey of a randomly chosen subset of firms included in our sample from the experiment.
+In total, 208 firms (111 employment agencies and 97 companies) completed the survey (response
+rate of 73.8%). With questions about the socio-demographic background of the person who screens
+incoming CVs and questions about the perception of picture CVs, our aim is to distinguish further
+between competing explanations for our findings. The survey appears in the Appendix. Table 10
+displays summary statistics from the survey to be invoked as needed when discussing some of the
+possible explanations.
+5.1.1
+
+The “Dumb-Blonde” Hypothesis
+
+The “dumb blonde” stereotype is pervasive in Western culture. Its basis is that attractive women,
+typified by blondes, are able to rely on their looks to advance and thus do not make use of their
+intelligence. Applied to our results, employers in our sample who hold this stereotype would be
+reluctant to invite attractive women for an interview.
+Contrary to this hypothesis runs a vast psychology literature (discussed in section 2.1) showing
+that individuals attribute a wide array of positive characteristics and dispositions to attractive men
+and women alike, the most important one for our purposes being intelligence (see Feingold 1992
+for a review). What is more, the photo selection stage of our research makes available judges’ and
+subsequently students’ ratings, thereby enabling us to test the dumb-blonde hypothesis directly on
+the collection of photos in our sample. Recall from section 3.1 that eight judges and a large sample
+of students rated the 161 photos on the dimensions of attractiveness, intelligence and ethnicity,
+
+15
+
+each on a nine-point scale. Using the first two measures, Table 11 reports the marginal coefficients
+from OLS regressions on intelligence ratings for this panel of 7480 observations. The standard
+errors in parentheses are robust to heteroskedasticity and corrected for possible non-independence
+of observations by clustering on each rater’s set of scores.
+The coefficient on “beauty” in regression (6) reveals that for every additional point a rater
+assigns to a photographed person’s attractiveness, the same person’s intelligence is rated .26 points
+higher on average. This result is highly significant (p < .01) and contradicts the dumb-blonde
+hypothesis. Regression (7) allows us to refute the hypothesis even more directly with the inclusion
+of an indicator variable for whether the photographed person is male and an interaction term
+between this indicator term and the “beauty” variable. The highly significant marginal effect of
+.27 on “beauty” suggests that a female subject who is rated one point higher for her beauty is also
+perceived to be an extra .27 points more intelligent on average, again contradicting the dumb-blonde
+hypothesis and instead supporting the above-mentioned psychology literature. The remaining two
+indicator variables reveal that the positive association between intelligence and beauty is even
+stronger for photographed males.
+This same positive association between beauty and intelligence continues to hold if we restrict
+attention to the 16 attractive and plain photographs used in our experiment, as shown in regressions
+(8) and (9); namely, the more attractive the rater judges one of the eight photographed females,
+the more intelligent the female is presumed to be, all the more so for our eight males, as seen in
+(9).
+In sum, our results reject the dumb-blonde hypothesis as an explanation for the observed female
+beauty penalty. Although the dumb-blonde stereotype may occupy a place in popular folklore, it
+runs contrary to actual perceptions of attractive people – men and women alike – in both our
+sample and the psychology literature on beauty.
+5.1.2
+
+Negative Signaling
+
+In a work culture like Israel in which attaching a picture to one’s CV is optional rather than compulsory, the choice to do so may be perceived differently depending on one’s physical appearance.
+For this reasoning to explain our results, an attractive women who attaches a photograph to her CV
+must be viewed negatively, whereas an attractive male who attaches a picture must be regarded as
+signaling something positive. If women rarely embedded a photograph in their CV, while men did
+so more often, the above reasoning could be reconciled with our results. More explicitly, suppose
+16
+
+there existed a cultural norm that frowned upon women including a photograph on their CV. A
+woman who nonetheless opted for a picture CV would be less likely to receive a callback.
+Our telephone survey reveals that no such norm exists. To begin, the results indicate that about
+15-20% of job applicants attach a picture to their CV. More to the point, in response to our question
+about which sex more frequently sends a CV with a self-photograph, 47% of the respondents (46%
+of employment agencies and 49% of companies) answered that women do, while only 11% (9%
+of employment agencies and 14% of companies) indicated that men do. The remaining 41% of
+respondents answered that the two sexes do so equally often.16
+For each sex separately, we also asked employers whether attractive or unattractive candidates
+tend to attach a picture to their CV more often. The results, displayed in Table 10, highlight a
+striking contrast between male and female candidates: by far the modal response (for employment
+agencies and companies alike) is that there is no difference in the tendency to attach a picture
+between attractive and unattractive males, whereas these same employers overwhelmingly indicate
+attractive females are more likely to send a picture CV than unattractive ones. These findings contradict the negative signaling explanation for they reveal that that women, particularly attractive
+women, tend to send picture CVs at least as often as men.
+Additional evidence against the negative signaling hypothesis comes from our photo ratings
+dataset. The student raters were asked the following question for each photograph they saw:
+suppose you looked like the photographed person, would you attach your picture to your CV?
+Across all pictures and raters, 63.7% of the responses favor attaching the picture.17 Moreover, male
+raters’ tendency to include the picture when rating other males (63.3%) does not differ substantially
+from females’ tendency when rating females (64.5%). Restricting attention to our 16 attractive and
+plain candidates, 85.7% (n = 245) of subjects’ choices were to attach the picture of the attractive
+male compared to 76% (n = 241) for the attractive females. Both of these percentages are markedly
+higher than those observed for plain males (40.5%, n = 274) and plain females (30.9%, n = 256).18
+These findings reveal that either our unsuspecting subjects are oblivious to the perceptions of
+16
+
+A chi-square test shows that employment agencies and companies do not differ significantly in their perception
+of which sex sends a photographed CV more frequently (χ2 (2)=1.6, p = .46).
+17
+The reader will recall our estimated 15-20% of applicants who actually do attach a photo to their CV. One partial
+explanation for the discrepancy is that this percentage is higher among young, educated candidates, our subject pool.
+18
+Similar percentages hold if we restrict attention to same-sex raters and rated persons. More generally, based
+on the entire photo rating dataset, we regressed the subject’s choice whether to attach the candidate’s photo to his
+CV as a function of the candidate’s attractiveness. A highly significant regression coefficient of .07 on the “beauty”
+variable (not shown but available upon request) indicates that for every additional point (on a 1-9 attractiveness
+scale) the photographed candidate received, she is seven p.p. more likely to include her picture on her CV. Also, nonsignificant interaction terms reveal that the positive relationship between the photographed person’s attractiveness
+and the expressed likelihood of attaching his picture is not significantly different for male candidates.
+
+17
+
+picture CVs by human resource staff or that the reason for the penalization of attractive females
+lies elsewhere and is unrelated to the negative signaling hypothesis.
+More direct evidence against the negative signaling hypothesis follows from firms’ responses to
+the question, “What message is conveyed by a male candidate who includes a picture on his CV?”
+and, as a separate question, by a female candidate who includes her picture. Overall, similarly
+high fractions of respondents reacted positively to males’ (64%) and to females’ (63%) inclusion
+of a picture. The two most frequently invoked terms to describe males and females alike who
+attach a picture to their CV were “self-confident” and “presentable”. A mere 15% of respondents
+expressed negative associations for male photographs compared to 21% for female photographs,
+while the remaining fractions verbalized a neutral opinion or no opinion at all. The distributions
+of positive, negative and neutral responses to males’ and to females’ inclusion of a photo do not
+differ significantly (χ2 (2)=3.4, p = .18)
+Finally, we examine whether negative signaling can explain the differential treatment of CVs
+from female picture CVs by employment agencies and companies. The penalization of both categories of female picture CVs with respect to female no-picture CVs suggests that employment
+agencies perceive negatively any female candidate who attaches a picture to her CV. On the other
+hand, that the companies themselves spare plain females and penalize only attractive ones implies
+that companies do not generally view negatively any female who includes a photo on her CV. Put
+together and applying the logic of negative signaling to our findings, we would expect employment
+agencies to view a female’s inclusion of a photo on her CV more negatively than companies themselves. In fact, similar and not significantly different proportions of employment agencies (20%)
+and companies (22%) regard negatively a female picture CV (χ2 (1)=0.24, p = .62).
+In short, despite numerous tests of the negative signaling hypothesis using both the company
+survey and the photo ratings data, none of the test results is consistent with the penalization of
+attractive women.
+5.1.3
+
+Jealousy and Envy
+
+Threats to one’s status or to interpersonal relationships arouse jealousy. Summarizing a body of
+research in evolutionary psychology, Buss and Haselton (2005) write, “women become especially
+distressed by threats from physically attractive rivals, whereas men become especially distressed
+by rivals with more resources” (p. 506). Applied to our research design, the candidate’s resources
+are either not mentioned on the CV (e.g., financial resources) or identical across candidates (e.g.,
+18
+
+skills and educational background). On the other hand, the physical attractiveness of a candidate
+is conspicuous on all picture CVs. Thus, while the trigger for female jealousy features prominently
+on the candidate’s CV, it is absent for male jealousy. Moreover, numerous psychology studies
+demonstrate that women are more susceptible to jealousy than men (see, for example, Sagarin et
+al. 2003).19 Yet the arousal of jealousy requires that a rival party threaten a (potential) relationship
+between the jealous person and another third person. Thus, while jealousy might possibly explain
+the companies’ discrimination against attractive females, it cannot account for the employment
+agencies’ penalization of attractive women being considered for hire off-site. Enter envy. Envy
+arises “when one person lacks another’s superior quality, achievement, or possession and either
+desires it or wishes the other didn’t have it” (Parrott and Smith 1993, p. 906).20 Female staff at
+both the companies and employment agencies may experience envy toward young, attractive female
+applicants.
+The jealousy and envy explanations seem especially fitting when we consider that 93% of the
+respondents in our sample were female.21 As one may be concerned that the respondent is not be
+the same person who screened the CVs, we made sure to speak with the CV screener who decides
+who to invite for an interview when conducting our post-experiment survey. It turns out that 87.9%
+of respondents indicated that the person who screens the CVs (themselves) also makes the phone
+call to arrange an interview with the candidate. Broken down by company type, in 100/111 (90%)
+of the employment agencies and 90/97 (93%) of the companies that we interviewed, the person
+responsible is a female.22 Furthermore, these women are young (with an average age of 33) and
+typically single (121/206 or 59%) – qualities more likely to be associated with a jealous response
+when confronted with an even younger, attractive competitor in the workplace.
+19
+
+Relatedly, Eaves et al. (1989) examine law firms’ gender (and ethnic) discrimination of UCLA law students
+in on-campus job interviews and find that female candidates fare worse with female interviewers than with male
+interviewers. Anecdotally, in her April 2012 post in England’s Daily Mail that went viral on why women hate her,
+Samantha Brick laments being beautiful and the resultant jealousy that she has encountered on the job from female
+coworkers and bosses.
+20
+Parrott and Smith (1993) distinguish envy from jealousy both conceptually and empirically, demonstrating that
+the experiences associated with these emotions both coincide (e.g., anger, ill will and pettiness) and diverge (e.g.,
+fear and distrust for jealousy versus disapproval and longing for envy).
+21
+A respondent is an employer who called back one or both of the candidates for an interview. The respondents’
+sex was determined by their voice when they left a voicemail message, their name when they sent an email or by a
+discreet phone call to the company if there remained any doubt.
+22
+Binomial tests cannot reject the hypotheses that these fractions are different from our observed fraction of 93%
+female respondents (p-values are .26 and .84, respectively). To gain a still broader picture of the gender composition
+of human resource departments, we also asked each respondent for the number of people in her firm responsible for
+screening CVs and for deciding whether to callback the job candidate, and for the percentage of women among these
+staff. Based on respondents’ estimated total human resource staff of 1860 in the employment agencies contacted,
+87.8% are female compared to 89.5% female out of the estimated 493 recruiting staff in the companies themselves.
+
+19
+
+The finding from section 4.4 that only the companies themselves strongly discriminate against
+attractive women and attractive women are the only category of females against which these companies discriminate further buttresses the jealousy explanation. Females in charge of hiring at
+the companies themselves may well be jealous (and envious) of prospective female employees who
+are attractive and thus may compete with them for mates or at least for the attention of male
+coworkers.23 At the same time, we saw that employment agencies do not disadvantage attractive
+females relative to plain females and only weakly penalize them with respect to no-picture females.
+It follows that when the females entrusted with hiring will not work with the candidates they hire,
+jealousy is rendered inoperative. Envy alone remains. Accordingly, employment agencies discriminate against attractive women to a lesser extent than do the companies themselves at which the
+forces of both jealousy and envy apply.24
+If we consider CV pairs for which at least one of the CVs was called back and thus the sex of the
+caller is known, Table 12 displays the distribution of callbacks to CV pairs for female callers only
+separately for ads placed by the companies themselves and those placed by employment agencies.
+Strikingly, the largest case of within-pair discrimination among companies is directed at attractive
+females: no-picture women are preferred to attractive females for 55% of the callbacks compared
+to a preference for attractive females for only 17% of callbacks. On the other hand, women in
+the companies themselves don’t seem to mind hiring plain-looking women and even favor them
+(34.4% to 20.7%) over no-picture women. Plain women pose no threat to these female employers
+and therefore do not arouse their jealousy. By contrast, among employment agencies, attractive
+females are discriminated against less than any other group: the right panel of Table 12 reveals
+a relatively small nine p.p. gap between the preference for no-picture females (36.4%) and the
+preference for attractive females (27.1%) – considerably less than any of the other differences,
+including the most closely related 21 p.p. preference for no-picture females over plain females.
+Without the possibility to enter employers’ minds, we cannot determine beyond all doubt their
+23
+
+Evidence of concern for the attention that attractive females draw in the workplace comes from our survey
+question that asks respondents whether they agree with the statement that “an attractive woman receives more
+attention from male coworkers at the expense of other women in the workplace”: 77% of the respondents (80% at the
+companies themselves) agreed with this statement, as seen in the second-to-last row in Table 10. These percentages
+are notably high, particularly when compared to the percentages in agreement with the other statements about
+attractive females: attractive women are a distraction in the workplace (47% agreed overall), get hired because of
+their looks (42% agreed) and are below-average intelligence (only 6% agreed – yet another blow to the dumb-blonde
+hypothesis).
+24
+This result resembles closely the finding in Luxen and de Vijver (discussed in section 2.2) that females discriminate
+against attractive women when the assessors are informed that they will have frequent contact with the hired applicant,
+but display no such discriminatory tendency when told they will never meet. A taste-based model of discrimination
+in the spirit of Becker (1957) would predict this dichotomy in the treatment of attractive females.
+
+20
+
+psychological motivations for choosing one identically qualified job candidate over another. Yet, we
+have presented a range of evidence that points to female jealousy and envy as likely sources of the
+observed discrimination against attractive females. To begin, about 90% of the staff responsible for
+the initial screening of CVs and callbacks to candidates are female. These women are typically young
+and single and, when asked, overwhelmingly agree that attractive women receive more attention
+from male coworkers at the expense of other women in the workplace. More direct evidence comes
+from the source of hiring. When both jealousy and envy are potentially applicable (i.e., hiring done
+by the company in which the hired job candidate will work), the mostly female staff discriminates
+strongly against attractive women only, treating similarly all other picture and no-picture CVs.
+When we control for jealousy, but leave room for envy (i.e., outside employment agencies) attractive
+females experience only weakly significant discrimination.
+
+5.2
+
+Comparison with the Results of López Bóo et al.
+
+While we and López Bóo et al. both find that attractive males elicit more callbacks than unattractive
+ones, they also observe this same ordering for females. In an attempt to account for our papers’
+seemingly divergent results on attractive females, we asked our original panel of judges to rate the
+attractiveness of all of López Bóo et al.’s photos on the same 1-9 scale. Seven of our eight judges
+rated all 16 (four in each beauty category) of the fictitious, composite photos that appear in Table
+1 of their paper.25 The judges’ mean ratings for the four beauty categories appear in Table 1, row
+1 (our photos) and row 3 (theirs). Both in our paper and in theirs, the judges rated the attractive
+candidates significantly higher than the plain candidates for males and females alike (p < .01 for
+all four t-test of means and all four non-parametric Mann-Whitney tests), thereby attesting to the
+reasonableness of the choice of attractive and plain photos in both papers.
+The most striking difference between the attractiveness ratings is that our attractive candidates
+are rated markedly higher than those in López Bóo et al. At 8.0 out of 9, the mean rating for our
+attractive females is nearly twice that of 4.11 for theirs and our attractive males’ mean rating of
+6.48 is more than 60% higher than theirs of 4.14 (p < .01 for both t-tests and both Mann-Whitney
+tests). In fact, the mean ratings of their attractive candidates are sufficiently low that they resemble
+more, although are still significantly different from, our plain females (mean = 3.07, t-test p = .025,
+Mann-Whitney p = .024) than they do our attractive women. Similarly, their attractive males are
+25
+
+Just as the judges were not told why they were asked to rate our photos, we did not inform them of the purpose
+of this subsequent photo rating task.
+
+21
+
+rated only one point higher than our plain males.
+Briefly, both papers compare a set of candidates who are attractive when viewed alongside
+a second set of less attractive candidates. In absolute terms, however, the mean ratings suggest
+that their photos would be more accurately described as average-plus and unattractive, whereas
+ours are highly attractive and average-minus.26 This being the case, our plain candidates’ looks
+are representative of a sizeable swath of the population, whereas our attractive candidates reflect
+the looks of only a small percentage. Thus, an open question remains whether our observed male
+beauty premium and female beauty penalty also apply to slightly above-average-looking men and
+women, respectively. If we put aside potentially important differences between our paper and López
+Bóo et al. (2013) and combine our results with theirs to speculate what might happen if we were
+to extend the range of beauty covered in our paper, then we deduce that the beauty premium
+for males is likely to hold across the spectrum of male beauty. Quite differently, a female beauty
+premium applies up to average-plus looking women and metamorphoses into a beauty penalty for
+highly attractive women.
+
+6
+
+Conclusions
+
+The findings from our field experiment make clear that attractive and plain job candidates are
+not treated equally. Beauty discrimination occurs at the earliest stage of job search, and not only,
+as Hamermesh and Biddle (1994) establishes, through differential salaries. To put our findings in
+perspective, a plain male needs to send over twice as many CVs as an attractive male for an equal
+chance at a callback. This result is robust across industries and job and employer characteristics
+and ought to encourage highly attractive males to attach a photograph to their resumes in cultures
+like Israel in which the inclusion of a picture is left up to the applicant. On the other hand,
+attractive and plain women alike are better off omitting their photographs from their CVs since
+their inclusion decreases their chances of a callback by 20% to 30%. Yet if the company at which
+the chosen candidate will be employed is also in charge of hiring, plain women are no worse off
+including their photograph, while the penalty for doing so for attractive women swells to 41%.
+If our paper ended with these findings, it would fill a void in the economics and management
+literatures on the role of beauty in the labor market. To date, the undisputed consensus in these
+26
+
+The two papers’ dissimilar photo selection processes can account for these differences. López Bóo et al. focus
+on maintaining facial ratios previously shown to be necessary – but not sufficient – conditions for attractiveness. By
+contrast, our invitation to students to submit their photos led to the foreseeable outcome in which truly unattractive
+individuals mostly refrain from doing so, while multitudes of unmistakably attractive students volunteer their pictures.
+
+22
+
+empirical and laboratory labor-market studies is that good looks pay for men and women alike.
+Yet, along with a growing psychology literature that points to discrimination against attractive
+women, often by women themselves, in hypothetical hiring and other decision scenarios, our paper
+challenges this view. To the best of our knowledge, ours is the first paper to demonstrate a negative
+return for attractive females in an actual labor market.
+Additional analyses and a follow-up survey suggest that neither job selection, the dumb-blonde
+hypothesis nor the mere attaching of a photo to a CV can account for the penalization of attractive
+women, whereas substantial evidence points to female jealousy and envy as part of the explanation.
+Other (untested) explanations are possible. For example, human resource personnel voice concern
+that attractive women serve as social magnets and lower the productivity of their coworkers.27
+Reluctance to hire attractive women may also be rooted in some of the negative qualities associated
+with attractive women (see the discussion in section 2.1), such as vanity, egoism, snobbishness and
+lack of sympathy – traits particularly detrimental to corporate cultures in which collaboration,
+group tasks and mentoring are central. Finally, males may avoid hiring attractive females for fear
+of backlash from their spouses and coworkers.
+When drawing inferences from our results, keep in mind that our research design focuses on only
+two beauty types, highly attractive and slightly below-average-looking candidates, rather than the
+entire range of beauty.28 One clear-cut implication of our results is that beauty distorts the hiring
+process. A profit-maximizing firm aims to hire the most qualified candidate. However, suitably
+qualified attractive women and plain men and women may be eliminated early on from the selection
+process. One may retort that even without pictures on their CVs such candidates would eventually
+be eliminated, at the interview stage, for example. Not necessarily so. For one, the interviewer
+may not be the same person or even of the same sex as the person who screened the CVs. Even if
+they are one and the same, the interviewer’s bias against attractive women, for instance, may be
+attenuated after having first mentally processed the candidate’s CV objectively without knowledge
+of her appearance and after meeting her in person.29
+One way to reduce discrimination based on physical appearance (and other traits unrelated to
+the candidate’s suitability for the job) would be government legislation against, or the emergence
+27
+As a case in point, Debrahlee Lorenzana filed a sexual harassment suit against Citibank in 2010, claiming that
+she was fired because her looks were, in her words, “too distracting for her male colleagues and supervisors to bear.”
+28
+In section 5.2, we speculate but cannot confirm how employers would respond to more moderately attractive
+and decisively unattractive candidates.
+29
+Babcock et al. (1995) present evidence of a similar psychological mechanism whereby subjects’ self-serving bias
+in a simulated court trial is lessened if they first read the case materials without knowing which side they represent.
+
+23
+
+of a social norm shunning, the inclusion of a photograph with one’s job application and conducting
+at least initial interviews by phone rather than in person. Interestingly, several European countries
+have recently begun to experiment with anonymous CVs whereby candidates are forbidden to include their picture, name, age, sex, date and place of birth, nationality and marital status anywhere
+in their application.30 A second recommendation that follows from our results is for company managers to pay greater attention to the gender of those responsible for hiring. A mixed-gender hiring
+committee would help mitigate the beauty discrimination found herein.31
+
+References
+Agthe, M., M. Spörrle, J. K. Maner. 2010. Don’t hate me because I’m beautiful: Anti-attractiveness
+bias in organizational evaluation and decision making. Journal of Experimental Social Psychology 46 1151–1154.
+Agthe, M., M. Spörrle, J. K. Maner. 2011. Does being attractive always help? Positive and negative
+effects of attractiveness on social decision Making. Personality and Social Psychology Bulletin
+20(10) 1–13.
+Andreoni, J., R. Petrie. 2008. Beauty, gender and stereotypes: evidence from laboratory experiments. Journal of Economic Psychology 29 73–93.
+Babcock, L., G. Loewenstein, S. Issacharoff, C. Camerer. 1995. Biased judgements of fairness in
+bargaining. American Economic Review 85(5) 1337–1343.
+Bagues, M. F., B. Esteve-Volart. 2010. Can gender parity break the glass ceiling? Evidence from
+a repeated randomized experiment. Review of Economic Studies 77(4) 1301–1328.
+Becker, G. S. 1957. The Economics of Discrimination, Chicago: University of Chicago Press.
+30
+In Belgium, anonymous CVs are compulsory in the public sector. French President Nicolas Sarkozy commissioned
+a pilot project in which 50 French firms volunteered to accept anonymous CVs only (Le Balch 2010). Sweden and
+Germany recently conducted similar pilot studies with anonymous CVs (Donath 2010).
+31
+Consistent with this recommendation, Eaves et al. (1989) find that male interviewers for law firms prefer female
+law students over males more than female interviewers do, but that female interviewees are invited for a second
+interview with the highest frequency when the interviewing team includes both genders. Broder (1993) observes that
+female reviewers evaluating NSF grant proposals rate female-authored proposals lower than their male counterparts
+did. Similarly, Bagues and Esteve-Volart (2010) show that a female candidate is less likely to pass the public exam
+for a position in one of four divisions of the Spanish Judiciary whenever she is randomly assigned to a committee
+with a relatively high share of female evaluators.
+
+24
+
+Ben Hador, B., A. Even, E. Apelboum, H. Drieher, D. Sharon, Y. Cohen, G. Mundlak. 2005.
+Employment discrimination in Israel: Some evidence from correspondence tests. Labor, Society
+and Law 11 381–407 (in Hebrew).
+Berggren, N., H. Jordahl, P. Poutvaara. 2010. The looks of a winner: Beauty and electoral success.
+Journal of Public Economics 94 8–15.
+Bertrand, M., S. Mullainathan. 2004. Are Emily and Greg more employable than Lakisha and
+Jamal? A Field experiment on labor market discrimination. American Economic Review 94(4)
+991–1013.
+Biddle, J. E., D. S. Hamermesh. 1998. Beauty, productivity, and discrimination: Lawyers’ looks
+and lucre. Journal of Labor Economics 16(1) 172–201.
+Broder, I. E. 1993. Review of NSF economics proposals: Gender and institutional patterns. American Economic Review 83(4) 964-970.
+Buss, D. M., M. Haselton. 2005. The evolution of jealousy. Trends in Cognitive Sciences 9(11)
+506–507.
+Dermer, M., D. L. Thiel. 1975. When beauty may fall. Journal of Personality and Social Psychology
+31(6) 1168–1176.
+Dion, K., E. Berscheid, E. Walster. 1972. What is beautiful is good. Journal of Personality and
+Social Psychology 24 285–290.
+Donath, J. 2010. Anonymous job applications: German pilot project aims to reduce discrimination.
+in Spiegel Online, August 25, 2010, link.
+Eaves, D., I. P. L. Png, J. M. Ramseyer. 1989. Gender, ethnicity, and grades: Empirical evidence
+of discrimination in law-firm interviews. Law and Inequality Journal 7(2) 189–214.
+Eckel, C., R. Petrie. 2011. Face value. American Economic Review 101(4) 1497–1513.
+Feingold, A. 1992. Good-looking people are not what we think. Psychological Bulletin 111(2)
+304–341.
+Fershtman, C., U. Gneezy. 2001. Discrimination in a segmented society: An Experimental approach. Quarterly Journal of Economics 116(1) 351–379.
+25
+
+Firth, M. 1982. Sex discrimination in job opportunities for women. Sex Roles 8 891–901.
+Hamermesh, D. S. 2011. Beauty Pays. Princeton: Princeton University Press.
+Hamermesh D. S., J. E. Biddle. 1994. Beauty and the labor market. American Economic Review
+84(5) 1174–1194.
+Hatfield, E., S. Sprecher. 1986. Mirror, mirror: The importance of looks in everyday life. New
+York: SUNY, chapter 10.
+Heilman, M. E., Saruwatari, L. R. 1979. When beauty is beastly: The effects of appearance and
+sex on evaluations of job applicants for managerial and non-managerial jobs. Organizational
+Behavior and Human Performance 23 360–372.
+Jowell, R., Prescott-Clarke, P. 1970. Racial discrimination and white-collar workers in Britain.
+Race & Class, 11(4) 397–417.
+Le Balch, B. 2010. Le CV anonyme prend ses marques. L’Express, February 18, 2010, link.
+López Bóo, F., M. A. Rosi, S. Urzúa. 2013. The labor market return to an attractive face: Evidence
+from a field experiment. Economics Letters 118 170–172.
+Luxen, M. F., F. J. R. van de Vijver. 2006. Facial attractiveness, sexual selection, and personnel
+selection: When evolved preferences matter. Journal of Organizational Behavior 27 241–255.
+Mobius, M. M., T. S. Rosenblat. 2006. Why beauty matters. American Economic Review 96(1)
+222–235.
+Parrett, M. 2013. Beauty and the feast: Examining the effect of beauty on earnings using data
+from a natural field experiment. unpublished manuscript.
+Parrott, W. G., Smith, R. H. 1993. Distinguishing the experiences of envy and jealousy. Journal
+of Personality and Social Psychology 64(6) 906–920.
+Riach, P. A., Rich, J. 1991. Testing for racial discrimination in the labour market. Cambridge
+Journal of Economics 15 239–256.
+Riach, P. A., Rich, J. 1987. Testing for sexual discrimination in the labour market. Australian
+Economic Papers 26(49) 165–178.
+
+26
+
+Riach, P. A., Rich, J. 2002. Field experiments of discrimination. Economic Journal 112 F480–
+F518.
+Rooth, D.-O. 2009. Obesity, attractiveness, and differential treatment in hiring. Journal of Human
+Resources 44(3) 710–735.
+Rubinstein, Y., D. Brenner. 2014. Pride and prejudice: Using ethnic-sounding names and interethnic marriages to identify labour market discrimination. Review of Economic Studies 81
+389–425.
+Sagarin, B., D. V. Becker, R. E. Guadagno, L. D. Nicastle, A. Millevoi. 2003. Sex differences
+(and similarities) in jealousy: The moderating influence of infidelity experience and sexual
+orientation of the infidelity. Evolution and Human Behavior 24 17–23.
+Solnick S. J., M. E. Schweitzer. 1999. The influence of physical attractiveness and gender on
+ultimatum game decisions. Organizational Behavior and Human Decision Processes 79 199–
+215.
+Weichselbaumer, D. 2003. Sexual Orientation Discrimination in Hiring. Labour Economics 10(6)
+629–642.
+Wilson, R. K., C. C. Eckel. 2006. Judging a book by its cover: Beauty and expectations in the
+trust game. Political Research Quarterly 59(2) 189–202.
+
+27
+
+

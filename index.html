@@ -2,459 +2,389 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Presentation</title>
     <style>
-        /* 
-           Apple-esque Minimalist Design 
-           Dark mode base, clean typography, subtle translucency.
-        */
-        :root {
-            --bg-color: #000000;
-            --overview-bg: #101010;
-            --slide-gap: 120px;
-            --slide-radius: 16px;
-            --ui-bg: rgba(40, 40, 40, 0.6);
-            --ui-border: rgba(255, 255, 255, 0.1);
-            --ui-hover: rgba(255, 255, 255, 0.15);
-            --ui-text: #f5f5f7;
-            --accent: #2997ff;
-            --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-            --ease-smooth: cubic-bezier(0.25, 1, 0.5, 1);
-        }
-
+        /* RESET */
+        * { box-sizing: border-box; }
         body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: var(--bg-color);
-            color: var(--ui-text);
-            font-family: var(--font-stack);
-            transition: background-color 0.8s var(--ease-smooth);
+            margin: 0; padding: 0;
+            width: 100%; height: 100%;
+            overflow: hidden; /* CRITICAL: No scrollbars */
+            background-color: #000;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #fff;
         }
 
-        body.overview-active {
-            background-color: var(--overview-bg);
-        }
-
-        /* The Infinite Canvas */
-        #camera {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            align-items: center !important;
-            /* Start with a generous padding to allow the first slide to be centered via transform easily */
-            padding-left: 50vw; 
-            padding-right: 50vw;
-            box-sizing: border-box;
-            
-            /* The magic moving logic */
-            transform-origin: 0 0;
-            will-change: transform;
-            transition: transform 0.6s var(--ease-smooth);
-        }
-
-        /* Slide Container Styles (Marpit generates SVGs or Sections) */
-        /* High specificity to override injected theme styles */
-        #camera > svg, #camera > section {
-            display: block !important;
-            flex-shrink: 0 !important;
-            width: 1280px !important; /* Standard 16:9 HD base width */
-            height: 720px !important;
-            margin-right: var(--slide-gap) !important;
-            margin-left: 0 !important;
-            margin-top: 0 !important;
-            margin-bottom: 0 !important;
-            border-radius: var(--slide-radius);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-            background-color: white; /* Fallback for slides without background */
-            
-            /* Inactive state */
-            transform: scale(0.85);
-            opacity: 0.4;
-            filter: grayscale(100%) blur(1px);
-            transition: all 0.5s var(--ease-smooth);
-            cursor: pointer;
-            pointer-events: auto;
-            position: static !important; /* Prevent theme absolute positioning */
-        }
-
-        #camera > svg:last-child, #camera > section:last-child {
-            margin-right: 0 !important;
-        }
-
-        /* Active Slide State */
-        #camera > svg.active, #camera > section.active {
-            transform: scale(1);
-            opacity: 1;
-            filter: grayscale(0%) blur(0px);
-            box-shadow: 0 30px 80px rgba(0,0,0,0.8);
-            z-index: 10;
-            cursor: default;
-        }
-
-        /* Hover Hint (Apple-like interaction) */
-        #camera > svg:not(.active):hover, #camera > section:not(.active):hover {
-            opacity: 0.7;
-            transform: scale(0.87);
-        }
-
-        /* UI Control Bar */
-        #controls {
+        /* UI LAYER (Above everything) */
+        #ui-layer {
             position: fixed;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none;
+            z-index: 100;
             display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
             align-items: center;
-            gap: 12px;
-            padding: 8px 16px;
-            background: var(--ui-bg);
+            padding-bottom: 30px;
+        }
+
+        #controls {
+            pointer-events: auto;
+            background: rgba(28, 28, 30, 0.65);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--ui-border);
-            border-radius: 99px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-            z-index: 1000;
-            transition: opacity 0.3s ease, transform 0.3s ease;
-        }
-
-        /* Hide controls in overview if desired, but we'll keep them for navigation */
-        
-        button.icon-btn {
-            background: none;
-            border: none;
-            color: var(--ui-text);
-            padding: 8px;
-            border-radius: 50%;
-            cursor: pointer;
+            padding: 8px 16px;
+            border-radius: 100px;
             display: flex;
             align-items: center;
-            justify-content: center;
-            transition: background 0.2s ease, transform 0.1s ease;
+            gap: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: opacity 0.3s;
         }
 
-        button.icon-btn:hover {
-            background: var(--ui-hover);
+        .btn {
+            background: none; border: none;
+            color: rgba(255,255,255,0.8);
+            cursor: pointer; padding: 4px;
+            display: flex; align-items: center; justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
         }
+        .btn:hover { background: rgba(255,255,255,0.1); color: #fff; transform: scale(1.1); }
+        .btn:disabled { opacity: 0.3; cursor: default; transform: none; }
+        .btn svg { width: 20px; height: 20px; stroke-width: 2.5; }
 
-        button.icon-btn:active {
-            transform: scale(0.92);
-        }
-        
-        button.icon-btn:disabled {
-            opacity: 0.3;
-            cursor: default;
-        }
-
-        button.icon-btn svg {
-            width: 20px;
-            height: 20px;
-            stroke-width: 2.5px;
-        }
-
-        #counter {
-            font-size: 13px;
-            font-weight: 500;
-            color: rgba(255,255,255,0.7);
+        #slide-count {
+            font-size: 13px; font-weight: 500;
             font-variant-numeric: tabular-nums;
-            min-width: 60px;
-            text-align: center;
+            color: rgba(255,255,255,0.6);
             user-select: none;
         }
 
-        .divider {
-            width: 1px;
-            height: 18px;
-            background: rgba(255,255,255,0.2);
+        .divider { width: 1px; height: 16px; background: rgba(255,255,255,0.15); }
+
+        /* WORLD (The Infinite Canvas) */
+        #world {
+            position: absolute;
+            top: 50%; left: 50%; /* Center the world origin */
+            width: 0; height: 0;
+            overflow: visible; /* Let content spill out (we manage visibility via body hidden) */
+            transform-origin: 0 0; /* Scale/Move from center */
+            will-change: transform;
+            transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
         }
 
-        /* Loading State */
-        #loader {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
+        /* STRIP (Holds the slides in a row) */
+        #strip {
             display: flex;
             align-items: center;
-            justify-content: center;
-            background: var(--bg-color);
-            z-index: 2000;
-            color: white;
-            font-weight: 300;
-            letter-spacing: 0.5px;
-            transition: opacity 0.5s ease;
+            flex-direction: row; /* FORCE HORIZONTAL */
+            width: max-content; /* Only as wide as contents */
+            /* We will center the strip relative to the world origin in JS */
         }
 
-        /* Responsive overrides */
-        @media (max-width: 600px) {
-            #controls {
-                bottom: 20px;
-                padding: 6px 12px;
-                gap: 8px;
-            }
-            .marpit > svg, .marpit > section {
-                /* On mobile, standard width might need adjusting logic in JS, 
-                   but styling remains scalable via transform */
-            }
+        /* SLIDE WRAPPER */
+        /* We wrap Marpit sections to control their layout in the strip */
+        .slide-wrapper {
+            position: relative;
+            flex-shrink: 0;
+            width: 1280px;
+            height: 720px;
+            margin: 0 60px; /* Gap between slides */
+            border-radius: 16px;
+            transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+            transform-origin: center center;
+            
+            /* Inactive State */
+            transform: scale(0.9);
+            opacity: 0.3;
+            filter: grayscale(100%) brightness(0.5);
+            pointer-events: none; /* No clicking inside inactive slides */
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            background: #fff; /* Ensure background exists */
+            overflow: hidden;
         }
+        
+        .slide-wrapper.active {
+            transform: scale(1);
+            opacity: 1;
+            filter: none;
+            pointer-events: auto;
+            box-shadow: 0 40px 100px rgba(0,0,0,0.8);
+            z-index: 10;
+        }
+        
+        /* OVERVIEW MODE */
+        body.overview-mode { background-color: #111; }
+        body.overview-mode #controls { opacity: 0; pointer-events: none; } /* Hide main controls in overview? Or keep them. Let's keep them but maybe dim. */
+        
+        /* MARPIT SECTION OVERRIDES */
+        /* These styles force the section to fill our wrapper */
+        section {
+            width: 100% !important;
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 40px !important; /* Default padding */
+            box-sizing: border-box !important;
+            overflow: hidden;
+            box-shadow: none !important; /* We handle shadow on wrapper */
+            border-radius: 0 !important; /* We handle radius on wrapper */
+            position: absolute !important; 
+            top: 0; left: 0;
+        }
+
+        /* LOADING */
+        #loader {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; z-index: 200;
+            display: flex; align-items: center; justify-content: center;
+            color: #666; font-size: 14px;
+            transition: opacity 0.5s;
+        }
+        
+        /* ERROR MSG */
+        #error-log {
+            color: #ff3b30;
+            background: rgba(255,59,48,0.1);
+            padding: 10px;
+            border-radius: 8px;
+            display: none;
+            max-width: 80%;
+            font-family: monospace;
+        }
+
     </style>
 </head>
 <body>
 
-    <div id="loader">Loading Presentation...</div>
-
-    <div id="camera" class="marpit">
-        <!-- Slides will be injected here -->
+    <div id="loader">
+        <div id="loader-text">Loading Presentation...</div>
+        <div id="error-log"></div>
     </div>
 
-    <div id="controls">
-        <button class="icon-btn" id="btnPrev" title="Previous Slide">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="15 18 9 12 15 6"></polyline>
-            </svg>
-        </button>
-
-        <span id="counter">-- / --</span>
-
-        <button class="icon-btn" id="btnNext" title="Next Slide">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="9 18 15 12 9 6"></polyline>
-            </svg>
-        </button>
-
-        <div class="divider"></div>
-
-        <button class="icon-btn" id="btnOverview" title="Toggle Overview (Up/Down Arrow)">
-            <svg id="icon-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="7" height="7"></rect>
-                <rect x="14" y="3" width="7" height="7"></rect>
-                <rect x="14" y="14" width="7" height="7"></rect>
-                <rect x="3" y="14" width="7" height="7"></rect>
-            </svg>
-            <svg id="icon-single" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-            </svg>
-        </button>
+    <div id="ui-layer">
+        <div id="controls">
+            <button class="btn" id="btn-prev" title="Previous (Left Arrow)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <span id="slide-count">-- / --</span>
+            <button class="btn" id="btn-next" title="Next (Right Arrow)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <div class="divider"></div>
+            <button class="btn" id="btn-overview" title="Overview (Up Arrow)">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="3" width="7" height="7"></rect>
+                    <rect x="14" y="14" width="7" height="7"></rect>
+                    <rect x="3" y="14" width="7" height="7"></rect>
+                </svg>
+            </button>
+        </div>
     </div>
 
-    <!-- Marpit for rendering Markdown to HTML/SVG -->
+    <!-- The 3D World container -->
+    <div id="world">
+        <!-- The strip of slides -->
+        <div id="strip"></div>
+    </div>
+
+    <!-- LOGIC -->
     <script type="module">
         import { Marpit } from 'https://esm.sh/@marp-team/marpit@2.5.0';
 
-        const dom = {
-            camera: document.getElementById('camera'),
+        const els = {
             loader: document.getElementById('loader'),
-            btnPrev: document.getElementById('btnPrev'),
-            btnNext: document.getElementById('btnNext'),
-            btnOverview: document.getElementById('btnOverview'),
-            counter: document.getElementById('counter'),
-            iconGrid: document.getElementById('icon-grid'),
-            iconSingle: document.getElementById('icon-single'),
+            errorLog: document.getElementById('error-log'),
+            world: document.getElementById('world'),
+            strip: document.getElementById('strip'),
+            btnPrev: document.getElementById('btn-prev'),
+            btnNext: document.getElementById('btn-next'),
+            btnOverview: document.getElementById('btn-overview'),
+            count: document.getElementById('slide-count')
         };
 
         const state = {
-            slides: [],
-            currentIndex: 0,
-            isOverview: false,
+            slides: [], // Array of wrapper elements
+            index: 0,
+            overview: false
         };
 
-        const CONFIG = {
-            slideWidth: 1280,
-            slideHeight: 720,
-            baseScale: 0.85, // How big the active slide is relative to screen
-            overviewScale: 0.25, // How small the slides get in overview
-            themeUrl: 'https://unpkg.com/@marp-team/marp-core/themes/gaia.css'
+        const PARAMS = {
+            slideW: 1280,
+            slideH: 720,
+            gap: 120, // 60px margin on each side
+            baseScale: 0.85, // Active slide fits 85% of screen
+            overviewScale: 0.2 // Tiny slides in overview
         };
+
+        function showError(msg) {
+            els.loader.style.background = '#111';
+            els.errorLog.style.display = 'block';
+            els.errorLog.innerText = msg;
+            console.error(msg);
+        }
 
         async function init() {
             try {
-                // 1. Fetch Markdown
+                // 1. Fetch
                 const res = await fetch('slides.md');
-                if (!res.ok) throw new Error('Could not load slides.md');
+                if(!res.ok) throw new Error('Could not find slides.md');
                 const md = await res.text();
 
-                // 2. Setup Marpit
-                const marpit = new Marpit({
-                    inlineSVG: true, // Uses SVG for slides which scales perfectly
+                // 2. Render (Using standard HTML, NO inlineSVG for stability)
+                const marpit = new Marpit({ 
+                    inlineSVG: false, // Standard HTML sections
                 });
 
-                // 3. Load & Apply Theme
+                // Load Theme
+                const themeUrl = 'https://unpkg.com/@marp-team/marp-core/themes/gaia.css';
                 try {
-                    const themeRes = await fetch(CONFIG.themeUrl);
-                    if (themeRes.ok) {
-                        let css = await themeRes.text();
-                        // Hack to ensure Marpit accepts it as a theme
-                        if (!css.includes('/* @theme')) css = '/* @theme gaia */\n' + css;
+                    const tRes = await fetch(themeUrl);
+                    if(tRes.ok) {
+                        let css = await tRes.text();
+                        // Hack for Marpit theme detection
+                        if(!css.includes('/* @theme')) css = '/* @theme gaia */\n' + css;
                         marpit.themeSet.add(css);
                     }
-                } catch (e) {
-                    console.warn('Using fallback styles', e);
-                }
+                } catch(e) { console.warn('Theme load failed, using defaults'); }
 
-                // 4. Render
                 const { html, css } = marpit.render(md);
-                
-                // Inject CSS
+
+                // 3. Inject CSS
                 const style = document.createElement('style');
                 style.textContent = css;
                 document.body.appendChild(style);
 
-                // Inject Slides
-                dom.camera.innerHTML = html;
+                // 4. Inject HTML into a temp container to process
+                const temp = document.createElement('div');
+                temp.innerHTML = html;
+                const sections = Array.from(temp.querySelectorAll('section'));
 
-                // 5. Initialize State
-                state.slides = Array.from(dom.camera.querySelectorAll('svg'));
-                // Fallback if inlineSVG is false or Marpit behavior changes
-                if (state.slides.length === 0) state.slides = Array.from(dom.camera.querySelectorAll('section'));
+                if(sections.length === 0) throw new Error('No slides found in Markdown');
 
-                // Click to navigate/select
-                state.slides.forEach((slide, idx) => {
-                    slide.addEventListener('click', () => {
-                        if (state.isOverview) {
-                            goToSlide(idx);
+                // 5. Build the Strip
+                sections.forEach((section, i) => {
+                    // Create Wrapper
+                    const wrapper = document.createElement('div');
+                    wrapper.className = 'slide-wrapper';
+                    wrapper.dataset.index = i;
+                    
+                    // Add click handler
+                    wrapper.addEventListener('click', () => {
+                        if(state.overview) {
+                            goto(i);
                             toggleOverview(false);
-                        } else if (idx !== state.currentIndex) {
-                            goToSlide(idx);
+                        } else if(i !== state.index) {
+                            goto(i);
                         }
                     });
+
+                    // Move section into wrapper
+                    wrapper.appendChild(section);
+                    els.strip.appendChild(wrapper);
+                    state.slides.push(wrapper);
                 });
 
                 // 6. Start
-                dom.loader.style.opacity = '0';
-                setTimeout(() => dom.loader.style.display = 'none', 500);
+                goto(0);
+                setupEvents();
                 
-                goToSlide(0);
-                setupInputs();
-                window.addEventListener('resize', updateCamera);
+                // Hide loader
+                setTimeout(() => {
+                    els.loader.style.opacity = '0';
+                    setTimeout(() => els.loader.style.display = 'none', 500);
+                }, 200);
 
-            } catch (err) {
-                dom.loader.textContent = 'Error: ' + err.message;
-                dom.loader.style.color = '#ff453a';
+            } catch(e) {
+                showError(e.message);
             }
         }
 
-        function goToSlide(index) {
-            // Bounds check
-            if (index < 0) index = 0;
-            if (index >= state.slides.length) index = state.slides.length - 1;
+        function goto(i) {
+            // Clamp
+            if(i < 0) i = 0;
+            if(i >= state.slides.length) i = state.slides.length - 1;
+            
+            state.index = i;
 
-            state.currentIndex = index;
-
-            // Update UI
-            dom.btnPrev.disabled = index === 0;
-            dom.btnNext.disabled = index === state.slides.length - 1;
-            dom.counter.textContent = `${index + 1} / ${state.slides.length}`;
-
-            // Update Slide Visuals
-            state.slides.forEach((slide, i) => {
-                if (i === index) {
-                    slide.classList.add('active');
-                } else {
-                    slide.classList.remove('active');
-                }
+            // Update DOM
+            state.slides.forEach((slide, idx) => {
+                if(idx === i) slide.classList.add('active');
+                else slide.classList.remove('active');
             });
+
+            els.btnPrev.disabled = i === 0;
+            els.btnNext.disabled = i === state.slides.length - 1;
+            els.count.innerText = `${i+1} / ${state.slides.length}`;
 
             updateCamera();
         }
 
         function toggleOverview(force) {
-            if (typeof force === 'boolean') {
-                state.isOverview = force;
-            } else {
-                state.isOverview = !state.isOverview;
-            }
+            if(typeof force === 'boolean') state.overview = force;
+            else state.overview = !state.overview;
 
-            document.body.classList.toggle('overview-active', state.isOverview);
-
-            // Toggle Icons
-            if (state.isOverview) {
-                dom.iconGrid.style.display = 'none';
-                dom.iconSingle.style.display = 'block';
-            } else {
-                dom.iconGrid.style.display = 'block';
-                dom.iconSingle.style.display = 'none';
-            }
-
+            document.body.classList.toggle('overview-mode', state.overview);
             updateCamera();
         }
 
-        /* 
-           The Camera Logic 
-           Keeps the active slide centered in the viewport.
-        */
         function updateCamera() {
-            if (state.slides.length === 0) return;
+            if(state.slides.length === 0) return;
 
-            const activeSlide = state.slides[state.currentIndex];
             const winW = window.innerWidth;
             const winH = window.innerHeight;
+
+            // 1. Determine Scale
+            const fitScale = Math.min(winW / PARAMS.slideW, winH / PARAMS.slideH) * PARAMS.baseScale;
+            const scale = state.overview ? PARAMS.overviewScale : fitScale;
+
+            // 2. Determine Focus Position
+            // We want the Center of the Active Slide to be at Center of Screen (0,0 in World space)
+            // The Strip is laid out horizontally.
+            // Slide Width = 1280 + 120 (margin) = 1400 total space per slide approx?
+            // Let's use exact offsets.
             
-            // Calculate Scale
-            // Standard fit
-            const fitScale = Math.min(
-                winW / CONFIG.slideWidth, 
-                winH / CONFIG.slideHeight
-            ) * CONFIG.baseScale;
-
-            const targetScale = state.isOverview ? (fitScale * CONFIG.overviewScale) : fitScale;
-
-            // Calculate Position to Center
-            // The camera div starts at 0,0.
-            // We need to translate it so the CENTER of the active slide 
-            // is at the CENTER of the screen.
-
-            // Get center of slide relative to the camera container
-            // Since we used flex row, offsetLeft works well.
+            const activeSlide = state.slides[state.index];
+            // Since slides are flexed, let's use offsetLeft relative to the strip
             const slideLeft = activeSlide.offsetLeft;
-            const slideW = activeSlide.offsetWidth || CONFIG.slideWidth;
-            const slideCenterX = slideLeft + (slideW / 2);
+            const slideWidth = activeSlide.offsetWidth;
+            const centerOffset = slideLeft + (slideWidth / 2);
 
-            // For Y, slides are centered in flex container (height 100%)
-            // So logical center Y is winH / 2 (assuming container is full height)
+            // We translate the world so that 'centerOffset' is at 0
+            const tx = -centerOffset;
+            const ty = 0; // Strip is vertically centered in world already
+
+            // Apply to World
+            // Note: We move the World Container
+            // The world is at 50% 50% of screen.
+            // We scale it and translate it.
+            // transform: translate(tx) scale(s)
+            // If we scale first, the translation needs to be in scaled units?
+            // Order: translate then scale is usually easier for "Zoom into point"
             
-            // We want (slideCenterX * targetScale) + translateX = winW / 2
-            // So: translateX = (winW / 2) - (slideCenterX * targetScale)
-
-            const tx = (winW / 2) - (slideCenterX * targetScale);
+            // Actually: World is at screen center.
+            // Inside world, we shift strip by tx.
+            // Then we scale world.
             
-            // For Y translation
-            // The transform origin is 0 0.
-            // The strip is vertically centered by CSS (align-items: center).
-            // However, scaling from 0 0 will push the content up/left.
-            // The CSS vertical centering happens *before* transform or *inside* the flex layout?
-            // Actually, the #camera is `top:0`, `height:100%`, `align-items:center`.
-            // So the slides are visually at Y = 50% of the container.
-            // When we scale the whole container by `s` from `0 0`:
-            // The visual Y becomes (50% * s).
-            // We want it to be at (50% of screen).
-            // So ty = (winH / 2) - ((winH / 2) * targetScale)
-            //       = (winH / 2) * (1 - targetScale)
-
-            const ty = (winH / 2) * (1 - targetScale);
-
-            dom.camera.style.transform = `translate(${tx}px, ${ty}px) scale(${targetScale})`;
+            els.world.style.transform = `scale(${scale}) translate(${tx}px, ${ty}px)`;
         }
 
-        function setupInputs() {
-            // Keyboard
+        function setupEvents() {
+            window.addEventListener('resize', updateCamera);
+            
             document.addEventListener('keydown', (e) => {
                 switch(e.key) {
                     case 'ArrowRight':
                     case ' ':
-                        if (!state.isOverview) goToSlide(state.currentIndex + 1);
-                        else {
-                            // In overview, maybe just move focus?
-                            goToSlide(state.currentIndex + 1);
-                        }
+                    case 'Enter':
+                        if(!state.overview) goto(state.index + 1);
+                        else goto(state.index + 1); // allow nav in overview
                         break;
                     case 'ArrowLeft':
-                        goToSlide(state.currentIndex - 1);
+                        goto(state.index - 1);
                         break;
                     case 'ArrowUp':
                         e.preventDefault();
@@ -470,13 +400,11 @@
                 }
             });
 
-            // Buttons
-            dom.btnPrev.addEventListener('click', () => goToSlide(state.currentIndex - 1));
-            dom.btnNext.addEventListener('click', () => goToSlide(state.currentIndex + 1));
-            dom.btnOverview.addEventListener('click', () => toggleOverview());
+            els.btnPrev.onclick = () => goto(state.index - 1);
+            els.btnNext.onclick = () => goto(state.index + 1);
+            els.btnOverview.onclick = () => toggleOverview();
         }
 
-        // Run
         init();
 
     </script>

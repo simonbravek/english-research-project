@@ -57,6 +57,7 @@ Callback rate = invited to interview (approx.)
 | Female | Plain       | 13.6% |
 | Female | Attractive  | 12.8% |
 
+---
 
 Takeaway:
 - Attractive men gain a clear advantage; women do best with no photo (Ruffle and Shtudiner 9-10).
@@ -66,6 +67,16 @@ Takeaway:
 # 4) Findings (Italy)
 
 Field experiment: 11,008 CVs to 1,542 job openings (Busetta, Fiorillo, and Visalli 1).
+| Candidate type | Photo |  Callback rate |
+| :--- | :--- | ---: |
+| Italian man | Attractive | 47% |
+| Italian man | No photo | 41% |
+| Italian man | Unattractive | 41% |
+| Foreign man | Plain | 13% | 
+| Italian woman | Attractive | 54% |
+| Female | No photo | 37% |
+| Female | Unattractive | 12.8% |
+
 
 ```text
 Callback rates by candidate type (approx.)
@@ -79,6 +90,8 @@ Foreign man (no photo)     13% |#############                                   
 Foreign woman (no photo)   12% |############                                          |
 Italian unattractive woman  7% |#######                                               |
 ```
+
+---
 
 Takeaway:
 - Beauty helps both genders, but unattractive women are hit hardest (Busetta, Fiorillo, and Visalli 6-7).

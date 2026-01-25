@@ -53,7 +53,7 @@
         async function init() {
             try {
                 // 1. Fetch
-                const res = await fetch('slides.md');
+                const res = await fetch('./slides.md');
                 if(!res.ok) throw new Error('Could not find slides.md');
                 const md = await res.text();
 

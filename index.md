@@ -14,7 +14,7 @@ title: "Does a Photo Help Your Job Application?"
 
 # 1) Research question
 
-If its socially acceptable to include *or* not include a photo, what happens to your chances?
+If its socially acceptable to include *or* not include a photo in your cv application, how does your choice of photo affect you chances of being accepted?
 
 Quick poll:
 - Would you include a photo on your CV if it was optional?
@@ -51,11 +51,10 @@ Callback rate = invited to interview (approx.)
 | Sex | Photo|  Callback rate |
 | :--- | :--- | ---: |
 | Male | Attractive | 19.7% |
-| Male | No photo | 13.7% |
-| Male | Plain | 9.2% | 
 | Female | No photo    | 16.6% |
+| Male | No photo | 13.7% |
 | Female | Plain       | 13.6% |
-| Female | Attractive  | 12.8% |
+| Male | Plain | 9.2% | 
 
 ---
 
@@ -64,32 +63,18 @@ Takeaway:
 
 ---
 
-# 4) Findings (Italy)
+# 4) Findings in Italy
 
 Field experiment: 11,008 CVs to 1,542 job openings (Busetta, Fiorillo, and Visalli 1).
 | Candidate type | Photo |  Callback rate |
 | :--- | :--- | ---: |
+| Italian woman | Attractive | 54% |
 | Italian man | Attractive | 47% |
 | Italian man | No photo | 41% |
-| Italian man | Unattractive | 41% |
-| Foreign man | Plain | 13% | 
-| Italian woman | Attractive | 54% |
-| Female | No photo | 37% |
-| Female | Unattractive | 12.8% |
+| Italian woman | No photo | 37% |
+| Italian man | Unattractive | 26% |
+| Italian woman | Unattractive | 7% |
 
-
-```text
-Callback rates by candidate type (approx.)
-
-Italian attractive woman   54% |######################################################|
-Italian attractive man     47% |###############################################       |
-Italian man (no photo)     41% |#########################################             |
-Italian woman (no photo)   37% |#####################################                 |
-Italian unattractive man   26% |##########################                            |
-Foreign man (no photo)     13% |#############                                         |
-Foreign woman (no photo)   12% |############                                          |
-Italian unattractive woman  7% |#######                                               |
-```
 
 ---
 
@@ -98,7 +83,7 @@ Takeaway:
 
 ---
 
-# 4) Findings (Facebook profile photos)
+# 4) Findings in Facebook profile photos
 
 Belgium field experiment: 1,056 job openings; only Facebook profile picture varied (Baert 1, 11).
 

@@ -12,7 +12,7 @@ title: "Does a Photo Help Your Job Application?"
 ## Šimon Brávek
 ---
 
-# 1) Research question
+# 1. Research question
 
 If its socially acceptable to include *or* not include a photo in your cv application, how does the choice of photo affect you chances of being asked for an interview?
 
@@ -22,7 +22,7 @@ Quick poll:
 
 ---
 
-# 2) Background
+# 2. Background
 
 - In some countries, CV photos are common/optional; in others they are discouraged.
     - DACH, Japan, China 
@@ -30,13 +30,10 @@ Quick poll:
     - Scandinavia, France, Netherlands, Latin America
 - A photo can change the *first impression* before skills are considered.
 - Researchers call this a *beauty premium* (or a penalty).
-<!---
-your comment goes here
-and here
--->
+
 ---
 
-# 3) Methodology
+# 3. Methodology
 
 What I used:
 - Materials: peer-reviewed journal articles and working papers.
@@ -48,28 +45,39 @@ Why this matters:
 
 ---
 
-# 4) Findings 1 (Israel)
+# 4. Findings 1 (Israel)
+Field experiment: 5,312 CVs to 2,656 job openings.
+Takeaway:
+- Attractive men gain a clear advantage; women do best with no photo (Ruffle and Shtudiner 10).
 
-Field experiment: 5,312 CVs to 2,656 job openings (Ruffle and Shtudiner 1).
+---
+
+# Table 1 
+_The Effect of Included Photo on Callback Rate_
 
 | Sex | Photo|  Invited to interview |
 | :--- | :--- | ---: |
 | Male | Attractive | 19.7% |
 | Female | No photo    | 16.6% |
 | Male | No photo | 13.7% |
-| Female | Plain       | 13.6% |
+| Female | Plain | 13.6% |
+| Female | Attractive | 12.8% |
 | Male | Plain | 9.2% | 
 
+(Ruffle and Shtudiner 9).
+
 ---
 
+# 4. Findings 2 (Italy)
+Field experiment: 11,008 CVs to 1,542 job openings
+Studied many effects
 Takeaway:
-- Attractive men gain a clear advantage; women do best with no photo (Ruffle and Shtudiner 9-10).
+- Beauty helps both genders, but unattractive women are hit hardest (Busetta et al. 6).
 
 ---
 
-# 4) Findings 2 (Italy)
-
-Field experiment: 11,008 CVs to 1,542 job openings (Busetta, Fiorillo, and Visalli 1).
+# Table 2
+_Effect of Included Photo on Callback Rate_
 
 | Candidate type | Photo |  Callback rate |
 | :--- | :--- | ---: |
@@ -80,18 +88,16 @@ Field experiment: 11,008 CVs to 1,542 job openings (Busetta, Fiorillo, and Visal
 | Italian man | Unattractive | 26% |
 | Italian woman | Unattractive | 7% |
 
----
+(Busetta et al. 7).
 
-Takeaway:
-- Beauty helps both genders, but unattractive women are hit hardest (Busetta, Fiorillo, and Visalli 6-7).
 
 ---
 
-# 4) Findings 3 (Belgium) 
+# 4. Findings 3 (Belgium) 
 
-Belgium field experiment: 1,056 job openings; only Facebook profile picture varied (Baert 1, 11).
+Belgium field experiment: 1,056 job openings; only Facebook profile picture varied
 
-- Best Facebook picture got ~38% more interview invitations than the worst (Baert 11).
+- Best Facebook picture got 38% more interview invitations than the worst (Baert 11).
 - Effect looked stronger for highly educated candidates and when recruiters were women (Baert 9-11).
 
 Audience question:
@@ -99,20 +105,11 @@ Audience question:
 
 ---
 
-# 4) Findings (Stereotypes in resume evaluation)
-
-Lab experiment: students rated resumes with photos (Dipboye et al. 288).
-
-- Attractive applicants rated higher than unattractive ones.
-- Male applicants rated higher than female applicants.
-- Top pick was the "highly qualified, attractive male" (Dipboye et al. 292).
-
-Small but important point:
-- Even when qualifications matter most, appearance still shifts decisions (Dipboye et al. 291-92).
+![Table 3](attachments/table-3.png)
 
 ---
 
-# 5) Conclusion
+# 5. Conclusion
 
 Answer to the research question:
 - In countries where photos are optional, a photo can change your chance of a callback, but the direction depends on context and gender.
@@ -126,7 +123,7 @@ Final audience prompt:
 
 ---
 
-# 6) Works Cited (MLA)
+# 6. Works Cited (MLA)
 
 
 Baert, Stijn. "Facebook Profile Picture Appearance Affects Recruiters' First Hiring Decisions." *New Media & Society*, 2017, doi:10.1177/1461444816687294.

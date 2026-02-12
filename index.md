@@ -14,7 +14,7 @@ title: "Does a Photo Help Your Job Application?"
 
 # 1) Research question
 
-If its socially acceptable to include *or* not include a photo in your cv application, how does the choice of photo affect you chances of being accepted?
+If its socially acceptable to include *or* not include a photo in your cv application, how does the choice of photo affect you chances of being asked for an interview?
 
 Quick poll:
 - Would you include a photo on your CV if it was optional?
@@ -25,10 +25,15 @@ Quick poll:
 # 2) Background
 
 - In some countries, CV photos are common/optional; in others they are discouraged.
-DACH, Japan, China X USA, Canada, Australia X Scandinavia, France, Netherlands, Latin America
+    - DACH, Japan, China 
+    - USA, Canada, Australia
+    - Scandinavia, France, Netherlands, Latin America
 - A photo can change the *first impression* before skills are considered.
 - Researchers call this a *beauty premium* (or a penalty).
-
+<!---
+your comment goes here
+and here
+-->
 ---
 
 # 3) Methodology
